@@ -103,4 +103,5 @@ Latest list available at [ORCID](https://orcid.org/0000-0003-3734-757X).
 ## Links
 
 - **LinkedIn:** [linkedin.com/in/smalakys](https://linkedin.com/in/smalakys)
+- **Google Scholar:** [Linas Smalakys](https://scholar.google.com/citations?user=jx5Uyb0AAAAJ&hl=en&oi=ao)
 - **ORCID:** [orcid.org/0000-0003-3734-757X](https://orcid.org/0000-0003-3734-757X)
