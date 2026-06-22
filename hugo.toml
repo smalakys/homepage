@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://smalakys.github.io/homepage/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Linas Smalakys'
 theme = 'hugo-book'
 
 [caches]
