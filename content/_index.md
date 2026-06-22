@@ -1,5 +1,5 @@
 ---
-title: "Landing"
+title: "Curriculum Vitae"
 ---
 
 
