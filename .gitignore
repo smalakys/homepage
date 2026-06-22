@@ -1,0 +1,38 @@
+# Hugo
+public/
+resources/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.sublime-project
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+/node_modules
+
+# Build files
+dist/
+build/
+
+# Misc
+.hugo_build.lock
+*.log
