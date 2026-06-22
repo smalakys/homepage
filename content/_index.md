@@ -36,9 +36,9 @@ Physicist turned data scientist and risk leader, with over a decade of experienc
 - **Scientific Data Analyst**\
 *July 2014 – July 2016 · 2 yrs 1 mo*
 
-### Vilnius University, Laser Research Center
+### Laser Research Center
 
-*A globally recognized academic laser and photonics research institute at the heart of Vilnius' dynamic photonics industry.*
+*A globally recognized laser and photonics research institute at Vilnius University, where I worked in the High-Intensity Laser Physics Group with a focus on laser-induced damage.*
 
 - **Junior Researcher**\
 *2018 – 2022 · 4 yrs*
