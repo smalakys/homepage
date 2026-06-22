@@ -82,7 +82,7 @@ Physicist turned data scientist and risk leader, with over a decade of experienc
 ### Conference papers and proceedings
 
 - B. Momgaudis, L. Smalakys, M. Vengris, and A. Melninkaitis, Optical fatigue investigation with in situ time resolved digital holography, Proc. SPIE 11026, Laser-Induced Damage in Optical Materials 2019 (2019)
-- L. Smalakys, E. Švažs, R. Grigutis, and A. Melninkaitis, Application of image processing and machine learning for classification of laser-induced damage morphology, Proc. SPIE 10691, Laser-Induced Damage in Optical Materials 2018 (2018)
+- L. Smalakys, E. Švažas, R. Grigutis, and A. Melninkaitis, Application of image processing and machine learning for classification of laser-induced damage morphology, Proc. SPIE 10691, Laser-Induced Damage in Optical Materials 2018 (2018)
 - L. Smalakys, B. Momgaudis, M. Vengris, R. Grigutis, and A. Melninkaitis, Extensive time-resolved investigation of laser-induced damage fatigue of single layer dielectric coating, Proc. SPIE 10691, Laser-Induced Damage in Optical Materials 2018 (2018)
 - A. Melninkaitis, G. Batavičiūtė, C. Heese, M. Šciuka, and L. Smalakys, Towards qualification longevity of high power space optics, Proc. SPIE 10691, Laser-Induced Damage in Optical Materials 2018 (2018)
 - A. Melninkaitis, L. Grinevičiūtė, G. Abromavičius, L. Mažulė, L. Smalakys, E. Pupka, M. Ščiuka, R. Buzelis, and S. Kičas, Next-generation all-silica coatings for UV applications, Proc. SPIE 10014, Laser-Induced Damage in Optical Materials 2017 (2017)
