@@ -66,6 +66,6 @@ Physicist turned data scientist and risk leader, with over a decade of experienc
 
 ## Links
 
-- [LinkedIn](https://linkedin.com/in/smalakys)
+- [LinkedIn](https://www.linkedin.com/in/smalakys/)
 - [Google Scholar](https://scholar.google.com/citations?user=jx5Uyb0AAAAJ&hl=en&oi=ao)
 - [ORCID](https://orcid.org/0000-0003-3734-757X)
