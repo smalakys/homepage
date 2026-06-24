@@ -3,6 +3,9 @@ locale = 'en-us'
 title = 'Linas Smalakys'
 theme = 'hugo-book'
 
+[params]
+  BookFavicon = 'adventures.svg'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
