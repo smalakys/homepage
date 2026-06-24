@@ -1,8 +1,5 @@
 ---
 title: "Work"
 weight: 10
+bookFlatSection: true
 ---
-
-# Work
-
-This section contains my professional profile and publication record.
