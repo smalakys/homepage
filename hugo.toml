@@ -1,4 +1,4 @@
-baseURL = 'https://smalakys.github.io/homepage/'
+baseURL = 'https://smalakys.com/'
 locale = 'en-us'
 title = 'Linas Smalakys'
 theme = 'hugo-book'
