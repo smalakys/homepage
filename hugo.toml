@@ -5,6 +5,7 @@ theme = 'hugo-book'
 
 [params]
   BookFavicon = 'adventures.svg'
+  BookTheme = 'auto'
 
 [caches]
   [caches.images]
