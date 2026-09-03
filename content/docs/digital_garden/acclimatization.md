@@ -47,8 +47,8 @@ This is the abrupt, almost instinctive increase in breathing rate and depth that
 The price of this response is immediate and significant: the climber blows off carbon dioxide. {{< katex >}}PaCO_2{{< /katex >}} falls, and the blood becomes alkalemic (too alkaline because {{< katex >}}CO_2{{< /katex >}} is being removed faster than the body can replace it). This is the classic acid-base tug-of-war of altitude:
 
 - oxygen sensors command more ventilation;
-- more ventilation removes $CO_2$;
-- lower $CO_2$ raises pH;
+- more ventilation removes {{< katex >}}CO_2{{< /katex >}};
+- lower {{< katex >}}CO_2{{< /katex >}} raises pH;
 - the more alkaline blood makes oxygen binding to hemoglobin easier;
 - but the brain’s drive to breathe is also temporarily blunted.
 
