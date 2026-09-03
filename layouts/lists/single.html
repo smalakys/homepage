@@ -1,0 +1,45 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $listPath := .RelPermalink }}
+  {{ $objectives := where .Site.RegularPages "Type" "objectives" }}
+  {{ $objectives = where $objectives "Params.lists" "intersect" (slice $listPath) }}
+  {{ $ascents := where .Site.RegularPages "Type" "activities" }}
+
+  {{ $climbed := 0 }}
+  {{ range $objectives }}
+    {{ $obj := . }}
+    {{ $objAscents := where $ascents "Params.objectives" "intersect" (slice $obj.RelPermalink) }}
+    {{ $objAscents = where $objAscents "Params.summit" "eq" true }}
+    {{ if gt (len $objAscents) 0 }}{{ $climbed = add $climbed 1 }}{{ end }}
+  {{ end }}
+
+  <p><strong>Progress:</strong> {{ $climbed }} / {{ len $objectives }} summited</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Peak</th>
+        <th>Elevation</th>
+        <th>Status</th>
+        <th>Ascents</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{ range ($objectives.ByParam "elevation").Reverse }}
+      {{ $obj := . }}
+      {{ $objAscents := where $ascents "Params.objectives" "intersect" (slice $obj.RelPermalink) }}
+      {{ $summited := where $objAscents "Params.summit" "eq" true }}
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ .Params.elevation }} m</td>
+        <td>{{ if gt (len $summited) 0 }}✅{{ else }}⬜{{ end }}</td>
+        <td>{{ len $objAscents }}</td>
+      </tr>
+    {{ end }}
+    </tbody>
+  </table>
+</article>
+{{ end }}

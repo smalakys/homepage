@@ -1,0 +1,13 @@
+---
+title: "Lagginhorn"
+elevation: 4010
+rank: 80
+range: "Pennine Alps"
+country: "Switzerland"
+latitude: 46.1572
+longitude: 8.0031
+access_huts: "Weissmies Hut, Laggin Bivouac"
+lists: ["/docs/lists/alps-4000ers/"]
+---
+
+Objective details and ascent history will be added here.
