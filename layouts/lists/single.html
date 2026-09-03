@@ -24,7 +24,6 @@
         <th>Peak</th>
         <th>Elevation</th>
         <th>Status</th>
-        <th>Ascents</th>
       </tr>
     </thead>
     <tbody>
@@ -35,8 +34,7 @@
       <tr>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
         <td>{{ .Params.elevation }} m</td>
-        <td>{{ if gt (len $summited) 0 }}✅{{ else }}⬜{{ end }}</td>
-        <td>{{ len $objAscents }}</td>
+        <td>{{ if gt (len $summited) 0 }}✅{{ else }}⬜{{ end }} ({{ len $objAscents }})</td>
       </tr>
     {{ end }}
     </tbody>
