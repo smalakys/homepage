@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  {{ .Content }}
+
+  <table>
+    <thead>
+      <tr>
+        <th>Peak</th>
+        <th>Elevation</th>
+        <th>Range</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range .Pages.ByParam "elevation" }}
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ .Params.elevation }} m</td>
+        <td>{{ .Params.range }}</td>
+        <td>{{ .Params.country }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</article>
+{{ end }}

@@ -1,0 +1,13 @@
+---
+title: "Mont Maudit"
+elevation: 4465
+rank: 14
+range: "Mont Blanc Group"
+country: "France / Italy"
+latitude: 45.8474
+longitude: 6.8759
+access_huts: "Cosmiques Hut, Torino Hut"
+lists: ["/docs/lists/alps-4000ers/"]
+---
+
+Objective details and ascent history will be added here.

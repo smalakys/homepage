@@ -1,7 +1,6 @@
 ---
 title: "Digital Garden"
-weight: 30
+weight: 50
 bookFlatSection: true
 bookIcon: "digital-garden"
 ---
-

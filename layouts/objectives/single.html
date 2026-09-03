@@ -1,0 +1,48 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ with .Params.elevation }}<li><strong>Elevation:</strong> {{ . }} m</li>{{ end }}
+    {{ with .Params.range }}<li><strong>Range:</strong> {{ . }}</li>{{ end }}
+    {{ with .Params.country }}<li><strong>Country:</strong> {{ . }}</li>{{ end }}
+    {{ with .Params.normal_route }}<li><strong>Normal route:</strong> {{ . }}</li>{{ end }}
+    {{ with .Params.latitude }}<li><strong>Coordinates:</strong> {{ . }}, {{ $.Params.longitude }}</li>{{ end }}
+    {{ with .Params.access_huts }}<li><strong>Access huts:</strong> {{ . }}</li>{{ end }}
+    {{ with .Params.lists }}
+    <li><strong>Part of:</strong>
+      {{ range . }}
+        {{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+
+  {{ .Content }}
+
+  {{ $objectivePath := .RelPermalink }}
+  {{ $ascents := where (where .Site.RegularPages "Type" "activities") "Params.objectives" "intersect" (slice $objectivePath) }}
+  {{ with $ascents }}
+  <h2>My ascents of {{ $.Title }} ({{ len . }})</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Ascent</th>
+        <th>Summit?</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range .ByDate.Reverse }}
+      <tr>
+        <td>{{ .Date.Format "2006-01-02" }}</td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ if .Params.summit }}✅{{ else }}❌{{ end }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  {{ else }}
+  <p><em>No ascents logged yet.</em></p>
+  {{ end }}
+</article>
+{{ end }}

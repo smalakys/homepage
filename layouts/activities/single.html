@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
+  <ul>
+    <li><strong>Date:</strong> {{ .Date.Format "2006-01-02" }}</li>
+    {{ with .Params.objectives }}
+    <li><strong>Objective(s):</strong>
+      {{ range . }}
+        {{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ end }}
+    </li>
+    {{ end }}
+    {{ with .Params.conditions }}
+    <li><strong>Conditions:</strong> {{ . }}</li>
+    {{ end }}
+    {{ with .Params.route }}
+    <li><strong>Route:</strong> {{ . }}</li>
+    {{ end }}
+    <li><strong>Summit reached:</strong> {{ if .Params.summit }}Yes{{ else }}No{{ end }}</li>
+  </ul>
+  {{ .Content }}
+</article>
+{{ end }}
