@@ -69,9 +69,9 @@ body {
   }
 }
 
-// Lightly restyle the homepage to resemble a GitHub profile page
-body.book-kind-home .book-article {
-  max-width: 44rem;
+// Lightly restyle the whole site to resemble a GitHub profile / README page
+.book-article {
+  max-width: 60rem;
 
   > h1:first-child {
     font-size: 1.75rem;
@@ -100,11 +100,15 @@ body.book-kind-home .book-article {
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
-  body.book-kind-home .book-article {
+  .book-article {
     .book-btn {
       display: flex;
       width: 100%;
       margin-right: 0;
+    }
+
+    table {
+      font-size: var(--font-size-smaller);
     }
   }
 }
