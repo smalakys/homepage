@@ -10,4 +10,4 @@ access_huts: "Rifugio Gnifetti, Rifugio Mantova"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Vincent Pyramid (Piramide Vincent) rises to 4215 metres in the Pennine Alps - Monte Rosa Massif of Italy.

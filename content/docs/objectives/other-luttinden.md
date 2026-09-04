@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Norway"
 ---
 
-Objective details and ascent history will be added here.
+Luttinden rises to 759 metres in the Senja Mountains of Norway.

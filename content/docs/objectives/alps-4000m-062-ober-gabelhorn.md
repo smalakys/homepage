@@ -10,4 +10,4 @@ access_huts: "Rothorn Hut, Cabane du Grand Mountet, Arben Bivouac"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Ober Gabelhorn rises to 4063 metres in the Pennine Alps of Switzerland.

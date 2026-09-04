@@ -6,4 +6,4 @@ country: "Kyrgyzstan / Kazakhstan"
 lists: ["/docs/lists/snow-leopard-peaks/"]
 ---
 
-One of the five Snow Leopard peaks.
+Khan Tengri rises to 7010 metres in the Tian Shan of Kyrgyzstan / Kazakhstan.

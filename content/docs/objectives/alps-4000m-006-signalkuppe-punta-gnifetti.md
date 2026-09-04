@@ -10,4 +10,4 @@ access_huts: "Capanna Margherita (on summit), Rifugio Gnifetti"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Signalkuppe (Punta Gnifetti) rises to 4554 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

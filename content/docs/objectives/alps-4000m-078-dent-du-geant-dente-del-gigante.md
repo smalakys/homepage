@@ -10,4 +10,4 @@ access_huts: "Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Dent du Géant (Dente del Gigante) rises to 4013 metres in the Mont Blanc Group of France / Italy.

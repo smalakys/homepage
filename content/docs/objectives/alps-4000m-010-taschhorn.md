@@ -10,4 +10,4 @@ access_huts: "Mischabeljochbiwak, Dom Hut, Täsch Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Täschhorn rises to 4491 metres in the Pennine Alps - Mischabel Group of Switzerland.

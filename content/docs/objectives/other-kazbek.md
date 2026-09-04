@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Georgia"
 ---
 
-Objective details and ascent history will be added here.
+Kazbek rises to 5054 metres in the Greater Caucasus of Georgia.

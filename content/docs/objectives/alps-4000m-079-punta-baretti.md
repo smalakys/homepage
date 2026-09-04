@@ -10,4 +10,4 @@ access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Punta Baretti rises to 4013 metres in the Mont Blanc Group of Italy.

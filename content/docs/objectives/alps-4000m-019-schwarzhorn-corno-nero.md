@@ -10,4 +10,4 @@ access_huts: "Rifugio Gnifetti, Rifugio Mantova, Bivacco Felice Giordano"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Schwarzhorn (Corno Nero) rises to 4322 metres in the Pennine Alps - Monte Rosa Massif of Italy.

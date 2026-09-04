@@ -10,4 +10,4 @@ access_huts: "Torino Hut, Bivouac Canzio"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Dôme de Rochefort rises to 4015 metres in the Mont Blanc Group of France / Italy.

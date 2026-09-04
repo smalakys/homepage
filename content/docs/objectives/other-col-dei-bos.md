@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Italy"
 ---
 
-Objective details and ascent history will be added here.
+Col dei Bos rises to 2559 metres in the Dolomites of Italy.

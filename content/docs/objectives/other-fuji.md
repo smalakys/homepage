@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Japan"
 ---
 
-Objective details and ascent history will be added here.
+Fuji rises to 3776 metres in the Fuji volcanic zone of Japan.

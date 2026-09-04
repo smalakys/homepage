@@ -10,4 +10,4 @@ access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Mont Brouillard rises to 4069 metres in the Mont Blanc Group of Italy.

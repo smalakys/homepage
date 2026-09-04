@@ -10,4 +10,4 @@ access_huts: "Boccalatte-Piolti Hut, Leschaux Hut, Bivouac Canzio"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Grandes Jorasses (Pointe Walker) rises to 4208 metres in the Mont Blanc Group of France / Italy.

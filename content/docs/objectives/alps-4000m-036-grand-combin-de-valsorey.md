@@ -10,4 +10,4 @@ access_huts: "Valsorey Hut, Panossière Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Grand Combin (de Valsorey) rises to 4184 metres in the Pennine Alps - Grand Combin Massif of Switzerland.

@@ -10,4 +10,4 @@ access_huts: "Monte Rosa Hut, Bivacco Città di Gallarate"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Nordend rises to 4609 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

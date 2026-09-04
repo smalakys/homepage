@@ -10,4 +10,4 @@ access_huts: "Couvercle Hut, Argentière Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Grande Rocheuse rises to 4102 metres in the Mont Blanc Group of France.

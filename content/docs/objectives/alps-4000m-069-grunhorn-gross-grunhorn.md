@@ -10,4 +10,4 @@ access_huts: "Konkordia Hut, Finsteraarhorn Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Grünhorn (Gross Grünhorn) rises to 4044 metres in the Bernese Alps of Switzerland.

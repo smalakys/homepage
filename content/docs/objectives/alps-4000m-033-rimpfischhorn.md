@@ -10,4 +10,4 @@ access_huts: "Täsch Hut, Britannia Hut, Fluhalp Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Rimpfischhorn rises to 4199 metres in the Pennine Alps - Mischabel Group of Switzerland.

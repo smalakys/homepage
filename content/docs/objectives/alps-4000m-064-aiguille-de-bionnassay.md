@@ -10,4 +10,4 @@ access_huts: "Tête Rousse Hut, Durier Hut, Gonella Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Aiguille de Bionnassay rises to 4052 metres in the Mont Blanc Group of France / Italy.

@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Slovakia"
 ---
 
-Objective details and ascent history will be added here.
+Kupola rises to 2414 metres in the High Tatras of Slovakia.

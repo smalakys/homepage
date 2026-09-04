@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Norway"
 ---
 
-Objective details and ascent history will be added here.
+Čohkarášša rises to 1139 metres in the Gaisene (Gáisá) of Norway.

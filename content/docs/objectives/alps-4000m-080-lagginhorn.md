@@ -10,4 +10,4 @@ access_huts: "Weissmies Hut, Laggin Bivouac"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Lagginhorn rises to 4010 metres in the Pennine Alps of Switzerland.

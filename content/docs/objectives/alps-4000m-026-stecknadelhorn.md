@@ -10,4 +10,4 @@ access_huts: "Mischabel Hut, Bordier Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Stecknadelhorn rises to 4241 metres in the Pennine Alps - Mischabel Group of Switzerland.

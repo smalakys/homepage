@@ -6,4 +6,4 @@ country: "Kyrgyzstan / Tajikistan"
 lists: ["/docs/lists/snow-leopard-peaks/"]
 ---
 
-One of the five Snow Leopard peaks, formerly known as Lenin Peak.
+Ibn Sina Peak (Lenin Peak) rises to 7134 metres in the Trans-Alay Range, Pamir Mountains of Kyrgyzstan / Tajikistan.

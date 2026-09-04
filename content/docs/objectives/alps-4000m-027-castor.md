@@ -10,4 +10,4 @@ access_huts: "Rifugio Quintino Sella, Rifugio Guide d'Ayas"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Castor rises to 4223 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

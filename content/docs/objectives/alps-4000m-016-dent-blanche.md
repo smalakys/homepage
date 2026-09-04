@@ -10,4 +10,4 @@ access_huts: "Dent Blanche Hut, Schönbiel Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Dent Blanche rises to 4357 metres in the Pennine Alps of Switzerland.

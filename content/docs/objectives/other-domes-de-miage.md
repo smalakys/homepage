@@ -6,4 +6,4 @@ range: "Mont Blanc Group"
 country: "France"
 ---
 
-Objective details and ascent history will be added here.
+Dômes de Miage rises to 3673 metres in the Mont Blanc Group of France.

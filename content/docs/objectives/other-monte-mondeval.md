@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Italy"
 ---
 
-Objective details and ascent history will be added here.
+Monte Mondeval rises to 2455 metres in the Dolomites of Italy.

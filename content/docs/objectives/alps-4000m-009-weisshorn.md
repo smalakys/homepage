@@ -10,4 +10,4 @@ access_huts: "Weisshorn Hut, Cabane de Tracuit"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Weisshorn rises to 4505 metres in the Pennine Alps of Switzerland.

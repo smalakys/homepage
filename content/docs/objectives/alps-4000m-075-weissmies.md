@@ -10,4 +10,4 @@ access_huts: "Weissmies Hut, Almageller Hut, Hohsaas Station"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Weissmies rises to 4017 metres in the Pennine Alps of Switzerland.

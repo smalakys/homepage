@@ -10,4 +10,4 @@ access_huts: "Rifugio Guide d'Ayas, Rifugio Teodulo, Bivacco Rossi e Volante"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Breithorn (Central Summit) rises to 4159 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

@@ -9,4 +9,4 @@ longitude: 20.1846
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+Slavkovský Štít rises to 2452 metres in the High Tatras of Slovakia.

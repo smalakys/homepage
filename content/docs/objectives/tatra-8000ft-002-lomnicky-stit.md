@@ -9,4 +9,4 @@ longitude: 20.2130
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+Lomnický Štít rises to 2632 metres in the High Tatras of Slovakia.

@@ -10,4 +10,4 @@ access_huts: "Rifugio Gnifetti, Capanna Margherita, Monte Rosa Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Zumsteinspitze (Punta Zumstein) rises to 4563 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

@@ -10,4 +10,4 @@ access_huts: "Refuge des Écrins, Refuge du Glacier Blanc"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Dôme de Neige des Écrins rises to 4015 metres in the Dauphiné Alps - Massif des Écrins of France.

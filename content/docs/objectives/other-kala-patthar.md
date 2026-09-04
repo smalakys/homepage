@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Nepal"
 ---
 
-Objective details and ascent history will be added here.
+Kala Patthar rises to 5644 metres in the Mahalangur Himal of Nepal.

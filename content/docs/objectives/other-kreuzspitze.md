@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Austria"
 ---
 
-Objective details and ascent history will be added here.
+Kreuzspitze rises to 3457 metres in the Ötztal Alps of Austria.

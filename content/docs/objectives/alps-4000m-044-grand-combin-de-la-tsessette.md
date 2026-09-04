@@ -10,4 +10,4 @@ access_huts: "Panossière Hut, Bivouac Biaggio Musso"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Grand Combin (de la Tsessette) rises to 4135 metres in the Pennine Alps - Grand Combin Massif of Switzerland.

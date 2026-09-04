@@ -7,4 +7,4 @@ country: "Italy"
 alternative_name: "Punta Penia"
 ---
 
-Objective details and ascent history will be added here.
+Marmolada rises to 3043 metres in the Dolomites of Italy.

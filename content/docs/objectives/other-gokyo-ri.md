@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Nepal"
 ---
 
-Objective details and ascent history will be added here.
+Gokyo Ri rises to 5357 metres in the Mahalangur Himal of Nepal.

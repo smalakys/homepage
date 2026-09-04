@@ -6,4 +6,4 @@ objective_type: "Pass"
 country: "Nepal"
 ---
 
-Objective details and ascent history will be added here.
+Kongma La is a mountain pass at 5550 metres in the Mahalangur Himal of Nepal.

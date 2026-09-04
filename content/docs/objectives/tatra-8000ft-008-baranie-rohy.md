@@ -9,4 +9,4 @@ longitude: 20.1972
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+Baranie rohy rises to 2526 metres in the High Tatras of Slovakia.

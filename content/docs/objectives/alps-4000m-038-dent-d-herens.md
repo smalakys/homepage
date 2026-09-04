@@ -10,4 +10,4 @@ access_huts: "Aosta Hut, Schönbiel Hut, Dent Blanche Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Dent d'Hérens rises to 4171 metres in the Pennine Alps of Switzerland / Italy.

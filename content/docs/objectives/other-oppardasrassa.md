@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Norway"
 ---
 
-Objective details and ascent history will be added here.
+Oppardasrášša rises to 1006 metres in the Gaisene (Gáisá) of Norway.

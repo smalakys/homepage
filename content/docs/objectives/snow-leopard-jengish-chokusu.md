@@ -6,4 +6,4 @@ country: "Kyrgyzstan / China"
 lists: ["/docs/lists/snow-leopard-peaks/"]
 ---
 
-One of the five Snow Leopard peaks, formerly known as Pobeda Peak.
+Jengish Chokusu (Pobeda Peak) rises to 7439 metres in the Tian Shan of Kyrgyzstan / China.

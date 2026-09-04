@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Scotland"
 ---
 
-Objective details and ascent history will be added here.
+Ben Nevis rises to 1345 metres in the Grampian Mountains of Scotland.

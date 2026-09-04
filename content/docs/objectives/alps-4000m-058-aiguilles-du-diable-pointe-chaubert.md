@@ -10,4 +10,4 @@ access_huts: "Cosmiques Hut, Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Aiguilles du Diable (Pointe Chaubert) rises to 4074 metres in the Mont Blanc Group of France.

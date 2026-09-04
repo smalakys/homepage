@@ -9,4 +9,4 @@ longitude: 20.1557
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+Bradavica rises to 2476 metres in the High Tatras of Slovakia.

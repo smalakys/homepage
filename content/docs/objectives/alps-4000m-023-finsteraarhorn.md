@@ -10,4 +10,4 @@ access_huts: "Finsteraarhorn Hut, Oberaarjoch Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Finsteraarhorn rises to 4274 metres in the Bernese Alps of Switzerland.

@@ -10,4 +10,4 @@ access_huts: "Goûter Hut, Cosmiques Hut, Grands Mulets Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Mont Blanc (Monte Bianco) rises to 4809 metres in the Mont Blanc Group of France / Italy. The first recorded ascent was made by Jacques Balmat and Michel-Gabriel Paccard on 8 August 1786.

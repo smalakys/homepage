@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Italy"
 ---
 
-Objective details and ascent history will be added here.
+Nuvolau rises to 2574 metres in the Dolomites of Italy.

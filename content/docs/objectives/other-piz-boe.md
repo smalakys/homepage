@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Italy"
 ---
 
-Objective details and ascent history will be added here.
+Piz Boe rises to 3152 metres in the Dolomites of Italy.

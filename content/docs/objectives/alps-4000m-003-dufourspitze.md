@@ -10,4 +10,4 @@ access_huts: "Monte Rosa Hut, Rifugio Gnifetti, Capanna Margherita"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Dufourspitze rises to 4634 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy. The first ascent was made on 1 August 1855 by Charles Hudson, John Birkbeck, Christopher Smyth, James G. Smyth, Edward J. W. Stevenson, and guides Ulrich Lauener, Johannes Zumtaugwald, and Matthäus Zumtaugwald.

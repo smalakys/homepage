@@ -10,4 +10,4 @@ access_huts: "Mönchsjoch Hut, Guggihütte"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Mönch rises to 4107 metres in the Bernese Alps of Switzerland.

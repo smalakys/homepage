@@ -10,4 +10,4 @@ access_huts: "Rifugio Vittorio Emanuele II, Rifugio Chabod"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Gran Paradiso rises to 4061 metres in the Graian Alps of Italy.

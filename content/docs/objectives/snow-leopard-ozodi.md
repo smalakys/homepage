@@ -6,4 +6,4 @@ country: "Tajikistan"
 lists: ["/docs/lists/snow-leopard-peaks/"]
 ---
 
-One of the five Snow Leopard peaks, formerly known as Korzhenevskaya Peak.
+Ozodi Peak (Korzhenevskaya Peak) rises to 7105 metres in the Pamir Mountains of Tajikistan.

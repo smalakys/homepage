@@ -9,4 +9,4 @@ longitude: 20.0881
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+Rysy rises to 2503 metres in the High Tatras of Slovakia/Poland.

@@ -10,4 +10,4 @@ access_huts: "Cabane de Tracuit, Turtmann Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Bishorn rises to 4153 metres in the Pennine Alps of Switzerland.

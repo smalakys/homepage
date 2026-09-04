@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Poland"
 ---
 
-Objective details and ascent history will be added here.
+Swinica rises to 2301 metres in the High Tatras of Poland.

@@ -9,4 +9,4 @@ longitude: 20.2080
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+Pyšný Štít rises to 2621 metres in the High Tatras of Slovakia.

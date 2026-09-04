@@ -10,4 +10,4 @@ access_huts: "Schreckhorn Hut, Gleckstein Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+Schreckhorn rises to 4078 metres in the Bernese Alps of Switzerland.

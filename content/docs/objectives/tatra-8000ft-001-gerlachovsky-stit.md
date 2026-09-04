@@ -9,4 +9,4 @@ longitude: 20.1341
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+Gerlachovský Štít rises to 2655 metres in the High Tatras of Slovakia.
