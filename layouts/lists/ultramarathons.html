@@ -1,0 +1,42 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $listPath := .RelPermalink }}
+  {{ $races := where .Site.RegularPages "Type" "activities" }}
+  {{ $races = where $races "Params.lists" "intersect" (slice $listPath) }}
+
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Category</th>
+        <th>Race</th>
+        <th>Country</th>
+        <th>Distance/M+</th>
+        <th>Endurance Points</th>
+        <th>Gender Ranking</th>
+        <th>Race Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $races.ByDate.Reverse }}
+      <tr>
+        <td>{{ .Date.Format "2006-01-02" }}</td>
+        <td>{{ .Params.category }}</td>
+        <td>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ if .Params.national_league }}<br><small>National League</small>{{ end }}
+        </td>
+        <td>{{ .Params.country }}</td>
+        <td>{{ .Params.distance_km }} km / {{ .Params.elevation_gain_m }} m+</td>
+        <td>{{ .Params.endurance_points }}</td>
+        <td>{{ .Params.gender_ranking }}</td>
+        <td>{{ .Params.race_time }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</article>
+{{ end }}

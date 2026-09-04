@@ -16,6 +16,14 @@
     {{ with .Params.route }}
     <li><strong>Route:</strong> {{ . }}</li>
     {{ end }}
+    {{ with .Params.category }}<li><strong>Category:</strong> {{ . }}</li>{{ end }}
+    {{ with .Params.country }}<li><strong>Country:</strong> {{ . }}</li>{{ end }}
+    {{ if .Params.distance_km }}
+    <li><strong>Distance/M+:</strong> {{ .Params.distance_km }} km / {{ .Params.elevation_gain_m }} m+</li>
+    {{ end }}
+    {{ with .Params.endurance_points }}<li><strong>Endurance points:</strong> {{ . }}</li>{{ end }}
+    {{ with .Params.gender_ranking }}<li><strong>Gender ranking:</strong> {{ . }}</li>{{ end }}
+    {{ with .Params.race_time }}<li><strong>Race time:</strong> {{ . }}</li>{{ end }}
     <li><strong>Summit reached:</strong> {{ if .Params.summit }}Yes{{ else }}No{{ end }}</li>
   </ul>
   {{ .Content }}
