@@ -9,5 +9,3 @@ longitude: 6.9700
 access_huts: "Couvercle Hut, Argentière Hut, Charpoua Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Aiguille Verte rises to 4122 metres in the Mont Blanc Group of France.

@@ -6,4 +6,4 @@ country: "Kyrgyzstan / Kazakhstan"
 lists: ["/docs/lists/snow-leopard-peaks/"]
 ---
 
-Khan Tengri rises to 7010 metres in the Tian Shan of Kyrgyzstan / Kazakhstan.
+Khan Tengri is one of the five Snow Leopard peaks and a marble-sided pyramid in the central Tian Shan. Expeditions generally approach via the South Inylchek Glacier and use high camps below the west ridge. The climb combines altitude, technical mixed terrain, and highly changeable weather.

@@ -9,4 +9,4 @@ longitude: 20.2130
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Lomnický Štít rises to 2632 metres in the High Tatras of Slovakia.
+Lomnický Štít is one of the highest and most prominent summits in the High Tatras. The classic climbing approach from the Skalnatá dolina side follows the south or southeast terrain, while a cable car provides non-climbing access to the summit area. The exposed summit environment remains alpine even when approached by lift.

@@ -9,5 +9,3 @@ longitude: 6.8923
 access_huts: "Cosmiques Hut, Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Aiguilles du Diable (Pointe Médiane) rises to 4097 metres in the Mont Blanc Group of France.

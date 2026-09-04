@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Japan"
 ---
 
-Fuji rises to 3776 metres in the Fuji volcanic zone of Japan.
+Fuji is Japan’s highest mountain and a prominent volcanic cone. The Yoshida Trail is the most frequently used route, starting above the forest and climbing through the volcanic upper slopes to the crater rim and summit shrines. The other principal trailheads are Subashiri, Gotemba, and Fujinomiya.

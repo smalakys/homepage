@@ -9,5 +9,3 @@ longitude: 6.9773
 access_huts: "Boccalatte-Piolti Hut, Leschaux Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Grandes Jorasses (Pointe Marguerite) rises to 4065 metres in the Mont Blanc Group of France / Italy.

@@ -9,5 +9,3 @@ longitude: 7.8589
 access_huts: "Dom Hut, Mischabeljochbiwak"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Dom rises to 4545 metres in the Pennine Alps - Mischabel Group of Switzerland.

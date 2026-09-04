@@ -9,5 +9,3 @@ longitude: 7.7670
 access_huts: "Rifugio Guide d'Ayas, Bivacco Rossi e Volante"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Breithorn (Eastern Summit / West Twin) rises to 4139 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

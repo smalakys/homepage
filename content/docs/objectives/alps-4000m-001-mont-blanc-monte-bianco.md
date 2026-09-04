@@ -10,4 +10,4 @@ access_huts: "Goûter Hut, Cosmiques Hut, Grands Mulets Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Mont Blanc (Monte Bianco) rises to 4809 metres in the Mont Blanc Group of France / Italy. The first recorded ascent was made by Jacques Balmat and Michel-Gabriel Paccard on 8 August 1786.
+Mont Blanc is the highest summit in the Alps. The standard Goûter Route approaches from the Nid d’Aigle via the Tête Rousse and Goûter huts, then crosses the Dôme du Goûter and Bosses ridge to the summit. The first recorded ascent was made by Jacques Balmat and Michel-Gabriel Paccard on 8 August 1786.

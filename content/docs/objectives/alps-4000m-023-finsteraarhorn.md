@@ -10,4 +10,4 @@ access_huts: "Finsteraarhorn Hut, Oberaarjoch Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Finsteraarhorn rises to 4274 metres in the Bernese Alps of Switzerland.
+Finsteraarhorn is the highest summit in the Bernese Alps. The normal route from the Finsteraarhorn Hut crosses glacier terrain to the Hugisattel and continues along the exposed northwest ridge. Its remote approach and sustained ridge make it a serious classic rather than a simple summit walk.

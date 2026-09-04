@@ -9,5 +9,3 @@ longitude: 6.8879
 access_huts: "Cosmiques Hut, Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Mont Blanc du Tacul rises to 4248 metres in the Mont Blanc Group of France.

@@ -9,5 +9,3 @@ longitude: 7.8678
 access_huts: "Rifugio Gnifetti, Rifugio Mantova"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Punta Giordani (Giordanispétz) rises to 4046 metres in the Pennine Alps - Monte Rosa Massif of Italy.

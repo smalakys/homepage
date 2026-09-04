@@ -9,5 +9,3 @@ longitude: 7.7752
 access_huts: "Rifugio Guide d'Ayas, Bivacco Rossi e Volante"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Breithorn (Roccia Nera) rises to 4075 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

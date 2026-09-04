@@ -9,5 +9,3 @@ longitude: 8.1284
 access_huts: "Aarbiwak, Schreckhorn Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Lauteraarhorn rises to 4042 metres in the Bernese Alps of Switzerland.

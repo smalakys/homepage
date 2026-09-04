@@ -9,5 +9,3 @@ longitude: 7.7853
 access_huts: "Rifugio Guide d'Ayas, Rifugio Quintino Sella"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Pollux rises to 4092 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

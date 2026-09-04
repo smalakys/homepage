@@ -8,5 +8,3 @@ latitude: 49.1985
 longitude: 20.1828
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
-
-Ľadový Štít rises to 2627 metres in the High Tatras of Slovakia.

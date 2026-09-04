@@ -9,5 +9,3 @@ longitude: 7.8635
 access_huts: "Rifugio Gnifetti, Rifugio Mantova, Bivacco Felice Giordano"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Ludwigshöhe rises to 4341 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

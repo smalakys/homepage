@@ -9,5 +9,3 @@ longitude: 6.8817
 access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Aiguille Blanche de Peuterey rises to 4112 metres in the Mont Blanc Group of Italy.

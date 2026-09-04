@@ -9,5 +9,3 @@ longitude: 6.9821
 access_huts: "Leschaux Hut, Boccalatte-Piolti Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Grandes Jorasses (Pointe Croz) rises to 4110 metres in the Mont Blanc Group of France / Italy.

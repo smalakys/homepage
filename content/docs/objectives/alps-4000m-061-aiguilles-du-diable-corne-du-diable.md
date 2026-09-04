@@ -9,5 +9,3 @@ longitude: 6.8932
 access_huts: "Cosmiques Hut, Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Aiguilles du Diable (Corne du Diable) rises to 4064 metres in the Mont Blanc Group of France.

@@ -8,5 +8,3 @@ latitude: 49.1743
 longitude: 20.1040
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
-
-Ganek rises to 2462 metres in the High Tatras of Slovakia.

@@ -9,4 +9,4 @@ longitude: 20.1341
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Gerlachovský Štít rises to 2655 metres in the High Tatras of Slovakia.
+Gerlachovský Štít is the highest summit in the High Tatras and Slovakia. The standard guided route from the Sliezsky Dom area uses the Velická próba and Gerlachovský kotol before climbing mixed terrain toward the summit. Route-finding and local conditions are important, and access is commonly regulated through mountain guides.

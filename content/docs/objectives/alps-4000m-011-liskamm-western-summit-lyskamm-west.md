@@ -9,5 +9,3 @@ longitude: 7.8232
 access_huts: "Rifugio Quintino Sella, Rifugio Gnifetti"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Liskamm, Western Summit (Lyskamm West) rises to 4479 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

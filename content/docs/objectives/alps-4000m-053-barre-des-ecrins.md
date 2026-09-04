@@ -10,4 +10,4 @@ access_huts: "Refuge des Écrins, Refuge du Glacier Blanc"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Barre des Écrins rises to 4102 metres in the Dauphiné Alps - Massif des Écrins of France.
+Barre des Écrins is the highest summit in the Dauphiné Alps. The normal route from the Refuge des Écrins crosses the Glacier Blanc before climbing snow and mixed terrain toward the summit ridge. It is a remote high-alpine route whose objective hazards and conditions vary substantially with the season.

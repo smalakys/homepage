@@ -9,5 +9,3 @@ longitude: 7.6890
 access_huts: "Rothorn Hut, Cabane du Grand Mountet"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Zinalrothorn rises to 4221 metres in the Pennine Alps of Switzerland.

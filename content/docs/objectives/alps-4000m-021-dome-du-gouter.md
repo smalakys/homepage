@@ -9,5 +9,3 @@ longitude: 6.8433
 access_huts: "Goûter Hut, Tête Rousse Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Dôme du Goûter rises to 4304 metres in the Mont Blanc Group of France / Italy.

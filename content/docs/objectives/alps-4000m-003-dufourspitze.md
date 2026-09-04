@@ -10,4 +10,4 @@ access_huts: "Monte Rosa Hut, Rifugio Gnifetti, Capanna Margherita"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Dufourspitze rises to 4634 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy. The first ascent was made on 1 August 1855 by Charles Hudson, John Birkbeck, Christopher Smyth, James G. Smyth, Edward J. W. Stevenson, and guides Ulrich Lauener, Johannes Zumtaugwald, and Matthäus Zumtaugwald.
+Dufourspitze is the highest summit of Monte Rosa and Switzerland. The usual Swiss route starts at the Monte Rosa Hut, crosses the Monte Rosa Glacier to the Sattel, and follows the exposed west ridge. The first ascent was made on 1 August 1855 by Charles Hudson, John Birkbeck, Christopher Smyth, James G. Smyth, Edward J. W. Stevenson, and guides Ulrich Lauener, Johannes Zumtaugwald, and Matthäus Zumtaugwald.

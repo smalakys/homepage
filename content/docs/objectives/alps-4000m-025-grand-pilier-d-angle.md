@@ -9,5 +9,3 @@ longitude: 6.8781
 access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Grand Pilier d'Angle rises to 4243 metres in the Mont Blanc Group of Italy.

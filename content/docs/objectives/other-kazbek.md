@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Georgia"
 ---
 
-Kazbek rises to 5054 metres in the Greater Caucasus of Georgia.
+Kazbek is a glaciated volcanic peak in the Greater Caucasus. The standard Georgian approach starts near Gergeti, continues to the Bethlemi Hut, and crosses the Gergeti Glacier before climbing the upper snow and ice slopes. The route is non-technical in ideal conditions but requires competent glacier travel and careful acclimatization.

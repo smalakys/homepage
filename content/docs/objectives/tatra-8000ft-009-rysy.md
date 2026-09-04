@@ -9,4 +9,4 @@ longitude: 20.0881
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Rysy rises to 2503 metres in the High Tatras of Slovakia/Poland.
+Rysy is the highest summit in Poland and a prominent border peak in the High Tatras. The common Slovak approach starts at Štrbské Pleso and passes Chata pod Rysmi before reaching the exposed summit ridge; the Polish approach rises from Morskie Oko. Both routes are demanding mountain hikes with steep, rocky sections.

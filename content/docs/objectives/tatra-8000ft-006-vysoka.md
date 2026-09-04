@@ -8,5 +8,3 @@ latitude: 49.1727
 longitude: 20.0942
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
-
-Vysoká rises to 2547 metres in the High Tatras of Slovakia.

@@ -9,5 +9,3 @@ longitude: 7.8482
 access_huts: "Bordier Hut, Mischabel Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Dürrenhorn (Dirruhorn) rises to 4035 metres in the Pennine Alps - Mischabel Group of Switzerland.

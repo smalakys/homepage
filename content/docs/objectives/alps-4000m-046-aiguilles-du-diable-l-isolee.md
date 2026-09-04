@@ -9,5 +9,3 @@ longitude: 6.8909
 access_huts: "Cosmiques Hut, Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Aiguilles du Diable (L'Isolée) rises to 4114 metres in the Mont Blanc Group of France.

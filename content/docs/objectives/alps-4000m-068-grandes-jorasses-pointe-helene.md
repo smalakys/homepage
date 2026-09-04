@@ -9,5 +9,3 @@ longitude: 6.9792
 access_huts: "Boccalatte-Piolti Hut, Leschaux Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Grandes Jorasses (Pointe Hélène) rises to 4045 metres in the Mont Blanc Group of France / Italy.

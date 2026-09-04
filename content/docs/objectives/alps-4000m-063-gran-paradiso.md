@@ -10,4 +10,4 @@ access_huts: "Rifugio Vittorio Emanuele II, Rifugio Chabod"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Gran Paradiso rises to 4061 metres in the Graian Alps of Italy.
+Gran Paradiso is the highest mountain wholly within Italy. The normal route from Rifugio Vittorio Emanuele II crosses moraine and glacier terrain before reaching the rocky summit ridge and its Madonna statue. The route is a classic introduction to glacier mountaineering, while the final ridge remains exposed.

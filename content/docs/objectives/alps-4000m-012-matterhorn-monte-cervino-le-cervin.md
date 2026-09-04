@@ -10,4 +10,4 @@ access_huts: "Hörnli Hut, Rifugio Carrel, Solvay Hut (emergency only)"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Matterhorn (Monte Cervino / Le Cervin) rises to 4478 metres in the Pennine Alps of Switzerland / Italy. The first ascent was made on 14 July 1865 by Edward Whymper’s party, including Charles Hudson, Lord Francis Douglas, Douglas Hadow, Michel Croz, and the Taugwalder guides.
+The Matterhorn is one of the Alps’ best-known pyramidal peaks. The normal route from Zermatt starts at the Hörnli Hut and follows the Hörnli ridge, combining scrambling, steep rock, and exposed fixed-rope sections. The first ascent was made on 14 July 1865 by Edward Whymper’s party, including Charles Hudson, Lord Francis Douglas, Douglas Hadow, Michel Croz, and the Taugwalder guides.

@@ -9,5 +9,3 @@ longitude: 6.8652
 access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Picco Luigi Amedeo (Pointe Louis-Amédée) rises to 4469 metres in the Mont Blanc Group of Italy.

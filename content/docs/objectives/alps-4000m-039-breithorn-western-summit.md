@@ -9,5 +9,3 @@ longitude: 7.7464
 access_huts: "Rifugio Guide d'Ayas, Rifugio Teodulo, Testa Grigia"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Breithorn (Western Summit) rises to 4164 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

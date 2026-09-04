@@ -10,4 +10,4 @@ access_huts: "Boccalatte-Piolti Hut, Leschaux Hut, Bivouac Canzio"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Grandes Jorasses (Pointe Walker) rises to 4208 metres in the Mont Blanc Group of France / Italy.
+Pointe Walker is the highest summit of the Grandes Jorasses on the Franco-Italian frontier. The normal route is commonly approached from the Boccalatte or Leschaux side and involves glacier travel followed by mixed climbing on the south side and summit ridge. It is a substantial alpine objective even by four-thousander standards.

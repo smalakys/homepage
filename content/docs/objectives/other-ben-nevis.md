@@ -6,4 +6,4 @@ objective_type: "Peak"
 country: "Scotland"
 ---
 
-Ben Nevis rises to 1345 metres in the Grampian Mountains of Scotland.
+Ben Nevis is the highest mountain in the British Isles. The popular Mountain Track climbs from Achintee near Fort William across open moorland and the upper mountain plateau to the summit area. Weather can change rapidly on the upper slopes, where the path becomes rough and navigationally demanding.

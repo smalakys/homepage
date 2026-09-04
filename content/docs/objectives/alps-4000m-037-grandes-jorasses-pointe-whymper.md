@@ -9,5 +9,3 @@ longitude: 6.9854
 access_huts: "Boccalatte-Piolti Hut, Leschaux Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Grandes Jorasses (Pointe Whymper) rises to 4184 metres in the Mont Blanc Group of France / Italy.

@@ -9,5 +9,3 @@ longitude: 8.0678
 access_huts: "Mönchsjoch Hut, Konkordia Hut, Finsteraarhorn Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Hinter Fiescherhorn rises to 4025 metres in the Bernese Alps of Switzerland.

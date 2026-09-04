@@ -9,5 +9,3 @@ longitude: 7.8709
 access_huts: "Rifugio Gnifetti, Rifugio Mantova, Monte Rosa Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Parrotspitze (Punta Parrot) rises to 4432 metres in the Pennine Alps - Monte Rosa Massif of Switzerland / Italy.

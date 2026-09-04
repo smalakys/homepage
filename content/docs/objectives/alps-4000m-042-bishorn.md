@@ -9,5 +9,3 @@ longitude: 7.7148
 access_huts: "Cabane de Tracuit, Turtmann Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Bishorn rises to 4153 metres in the Pennine Alps of Switzerland.

@@ -9,5 +9,3 @@ longitude: 6.9601
 access_huts: "Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Aiguille de Rochefort rises to 4001 metres in the Mont Blanc Group of France / Italy.

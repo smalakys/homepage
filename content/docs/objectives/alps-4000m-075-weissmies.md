@@ -9,5 +9,3 @@ longitude: 8.0119
 access_huts: "Weissmies Hut, Almageller Hut, Hohsaas Station"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
-
-Weissmies rises to 4017 metres in the Pennine Alps of Switzerland.

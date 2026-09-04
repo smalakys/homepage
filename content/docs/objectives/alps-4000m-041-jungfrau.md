@@ -10,4 +10,4 @@ access_huts: "Mönchsjoch Hut, Konkordia Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Jungfrau rises to 4158 metres in the Bernese Alps of Switzerland.
+Jungfrau is one of the principal summits of the Bernese Alps. The normal route from the Mönchsjochhütte crosses the Jungfraufirn toward the Rottalsattel before climbing the summit ridge. The route combines high-glacier travel with exposed snow and mixed terrain.
