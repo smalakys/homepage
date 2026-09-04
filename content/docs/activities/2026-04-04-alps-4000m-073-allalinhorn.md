@@ -1,5 +1,5 @@
 ---
-title: "Allalinhorn"
+title: "2026-04-04 Allalinhorn"
 date: 2026-04-04
 objectives: ["/docs/objectives/alps-4000m-073-allalinhorn/"]
 route: "Saas-Fee ski tour"

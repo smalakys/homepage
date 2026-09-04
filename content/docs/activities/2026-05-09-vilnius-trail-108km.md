@@ -1,5 +1,5 @@
 ---
-title: "Vilnius Trail Run - Vilnius Trail 108KM"
+title: "2026-05-09 Vilnius Trail Run - Vilnius Trail 108KM"
 date: 2026-05-09
 summit: true
 category: "100K"

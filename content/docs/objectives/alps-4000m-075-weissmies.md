@@ -10,4 +10,8 @@ access_huts: "Weissmies Hut, Almageller Hut, Hohsaas Station"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Weissmies is a dominant summit above Saas-Grund, known for its long south ridge and broad glacier slopes. It is a popular high tour and ski objective in the Pennine Alps.
+
+The normal route follows the south ridge from the Almageller Hut or Hohsaas. The Triftgrat is a classic, more sustained ridge ascent.

@@ -10,7 +10,6 @@
   <table>
     <thead>
       <tr>
-        <th>Date</th>
         <th>Race</th>
         <th>Distance/M+</th>
       </tr>
@@ -18,7 +17,6 @@
     <tbody>
       {{ range $races.ByDate.Reverse }}
       <tr>
-        <td>{{ .Date.Format "2006-01-02" }}</td>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
         <td>{{ .Params.distance_km }} km / {{ .Params.elevation_gain_m }} m+</td>
       </tr>

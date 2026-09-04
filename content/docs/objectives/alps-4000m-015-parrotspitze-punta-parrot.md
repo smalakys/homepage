@@ -10,4 +10,8 @@ access_huts: "Rifugio Gnifetti, Rifugio Mantova, Monte Rosa Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Parrotspitze lies on Monte Rosa's high ridge near Signalkuppe, overlooking the Lys Glacier on the Italian side. It is a worthwhile component of the upper-massif traverse.
+
+Rifugio Gnifetti or Rifugio Mantova are the normal bases, with access over the Lys Glacier and Colle del Lys. It is regularly linked with Signalkuppe, Ludwigshöhe and Zumsteinspitze.

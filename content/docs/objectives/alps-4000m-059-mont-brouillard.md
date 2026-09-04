@@ -10,4 +10,8 @@ access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Mont Brouillard is a remote summit on the Italian side of Mont Blanc, at the head of the Brouillard ridge. Its complex south-facing ridges give it a serious, exploratory character.
+
+Rifugio Monzino and Bivacco Eccles are the usual bases. The Brouillard ridge is a major alpine line that can be continued toward Mont Blanc de Courmayeur and Mont Blanc.

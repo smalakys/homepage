@@ -10,4 +10,8 @@ access_huts: "Mischabel Hut, Bordier Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Hohberghorn is the central high summit of the Nadelgrat, between Stecknadelhorn and Dürrenhorn. It is chiefly valued as part of the continuous ridge traverse.
+
+The usual base is the Mischabel Hut or, from the north, the Bordier Hut. The Nadelgrat links it with Stecknadelhorn, Nadelhorn and Dürrenhorn over sustained mixed ground.

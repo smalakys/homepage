@@ -10,4 +10,8 @@ access_huts: "Rifugio Vittorio Emanuele II, Rifugio Chabod"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Gran Paradiso is the only Alpine four-thousander entirely within Italy and the high point of Gran Paradiso National Park. Its summit crest ends at the well-known Madonna statue.
+
+The normal routes start from Rifugio Chabod or Rifugio Vittorio Emanuele II, cross the glacier and finish along the exposed rocky summit ridge. The north face is a serious alternative.

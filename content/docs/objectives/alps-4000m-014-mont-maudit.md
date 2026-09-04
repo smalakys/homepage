@@ -10,4 +10,8 @@ access_huts: "Cosmiques Hut, Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Mont Maudit rises between Mont Blanc du Tacul and Mont Blanc above the Vallée Blanche. It is a principal summit of the Trois Monts itinerary and has substantial glacial north-west slopes.
+
+The usual route comes from the Cosmiques Hut over Mont Blanc du Tacul and the Col du Mont Maudit. The Kuffner ridge is a classic, far more technical frontier ridge from the Italian side.

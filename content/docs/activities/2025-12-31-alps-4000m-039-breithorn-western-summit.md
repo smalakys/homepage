@@ -1,5 +1,5 @@
 ---
-title: "Breithorn (Western Summit)"
+title: "2025-12-31 Breithorn (Western Summit)"
 date: 2025-12-31
 objectives: ["/docs/objectives/alps-4000m-039-breithorn-western-summit/"]
 partners: ["Jurgita Krukonytė"]

@@ -10,4 +10,8 @@ access_huts: "Rifugio Gnifetti, Rifugio Mantova, Monte Rosa Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Liskamm's eastern summit forms one end of the long, corniced ridge between the Monte Rosa and Castor–Pollux groups. The ridge is a classic but exposed frontier traverse.
+
+It is normally reached from the Italian side via Rifugio Quintino Sella and the Felikjoch, or as part of the complete Liskamm traverse. The route demands careful timing and sound judgement of snow and cornice conditions.

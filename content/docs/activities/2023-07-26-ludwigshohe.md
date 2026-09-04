@@ -1,5 +1,5 @@
 ---
-title: "Ludwigshohe"
+title: "2023-07-26 Ludwigshohe"
 date: 2023-07-26
 objectives: ["/docs/objectives/alps-4000m-017-ludwigshohe/"]
 route: "Monte Rosa traverse, AD- (II)"

@@ -1,5 +1,5 @@
 ---
-title: "Lastoi de Formin"
+title: "2023-02-12 Lastoi de Formin"
 date: 2023-02-12
 objectives: ["/docs/objectives/other-lastoi-de-formin/"]
 summit: true

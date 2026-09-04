@@ -10,4 +10,8 @@ access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Picco Luigi Amedeo is a subsidiary high point on the Italian Peuterey ridge system of Mont Blanc. It is encountered on serious ridge itineraries rather than commonly climbed as a separate objective.
+
+Approaches use Rifugio Monzino and Bivacco Eccles. The Peuterey integral, which continues via Aiguille Blanche and the Grand Pilier d'Angle toward Mont Blanc, is the route that gives the summit its mountaineering significance.

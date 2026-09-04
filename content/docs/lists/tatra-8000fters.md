@@ -1,5 +1,6 @@
 ---
 title: "Tatra 8000fters"
+weight: 2
 date: 2026-01-01
 ---
 

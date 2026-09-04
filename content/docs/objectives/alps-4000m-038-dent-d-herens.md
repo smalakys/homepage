@@ -10,4 +10,8 @@ access_huts: "Aosta Hut, Schönbiel Hut, Dent Blanche Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Dent d'Hérens is the remote, heavily glaciated neighbour of the Matterhorn on the Swiss–Italian frontier. Its north face is a classic large alpine wall.
+
+The normal route follows the south-west ridge from the Italian Rifugio Aosta. The north face and the Tiefmatten ridge are major alternatives.

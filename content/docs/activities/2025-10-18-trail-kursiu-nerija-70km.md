@@ -1,5 +1,5 @@
 ---
-title: "Trail Kursiu Nerija #TKN - 70 KM"
+title: "2025-10-18 Trail Kursiu Nerija #TKN - 70 KM"
 date: 2025-10-18
 summit: true
 category: "50M"

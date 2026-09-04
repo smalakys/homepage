@@ -1,5 +1,5 @@
 ---
-title: "Mont Blanc"
+title: "2025-07-12 Mont Blanc"
 date: 2025-07-12
 objectives: ["/docs/objectives/alps-4000m-001-mont-blanc-monte-bianco/"]
 partners: ["Jurgita Krukonytė"]

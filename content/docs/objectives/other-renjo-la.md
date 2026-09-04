@@ -6,4 +6,8 @@ objective_type: "Pass"
 country: "Nepal"
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Renjo La is a high pass on the western side of the Khumbu, linking the Gokyo valley with Thame. It is one of the standard crossings of the Three Passes Trek.
+
+The usual route connects Gokyo and Thame over the pass, with a steep stone-step descent on the Gokyo side. It is valued for its broad views of the Everest and Rolwaling ranges.

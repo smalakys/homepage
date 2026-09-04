@@ -10,4 +10,8 @@ access_huts: "Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Aiguille de Rochefort is the sharp granite summit at the western end of the Rochefort ridge, above the Glacier du Géant. It is normally visited before continuing toward the Dôme de Rochefort.
+
+Rifugio Torino is the standard base. The Rochefort ridge traverse provides the normal route and is an exposed mixed outing with excellent access from the Vallée Blanche.

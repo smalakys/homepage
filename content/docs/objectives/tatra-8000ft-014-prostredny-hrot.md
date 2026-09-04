@@ -9,4 +9,8 @@ longitude: 20.1944
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Prostredný Hrot is a sharp central High Tatras summit above Veľká Studená dolina, between the better-known surrounding peaks. Its granite ridges make it a classic guided climbing objective.
+
+Zbojnícka chata is the usual base, with normal mountaineering access through the upper valley and ridge. The summit is not reached by a marked tourist trail.

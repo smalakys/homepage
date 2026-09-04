@@ -1,31 +1,26 @@
 {{ define "main" }}
 <article class="markdown book-article">
   <h1>{{ .Title }}</h1>
-  <ul>
-    <li><strong>Date:</strong> {{ .Date.Format "2006-01-02" }}</li>
-    {{ with .Params.objectives }}
-    <li><strong>Objective(s):</strong>
-      {{ range . }}
-        {{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+  <table class="facts-table">
+    <tbody>
+      <tr><th scope="row">Date</th><td>{{ .Date.Format "2006-01-02" }}</td></tr>
+      {{ with .Params.objectives }}
+      <tr>
+        <th scope="row">Objective(s)</th>
+        <td>{{ range . }}{{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}</td>
+      </tr>
       {{ end }}
-    </li>
-    {{ end }}
-    {{ with .Params.conditions }}
-    <li><strong>Conditions:</strong> {{ . }}</li>
-    {{ end }}
-    {{ with .Params.route }}
-    <li><strong>Route:</strong> {{ . }}</li>
-    {{ end }}
-    {{ with .Params.category }}<li><strong>Category:</strong> {{ . }}</li>{{ end }}
-    {{ with .Params.country }}<li><strong>Country:</strong> {{ . }}</li>{{ end }}
-    {{ if .Params.distance_km }}
-    <li><strong>Distance/M+:</strong> {{ .Params.distance_km }} km / {{ .Params.elevation_gain_m }} m+</li>
-    {{ end }}
-    {{ with .Params.endurance_points }}<li><strong>Endurance points:</strong> {{ . }}</li>{{ end }}
-    {{ with .Params.gender_ranking }}<li><strong>Gender ranking:</strong> {{ . }}</li>{{ end }}
-    {{ with .Params.race_time }}<li><strong>Race time:</strong> {{ . }}</li>{{ end }}
-    <li><strong>Summit reached:</strong> {{ if .Params.summit }}Yes{{ else }}No{{ end }}</li>
-  </ul>
+      {{ with .Params.conditions }}<tr><th scope="row">Conditions</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.route }}<tr><th scope="row">Route</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.category }}<tr><th scope="row">Category</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.country }}<tr><th scope="row">Country</th><td>{{ . }}</td></tr>{{ end }}
+      {{ if .Params.distance_km }}<tr><th scope="row">Distance/M+</th><td>{{ .Params.distance_km }} km / {{ .Params.elevation_gain_m }} m+</td></tr>{{ end }}
+      {{ with .Params.endurance_points }}<tr><th scope="row">Endurance points</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.gender_ranking }}<tr><th scope="row">Gender ranking</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.race_time }}<tr><th scope="row">Race time</th><td>{{ . }}</td></tr>{{ end }}
+      <tr><th scope="row">Summit reached</th><td>{{ if .Params.summit }}Yes{{ else }}No{{ end }}</td></tr>
+    </tbody>
+  </table>
   {{ .Content }}
 </article>
 {{ end }}

@@ -10,4 +10,8 @@ access_huts: "Goûter Hut, Cosmiques Hut, Grands Mulets Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Mont Blanc is the highest summit of the Alps and the centrepiece of the Mont Blanc Group on the French–Italian frontier. Its broad summit dome is approached by several very different high-alpine lines.
+
+The Goûter Route, usually staged at the Tête Rousse and Goûter huts, is the standard ascent. The Trois Monts Route from the Cosmiques Hut and the Italian Innominata and Peuterey ridges are major alternatives.

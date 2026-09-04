@@ -10,4 +10,8 @@ access_huts: "Rifugio Quintino Sella, Rifugio Guide d'Ayas"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Castor is the western twin of Pollux on the Swiss–Italian frontier, above the Felik Glacier. Its elegant summit ridge is one of the best-known snow aretes in the Monte Rosa massif.
+
+The normal route rises from Rifugio Quintino Sella to the Felikjoch, then follows the west ridge. Castor is often paired with Pollux in a traverse.

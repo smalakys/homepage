@@ -1,5 +1,5 @@
 ---
-title: "Rimpfischhorn"
+title: "2026-04-06 Rimpfischhorn"
 date: 2026-04-06
 objectives: ["/docs/objectives/alps-4000m-033-rimpfischhorn/"]
 route: "Saas-Fee ski tour"

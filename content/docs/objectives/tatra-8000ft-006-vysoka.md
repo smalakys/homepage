@@ -9,4 +9,8 @@ longitude: 20.0942
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Vysoká is the distinctive twin-summited peak above Mengusovská dolina, famous for its deeply cleft profile. It is a classic central High Tatras mountaineering objective.
+
+The usual approach starts from Popradské pleso and reaches the upper ridge by guided routes from the Mengusovská valley. The summit is outside the marked trail network.

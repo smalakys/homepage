@@ -10,4 +10,8 @@ access_huts: "Couvercle Hut, Argentière Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Aiguille du Jardin stands on the east ridge of Aiguille Verte above the Talèfre basin. It is one of the more technical four-thousanders of the Mont Blanc Group, with steep red-granite buttresses on its south side.
+
+The Refuge du Couvercle is the usual base. The east-ridge traverse from Grande Rocheuse is a classic approach; the peak was first climbed in 1904 by Émile Fontaine with Jean Ravanel and Léon Tournier.

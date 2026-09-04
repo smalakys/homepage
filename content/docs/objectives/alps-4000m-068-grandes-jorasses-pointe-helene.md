@@ -10,4 +10,8 @@ access_huts: "Boccalatte-Piolti Hut, Leschaux Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Pointe Hélène is an eastern summit on the Grandes Jorasses ridge, above the glaciers of the French–Italian frontier. It is principally a point on high-level Jorasses traverses.
+
+The traditional Italian base is Rifugio Boccalatte-Piolti. Reaching it with the neighbouring Jorasses summits requires sustained ridge climbing and complex descent planning.

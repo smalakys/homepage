@@ -1,5 +1,5 @@
 ---
-title: "Dôme de Rochefort"
+title: "2025-08-13 Dôme de Rochefort"
 date: 2025-08-13
 objectives: ["/docs/objectives/alps-4000m-076-dome-de-rochefort/"]
 route: "Grandes Jorasses traverse"

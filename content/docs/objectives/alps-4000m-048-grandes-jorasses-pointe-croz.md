@@ -10,4 +10,8 @@ access_huts: "Leschaux Hut, Boccalatte-Piolti Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Pointe Croz is a principal summit of the Grandes Jorasses, above the formidable north face overlooking the Leschaux Glacier. The Croz Spur is a classic line on that face.
+
+The summit is normally gained on a Grandes Jorasses ridge traverse from the Italian side, using Rifugio Boccalatte-Piolti. The Croz Spur is a major technical alternative.

@@ -1,5 +1,5 @@
 ---
-title: "Aiguille de Bionnassay"
+title: "2025-07-12 Aiguille de Bionnassay"
 date: 2025-07-12
 objectives: ["/docs/objectives/alps-4000m-064-aiguille-de-bionnassay/"]
 partners: ["Jurgita Krukonytė"]

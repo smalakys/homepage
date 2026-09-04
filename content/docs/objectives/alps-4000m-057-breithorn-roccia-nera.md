@@ -10,4 +10,8 @@ access_huts: "Rifugio Guide d'Ayas, Bivacco Rossi e Volante"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Roccia Nera is the easternmost major Breithorn summit above the Val d'Ayas. It is a natural objective on the full Breithorn ridge traverse.
+
+The summit is generally reached from Klein Matterhorn along the Breithorn crest, or from the Italian side via the Ayas huts. The route is appreciably more complex than the western Breithorn normal ascent.

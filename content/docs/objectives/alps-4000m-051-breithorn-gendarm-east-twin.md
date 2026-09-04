@@ -10,4 +10,8 @@ access_huts: "Rifugio Guide d'Ayas, Bivacco Rossi e Volante"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+The Breithorn Gendarm, or East Twin, is a subsidiary summit on the eastern part of the Breithorn frontier ridge. Its importance lies in the complete Breithorn traverse.
+
+It is normally passed from west to east after the main Breithorn summit, starting at Klein Matterhorn. The exposed ridge links several named tops before the Italian descent options.

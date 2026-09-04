@@ -1,5 +1,5 @@
 ---
-title: "Mont Blanc du Tacul"
+title: "2025-08-11 Mont Blanc du Tacul"
 date: 2025-08-11
 objectives: ["/docs/objectives/alps-4000m-024-mont-blanc-du-tacul/"]
 route: "Arête du Diable traverse"

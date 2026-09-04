@@ -10,4 +10,8 @@ access_huts: "Rifugio Guide d'Ayas, Rifugio Teodulo, Testa Grigia"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+The western summit is the highest point of the Breithorn ridge above Zermatt and Cervinia. Proximity to the Klein Matterhorn lift makes it an unusually accessible high-alpine summit.
+
+The normal route crosses the western Breithorn glacier from Klein Matterhorn. Traversing the entire Breithorn ridge toward its eastern summits is markedly more serious.
