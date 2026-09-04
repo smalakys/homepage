@@ -1,5 +1,5 @@
 ---
-title: "Mont Blanc"
+title: "2026-06-12 Mont Blanc"
 date: 2026-06-12
 objectives: ["/docs/objectives/alps-4000m-001-mont-blanc-monte-bianco/"]
 route: "The Royal Traverse of Mont Blanc"

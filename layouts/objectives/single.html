@@ -1,32 +1,42 @@
 {{ define "main" }}
 <article class="markdown book-article">
   <h1>{{ .Title }}</h1>
-  <ul>
-    {{ with .Params.elevation }}<li><strong>Elevation:</strong> {{ . }} m</li>{{ end }}
-    {{ with .Params.range }}<li><strong>Range:</strong> {{ . }}</li>{{ end }}
-    {{ with .Params.country }}<li><strong>Country:</strong> {{ . }}</li>{{ end }}
-    {{ with .Params.normal_route }}<li><strong>Normal route:</strong> {{ . }}</li>{{ end }}
-    {{ with .Params.latitude }}<li><strong>Coordinates:</strong> {{ . }}, {{ $.Params.longitude }}</li>{{ end }}
-    {{ with .Params.access_huts }}<li><strong>Access huts:</strong> {{ . }}</li>{{ end }}
-    {{ with .Params.lists }}
-    <li><strong>Part of:</strong>
-      {{ range . }}
-        {{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+  <table class="facts-table">
+    <tbody>
+      {{ with .Params.elevation }}<tr><th scope="row">Elevation</th><td>{{ . }} m</td></tr>{{ end }}
+      {{ with .Params.range }}<tr><th scope="row">Range</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.country }}<tr><th scope="row">Country</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.normal_route }}<tr><th scope="row">Normal route</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.latitude }}
+      {{ $latitude := . }}
+      {{ with $.Params.longitude }}
+      {{ $longitude := . }}
+      {{ $coordinates := printf "%v,%v" $latitude $longitude }}
+      <tr>
+        <th scope="row">Coordinates</th>
+        <td><a href="https://www.google.com/maps/@?api=1&amp;map_action=map&amp;center={{ $coordinates }}&amp;zoom=16&amp;basemap=satellite" target="_blank" rel="noopener">{{ $latitude }}, {{ $longitude }}</a></td>
+      </tr>
       {{ end }}
-    </li>
-    {{ end }}
-  </ul>
+      {{ end }}
+      {{ with .Params.access_huts }}<tr><th scope="row">Access huts</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.lists }}
+      <tr>
+        <th scope="row">Part of</th>
+        <td>{{ range . }}{{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
 
   {{ .Content }}
 
   {{ $objectivePath := .RelPermalink }}
   {{ $ascents := where (where .Site.RegularPages "Type" "activities") "Params.objectives" "intersect" (slice $objectivePath) }}
   {{ with $ascents }}
-  <h2>My ascents of {{ $.Title }} ({{ len . }})</h2>
+  <h2>My ascents</h2>
   <table>
     <thead>
       <tr>
-        <th>Date</th>
         <th>Ascent</th>
         <th>Summit?</th>
       </tr>
@@ -34,7 +44,6 @@
     <tbody>
       {{ range .ByDate.Reverse }}
       <tr>
-        <td>{{ .Date.Format "2006-01-02" }}</td>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
         <td>{{ if .Params.summit }}✅{{ else }}❌{{ end }}</td>
       </tr>

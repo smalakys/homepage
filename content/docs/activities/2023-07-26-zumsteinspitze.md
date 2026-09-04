@@ -1,5 +1,5 @@
 ---
-title: "Zumsteinspitze"
+title: "2023-07-26 Zumsteinspitze"
 date: 2023-07-26
 objectives: ["/docs/objectives/alps-4000m-005-zumsteinspitze-punta-zumstein/"]
 route: "Monte Rosa traverse, AD- (II)"

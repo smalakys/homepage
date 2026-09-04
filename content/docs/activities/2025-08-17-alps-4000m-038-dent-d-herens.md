@@ -1,5 +1,5 @@
 ---
-title: "Dent d'Hérens"
+title: "2025-08-17 Dent d'Hérens"
 date: 2025-08-17
 objectives: ["/docs/objectives/alps-4000m-038-dent-d-herens/"]
 partners: ["Juozapas Žygas"]
