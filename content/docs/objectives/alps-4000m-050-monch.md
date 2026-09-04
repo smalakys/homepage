@@ -10,4 +10,8 @@ access_huts: "Mönchsjoch Hut, Guggihütte"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Mönch forms the central summit of the Eiger–Mönch–Jungfrau group above the Aletsch Glacier. Its north face and elegant ridges make it a major Bernese Alps objective.
+
+The normal route is based at the Mönchsjoch Hut and follows the south-east ridge. The Lauper Route on the north face is a classic, much more serious line.

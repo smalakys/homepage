@@ -1,5 +1,5 @@
 ---
-title: "Kernave Trail - Kernave - Vilnius Ultra"
+title: "2022-06-11 Kernave Trail - Kernave - Vilnius Ultra"
 date: 2022-06-11
 summit: true
 category: "50M"

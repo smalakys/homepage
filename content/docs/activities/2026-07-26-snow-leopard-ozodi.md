@@ -1,5 +1,5 @@
 ---
-title: "Ozodi Peak (Korzhenevskaya Peak)"
+title: "2026-07-26 Ozodi Peak (Korzhenevskaya Peak)"
 date: 2026-07-26
 objectives: ["/docs/objectives/snow-leopard-ozodi/"]
 summit: true

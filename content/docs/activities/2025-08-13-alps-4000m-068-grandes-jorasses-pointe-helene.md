@@ -1,5 +1,5 @@
 ---
-title: "Pointe Hélène"
+title: "2025-08-13 Pointe Hélène"
 date: 2025-08-13
 objectives: ["/docs/objectives/alps-4000m-068-grandes-jorasses-pointe-helene/"]
 route: "Grandes Jorasses traverse"

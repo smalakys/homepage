@@ -10,4 +10,8 @@ access_huts: "Britannia Hut, Fluhalp Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Strahlhorn is a glaciated Pennine summit above Saas-Fee, notable for its wide panorama and long approaches. It is a popular ski-mountaineering objective in spring.
+
+The standard route starts from the Britannia Hut, crosses the Allalin Glacier toward the Adlerpass, and follows the upper snow slopes. The summit is often combined with Rimpfischhorn only by strong, well-acclimatised parties.

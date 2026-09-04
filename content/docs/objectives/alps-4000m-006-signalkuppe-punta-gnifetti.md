@@ -10,4 +10,8 @@ access_huts: "Capanna Margherita (on summit), Rifugio Gnifetti"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Signalkuppe is Monte Rosa's hut-crowned summit: Capanna Regina Margherita stands on its crest. The peak is a principal destination of the Lys Glacier route and a common acclimatisation objective in the massif.
+
+From Rifugio Gnifetti or Rifugio Mantova, the normal route crosses the Lys Glacier to Colle del Lys and follows the broad upper ridge. The continuation to Zumsteinspitze and Parrotspitze makes a classic high traverse.

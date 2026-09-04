@@ -1,5 +1,5 @@
 ---
-title: "Parrotspitze"
+title: "2023-07-26 Parrotspitze"
 date: 2023-07-26
 objectives: ["/docs/objectives/alps-4000m-015-parrotspitze-punta-parrot/"]
 route: "Monte Rosa traverse, AD- (II)"

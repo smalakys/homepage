@@ -1,5 +1,5 @@
 ---
-title: "Pointe Young"
+title: "2025-08-13 Pointe Young"
 date: 2025-08-13
 objectives: ["/docs/objectives/other-pointe-young/"]
 route: "Grandes Jorasses traverse"

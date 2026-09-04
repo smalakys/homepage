@@ -10,4 +10,8 @@ access_huts: "Rifugio Quintino Sella, Rifugio Gnifetti"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Liskamm's western summit is the high point at the Castor end of the massif's celebrated summit ridge. Above the Lys Glacier, its steep northern side gives the ridge its reputation for seriousness.
+
+It is usually climbed on a traverse from the Felikjoch, with Rifugio Quintino Sella the customary base. Continuing across Liskamm to the eastern summit is a committing corniced-ridge route.

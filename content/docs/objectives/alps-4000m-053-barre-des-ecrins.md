@@ -10,4 +10,8 @@ access_huts: "Refuge des Écrins, Refuge du Glacier Blanc"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Barre des Écrins is the highest summit of the Écrins massif and the only Alpine four-thousander wholly in France outside the Mont Blanc Group. Its glaciated north side rises above the Glacier Blanc.
+
+The normal route uses the Refuge des Écrins, crosses the Glacier Blanc and Dôme de Neige des Écrins, then follows the final summit ridge. The north face offers serious ice and mixed alternatives.

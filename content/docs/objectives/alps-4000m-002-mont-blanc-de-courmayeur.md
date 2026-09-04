@@ -10,4 +10,8 @@ access_huts: "Goûter Hut, Bivacco Eccles"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Mont Blanc de Courmayeur is the conspicuous high point on Mont Blanc's south-east ridge, separated from the main summit by Col Major. Its prominence is modest, but it forms the summit of the mountain's immense Italian face.
+
+It is normally visited by continuing over the Bosses ridge from Mont Blanc. The Peuterey and Brouillard ridges provide far more serious approaches from the Italian side.

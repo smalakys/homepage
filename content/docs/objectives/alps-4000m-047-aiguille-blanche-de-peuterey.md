@@ -10,4 +10,8 @@ access_huts: "Bivacco Eccles, Rifugio Monzino"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Aiguille Blanche de Peuterey is the dramatic snow-and-rock summit at the head of the Italian Peuterey ridge. It is a central landmark of the south side of the Mont Blanc Group.
+
+The normal route follows the south ridge from Bivacco Eccles, usually reached from Rifugio Monzino. The Peuterey integral continues over the Grand Pilier d'Angle toward Mont Blanc.

@@ -10,4 +10,8 @@ access_huts: "Torino Hut, Bivouac Canzio"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Dôme de Rochefort is a snowy summit on the frontier ridge between Dent du Géant and the Grandes Jorasses. It is a central point of the Rochefort ridge traverse.
+
+Rifugio Torino is the usual base, with access across the Glacier du Géant and along the Aiguille de Rochefort ridge. The continuation toward Dent du Géant or the Jorasses is a serious exposed traverse.

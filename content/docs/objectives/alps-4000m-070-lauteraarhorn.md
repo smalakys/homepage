@@ -10,4 +10,8 @@ access_huts: "Aarbiwak, Schreckhorn Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Lauteraarhorn is a remote Bernese Alps summit at the head of the Unteraar Glacier. Its long ridges offer a notably wild contrast to the railway-accessed peaks farther west.
+
+The Lauteraar Hut is the normal base, and the usual route follows the south-east ridge after a glacier approach. The Lauteraarhorn–Schreckhorn traverse is a major alpine link.

@@ -10,4 +10,8 @@ access_huts: "Rifugio Gnifetti, Rifugio Mantova"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Vincent Pyramid is one of the more accessible four-thousanders above the Lys Glacier on Monte Rosa's Italian side. It is a common first summit from the Gnifetti–Mantova hut system.
+
+The normal route starts at Rifugio Gnifetti or Rifugio Mantova, crosses the glacier and follows the upper snow and rock slopes. It combines readily with Balmenhorn and Corno Nero.

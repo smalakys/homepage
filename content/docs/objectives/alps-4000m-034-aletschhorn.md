@@ -10,4 +10,8 @@ access_huts: "Oberaletsch Hut, Mittelaletschbiwak, Hollandia Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Aletschhorn is the second-highest peak of the Bernese Alps, standing above the Aletsch and Mittelaletsch glaciers. Its north face is one of the range's major walls.
+
+The normal route uses the Mittelaletsch Hut and follows the south-east ridge. The north face is a celebrated serious ice and mixed objective.

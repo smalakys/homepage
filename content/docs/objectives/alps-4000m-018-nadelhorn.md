@@ -10,4 +10,8 @@ access_huts: "Mischabel Hut, Bordier Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Nadelhorn is the best-known summit of the sharp Nadelgrat in the Mischabel group. It offers a classic snow-and-rock ridge above Saas-Fee.
+
+The normal route starts at the Mischabel Hut and follows the north-east ridge from the Windjoch. The full Nadelgrat from Dürrenhorn through Hohberghorn and Stecknadelhorn is a much longer alpine traverse.

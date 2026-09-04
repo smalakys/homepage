@@ -10,4 +10,8 @@ access_huts: "Panossière Hut, Bivouac Biaggio Musso"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Grand Combin de la Tsessette is the northern summit of the Grand Combin group above the Corbassière Glacier. It is a fine objective in its own right and an alternative viewpoint to the main summit.
+
+Cabane FXB Panossière is the usual base; the normal line crosses the Corbassière Glacier to the Col du Croissant and finishes on snow slopes. It can be linked with the Grand Combin crest.

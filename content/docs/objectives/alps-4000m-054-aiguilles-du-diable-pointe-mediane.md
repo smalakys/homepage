@@ -10,4 +10,8 @@ access_huts: "Cosmiques Hut, Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Pointe Médiane is the middle spire of the Aiguilles du Diable on Mont Blanc du Tacul's south-east ridge. Its steep granite forms part of the celebrated Arête du Diable.
+
+The usual outing starts at the Refuge des Cosmiques, reaches the Col du Diable, and traverses the spires toward Mont Blanc du Tacul. The line is a sustained high-altitude rock climb, not a simple subsidiary-peak excursion.

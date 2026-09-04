@@ -10,4 +10,8 @@ access_huts: "Refuge des Écrins, Refuge du Glacier Blanc"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Dôme de Neige des Écrins is the broad snowy shoulder north-west of Barre des Écrins. It is both an objective in its own right and the normal staging summit for Barre.
+
+The standard route starts at the Refuge des Écrins, crosses the Glacier Blanc and climbs the snow slopes to the dome. Barre des Écrins is reached by continuing along the narrow final ridge.

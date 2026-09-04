@@ -1,5 +1,5 @@
 ---
-title: "Ismoil Somoni Peak (Communism Peak)"
+title: "2026-08-05 Ismoil Somoni Peak (Communism Peak)"
 date: 2026-08-05
 objectives: ["/docs/objectives/snow-leopard-ismoil-somoni/"]
 summit: true

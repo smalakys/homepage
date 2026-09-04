@@ -1,5 +1,5 @@
 ---
-title: "Dent du Géant"
+title: "2025-08-12 Dent du Géant"
 date: 2025-08-12
 objectives: ["/docs/objectives/alps-4000m-078-dent-du-geant-dente-del-gigante/"]
 route: "Dent du Géant - Géant Branché"

@@ -15,5 +15,6 @@ Part professional portfolio, part adventure log, this digital garden is where I 
 ## Outdoors
 
 {{<button href="/docs/lists/alps-4000ers/">}}Alps 4000ers{{</button>}}
-{{<button href="/docs/lists/snow-leopard-peaks/">}}Snow Leopard Peaks{{</button>}}
 {{<button href="/docs/lists/tatra-8000fters/">}}Tatra 8000fters{{</button>}}
+{{<button href="/docs/lists/snow-leopard-peaks/">}}Snow Leopard Peaks{{</button>}}
+{{<button href="/docs/lists/ultramarathons/">}}Ultramarathons{{</button>}}

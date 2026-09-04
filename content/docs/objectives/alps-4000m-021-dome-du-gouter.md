@@ -10,4 +10,8 @@ access_huts: "Goûter Hut, Tête Rousse Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+The Dôme du Goûter is the broad snowy shoulder on Mont Blanc's normal route, above the Goûter Hut. It is a major summit in its own right and a natural high point of the route from Saint-Gervais.
+
+It is normally crossed from the Goûter Hut on the way to Mont Blanc. The Dômes de Miage–Aiguille de Bionnassay traverse provides a longer, more alpine approach to the dome.

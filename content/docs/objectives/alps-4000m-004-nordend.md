@@ -10,4 +10,8 @@ access_huts: "Monte Rosa Hut, Bivacco Città di Gallarate"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Nordend is Monte Rosa's northern summit, above the Grenzgletscher and close to Dufourspitze on the frontier ridge. Its north face is a major alpine wall.
+
+The usual ascent is based at the Monte Rosa Hut, via the upper Grenzgletscher and the Silbersattel before taking the final ridge. The north face remains a serious, committing alternative.

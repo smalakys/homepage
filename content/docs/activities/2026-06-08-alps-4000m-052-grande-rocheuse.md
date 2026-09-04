@@ -1,5 +1,5 @@
 ---
-title: "Grande Rocheuse"
+title: "2026-06-08 Grande Rocheuse"
 date: 2026-06-08
 objectives: ["/docs/objectives/alps-4000m-052-grande-rocheuse/"]
 route: "Aiguille Verte traverse"

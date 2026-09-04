@@ -9,4 +9,8 @@ longitude: 20.2195
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Kežmarský Štít is a complex granite summit above the Skalnatá and Malá Studená valleys, with multiple towers and ridges. It is an important traditional climbing objective of the eastern High Tatras.
+
+Approaches use the Skalnatá dolina or Téryho chata side, followed by guided climbing terrain. The summit is not served by a marked tourist route.

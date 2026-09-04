@@ -10,4 +10,8 @@ access_huts: "Täsch Hut, Britannia Hut, Fluhalp Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Rimpfischhorn rises between the Täsch and Saas valleys, with a complex ridge system above the Allalin Glacier. It offers a more secluded high-alpine outing than nearby Strahlhorn.
+
+The normal route is generally based at the Täsch Hut and reaches the summit by the south-east ridge. A northern approach from the Britannia Hut makes a long glacier tour.

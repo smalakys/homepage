@@ -10,4 +10,8 @@ access_huts: "Mischabel Hut, Dom Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Lenzspitze is the sharp southern summit of the Nadelhorn–Dom sector of the Mischabel group. Its north-east face and narrow summit ridge give it a more technical character than nearby glacier domes.
+
+The normal route is based at the Mischabel Hut and gains the Lenzjoch before following the east ridge. It is often combined with Nadelhorn in a traverse.

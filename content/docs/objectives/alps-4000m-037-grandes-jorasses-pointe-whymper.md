@@ -10,4 +10,8 @@ access_huts: "Boccalatte-Piolti Hut, Leschaux Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Pointe Whymper is a major summit on the long Grandes Jorasses ridge, between Pointe Walker and Pointe Croz. It shares the massif's dramatic north-face setting above the Leschaux Glacier.
+
+It is normally reached in a traverse of the Grandes Jorasses ridge from the Italian side, based at Rifugio Boccalatte-Piolti. The summit is also passed by long ridge links between the principal Jorasses tops.

@@ -10,4 +10,8 @@ access_huts: "Torino Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Dent du Géant is the unmistakable granite tooth above the Glacier du Géant on the French–Italian frontier. Its steep, compact rock makes it a classic technical summit rather than a snow climb.
+
+Rifugio Torino is the normal base. The standard route ascends the south-west face by fixed ropes and short pitches; the south-east ridge is another classic line.

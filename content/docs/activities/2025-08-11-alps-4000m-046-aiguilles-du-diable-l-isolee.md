@@ -1,5 +1,5 @@
 ---
-title: "L'Isolée"
+title: "2025-08-11 L'Isolée"
 date: 2025-08-11
 objectives: ["/docs/objectives/alps-4000m-046-aiguilles-du-diable-l-isolee/"]
 route: "Arête du Diable traverse"

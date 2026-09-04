@@ -10,4 +10,8 @@ access_huts: "Couvercle Hut, Argentière Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Les Droites rises above the Argentière and Talèfre glaciers and is renowned for its imposing north face. It is one of the major technical peaks of the Mont Blanc Group.
+
+The Refuge du Couvercle is the usual base for the south-side normal approaches. The north face's Ginat Route and other ice lines are among the mountain's notable serious routes.

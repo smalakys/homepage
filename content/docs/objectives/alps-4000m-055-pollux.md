@@ -10,4 +10,8 @@ access_huts: "Rifugio Guide d'Ayas, Rifugio Quintino Sella"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Pollux is Castor's rocky twin above the Val d'Ayas and the Lys Glacier. The peak is particularly known for its short, exposed upper ridge.
+
+The normal route starts from Rifugio Guide d'Ayas, crosses the glacier and follows the south-west ridge with fixed protection on its rocky steps. It is often paired with Castor from Rifugio Quintino Sella.

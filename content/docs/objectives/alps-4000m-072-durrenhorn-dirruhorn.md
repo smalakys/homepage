@@ -10,4 +10,8 @@ access_huts: "Bordier Hut, Mischabel Hut"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
-Objective details and ascent history will be added here.
+## Description
+
+Dürrenhorn is the northern end of the Nadelgrat, above the Ried Glacier and Saas valley. It is the natural starting point for the classic traverse toward Nadelhorn.
+
+The normal route starts from the Bordier Hut, gains the Dirrujoch, and follows the north ridge. The Nadelgrat links Dürrenhorn with Hohberghorn, Stecknadelhorn and Nadelhorn.

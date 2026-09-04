@@ -1,5 +1,5 @@
 ---
-title: "Aiguille de Rochefort"
+title: "2025-08-13 Aiguille de Rochefort"
 date: 2025-08-13
 objectives: ["/docs/objectives/alps-4000m-081-aiguille-de-rochefort/"]
 route: "Grandes Jorasses traverse"
