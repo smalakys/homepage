@@ -87,15 +87,19 @@ body {
   }
 
   h2 {
-    font-size: var(--font-size-smallest);
+    font-size: 1.5rem;
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--gray-500);
     border-bottom: $padding-1 solid var(--gray-200);
     padding-bottom: $padding-8;
     margin-top: $padding-16 * 2;
     margin-bottom: $padding-16;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: $padding-16 * 1.5;
+    margin-bottom: $padding-8;
   }
 }
 
