@@ -5,7 +5,7 @@ theme = 'hugo-book'
 
 [params]
   BookFavicon = 'objectives.svg'
-  BookTheme = 'auto'
+  BookTheme = 'dark'
 
 [caches]
   [caches.images]
