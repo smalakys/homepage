@@ -1,5 +1,6 @@
 ---
 title: "Altitude acclimatization"
+weight: 10
 ---
 
 # Acclimatization: How the Body Learns to Live at Altitude
