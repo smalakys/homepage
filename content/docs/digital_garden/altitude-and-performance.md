@@ -34,12 +34,13 @@ The decline is not linear. It steepens with altitude, and at extreme altitude it
 | Altitude | Approximate remaining {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} |
 |---|---|
 | Sea level | 100% |
-| 2,000 m | ~93–96% |
-| 3,000 m | ~85–90% |
-| 4,000 m | ~75–80% |
-| 5,500 m | ~60–65% |
-| 7,000 m | ~40% |
-| 8,848 m (Everest summit) | **~20–25%** |
+| 2,000 m | ~95% |
+| 3,000 m | ~83% |
+| 4,000 m | ~75% |
+| 5,300 m | ~68% |
+| 7,000 m | **41%** (measured, Operation Everest III) |
+| 8,000 m | ~33% |
+| 8,848 m (Everest summit) | **~29%** (measured, Operation Everest II) |
 
 On the Everest summit, {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} is roughly **15 ml·kg⁻¹·min⁻¹**, or about **1,070 ml/min** in absolute terms. Basal metabolism alone — just staying alive, warm and conscious — consumes something like 250–350 ml/min.
 
@@ -62,12 +63,12 @@ At altitude, both terms are attacked, and a third limitation appears that does n
 
 **Maximal cardiac output falls.** In Operation Everest II — a 40-day simulated ascent to the Everest summit in a hypobaric chamber — {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} fell from about **4.0 L/min at sea level to roughly 1.2 L/min** at simulated summit conditions. Both maximal cardiac output and maximal heart rate were reduced. Stroke volume also declines, partly because plasma volume has contracted.
 
-**Maximal heart rate falls at extreme altitude.** This surprises people. You would expect the heart to compensate by beating faster, and at moderate altitude it does — but above roughly 5,000 m the maximum achievable heart rate drops progressively. You physically cannot drive the pump hard enough to compensate.
+**Maximal heart rate falls at extreme altitude.** This surprises people. You would expect the heart to compensate by beating faster, and at moderate altitude it does — but higher up the maximum achievable heart rate drops progressively. After nine weeks at 5,260 m, measured maximum heart rate had fallen from **181 to 141 beats per minute**. You physically cannot drive the pump hard enough to compensate.
 
 **Pulmonary diffusion becomes limiting.** At sea level, blood spends more than enough time in the pulmonary capillaries to fully load oxygen. At altitude the driving pressure gradient is small, and during hard exercise blood transits the lung faster. The result is that the lung itself becomes a bottleneck — a limitation that essentially does not exist in healthy people at sea level.
 
 > [!NOTE]
-> This is why the constraint at extreme altitude is **central, not peripheral**. Your legs are not the problem. Your muscles could use more oxygen if it arrived. It doesn't. That is a fundamentally different kind of tired from what you feel training at home, and it is why "pushing harder" produces so little.
+> This is why the constraint at extreme altitude is **central, not peripheral**. The evidence is direct: after 9–10 weeks at 5,260 m, leg oxygen *extraction* remained at sea-level values — oxygen transport from blood into muscle mitochondria was unaffected. Your legs are not the problem. Your muscles could use more oxygen if it arrived. It doesn't. That is a fundamentally different kind of tired from what you feel training at home, and it is why "pushing harder" produces so little.
 
 ## 3. Does Being Fit Help or Hurt?
 
@@ -107,9 +108,12 @@ Almost nobody climbs at {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}}. What 
 At the same absolute workload at altitude, compared with sea level:
 
 - **Ventilation is much higher.** You are breathing hard at a pace that would be conversational at home
-- **Heart rate is higher.** The same load produces a higher pulse, because each litre of blood carries less oxygen
+- **Heart rate is higher.** At 4,300 m, a fixed workload that produced **123 beats per minute** at sea level produced **140** — because each litre of blood carries less oxygen
 - **Perceived effort is higher**, and it is not in your head
 - **Your lactate threshold falls in absolute terms.** The wattage or pace at which you tip into unsustainable effort is lower — sometimes dramatically
+
+> [!TIP]
+> Notice what those two heart rate findings do together. Submaximal heart rate is pushed **up** at a given workload, while maximal heart rate is pulled **down** (181 to 141 after nine weeks at 5,260 m). **Your usable heart rate range is squeezed from both ends**, which is why sea-level training zones are not merely inaccurate at altitude — they are meaningless.
 
 The consequence for pacing is direct: **the effort that felt easy at sea level is now a moderate effort, and the moderate effort is now near-maximal.** Early in a trip, this is compounded by incomplete acclimatization.
 
@@ -128,9 +132,13 @@ You spend weeks building extra red cells. Haemoglobin rises. Oxygen-carrying cap
 
 Operation Everest II showed this cleanly: over a 40-day acclimatization, {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} remained greatly reduced at every altitude tested. Acclimatization allows survival and useful function; it does not restore peak aerobic capacity.
 
-The reason is that the gains and losses partly cancel. Higher haemoglobin raises oxygen content, but plasma volume contraction reduces stroke volume, maximal heart rate falls, blood viscosity rises, and — as covered below — the muscle itself degrades over weeks of exposure.
+The decisive experiment is Calbet's. After **9–10 weeks at 5,260 m** — a hypoxic dose far larger than any altitude-training protocol — **arterial oxygen content was fully normalised to sea-level values**, and {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} still recovered only about **10% of its deficit** (2.2 to 2.4 L/min, against a sea-level 4.1). The residual limitation was **cardiac output, still down 15%**, and its redistribution away from the working legs — from 76% of output to 67%.
+
+Cerretelli made the same point nearly fifty years ago: a **40% rise in haemoglobin** did not restore {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}}, and a residual haemoglobin elevation 25 days after descent did not raise it either.
 
 > [!IMPORTANT]
+> **The limitation at altitude is not how much oxygen your blood can carry.** That is why making more red cells does not fix it. The constraint is circulatory — a heart that cannot pump enough, distributing what it does pump away from your legs — and hypoxia imposes it in real time. In one study, the same limitation was abolished within minutes by breathing 55% oxygen.
+>
 > **Acclimatization is not a performance programme.** It buys you the ability to function safely and to sleep, and it dramatically reduces your risk of altitude illness. What it does not do is give you your sea-level engine back. Plan your ascent times around the reduced engine, not around the hope that you will "come good" after two weeks.
 
 ## 6. Endurance, Sprinting, and Why Mexico City Was Weird
@@ -152,12 +160,31 @@ First, there is a **genuine hole in the literature here**: there are no peer-rev
 
 Second, do not confuse **climbing speed** with **acclimatization safety**. The 500 m per day sleeping-altitude rule governs how fast you can safely *gain altitude to sleep at*. How fast you can walk uphill in a day is a different question.
 
-With those caveats, the practical implications:
+With those caveats, the important insight is that **performance falls further than {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} does** — by roughly a factor of **2.3**. A 25% loss of aerobic capacity does not make you 25% slower; it makes you roughly 50% slower. This amplification has been demonstrated empirically both in controlled altitude studies and in the 4,300 m time-trial data.
 
-- **Expect to be roughly 20–25% slower at 4,000 m** than the same effort produces at home, and proportionally worse above that
-- **Your familiar heart rate zones are meaningless.** Pace by breathing and by perceived effort instead. The classic test — being able to speak in short sentences without gasping — travels well
-- **Ascent time estimates from guidebooks assume acclimatized parties.** If you are on day three, add substantially
-- **Alexander Kellas predicted in 1920** that unaided climbing rate near the Everest summit would be **90–110 vertical metres per hour**. A century of climbing has not much improved on that estimate
+So think in **time multipliers**, not percentages:
+
+| Altitude | {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} remaining | Multiplier on sea-level ascent time |
+|---|---|---|
+| 2,000 m | ~95% | ~1.1× |
+| 3,000 m | ~83% | ~1.3× |
+| **4,000 m** | ~75% | **~1.5×** |
+| 5,300 m | ~68% | ~1.7× |
+| **6,000 m** | ~55% | **~2.4×** |
+| 7,000 m | 41% | ~4× |
+| **8,000 m** | ~33% | **~7×** |
+
+> [!IMPORTANT]
+> This is the correction that catches people out. At 4,000 m you have lost only a quarter of your aerobic capacity — but the 800 m of ascent that takes you two hours at home will take you **three**. Plan on the multiplier, not on the percentage.
+
+A sanity check: the model above predicts 55–85 vertical metres per hour above 8,000 m. The standard South Col to Everest summit push is roughly 900 vertical metres in 8–12 hours, or **75–110 m/h** — the right order of magnitude, and slightly faster than the model, which is what you would expect from climbers on supplemental oxygen and fixed lines. **Alexander Kellas predicted 90–110 m/h near the summit in 1920.** A century of climbing has not much improved on his estimate.
+
+The other practical points:
+
+- **Your familiar heart rate zones are meaningless.** Pace by breathing and perceived effort. The classic test — being able to speak in short sentences without gasping — travels well
+- **Guidebook times assume acclimatized parties.** On day three, add substantially
+- **Carry less.** Oxygen cost is proportional to total mass, so a pack taxes you at the same percentage at every altitude — but at 8,000 m, where you have perhaps 9 ml·kg⁻¹·min⁻¹ of usable reserve above resting metabolism, that percentage is the difference between moving and not moving
+- **Staging buys real speed, not just safety.** Six days at 2,200 m improved a time trial at 4,300 m by **44%** — and the improvement correlated with oxygen saturation during exercise, *not* with haemoglobin. Two days of staging bought nothing
 
 > [!TIP]
 > The single most useful practical adjustment is to stop pacing off effort and start pacing off *sustainability*. At altitude the gap between "hard but fine" and "blown, with a headache, for the rest of the day" is much narrower than at sea level, and the recovery is much slower. Going slightly too hard at 4,500 m costs you the afternoon; going slightly too hard at sea level costs you ten minutes.
@@ -177,9 +204,16 @@ Long exposure does not just fail to make you stronger. It actively degrades you.
 
 Two things stand out.
 
-**Mitochondrial volume decreases.** This is genuinely counter-intuitive — you would expect chronic hypoxia to stimulate more mitochondria, and short exposures (19 days at 5,300 m) show no loss. But months at extreme altitude reduce mitochondrial density substantially. There is an argument that this is partly adaptive: smaller fibres and reduced diffusion distances may improve oxygen delivery per unit of muscle.
+**Mitochondrial volume decreases.** This is genuinely counter-intuitive — you would expect chronic hypoxia to stimulate more mitochondria, and short exposures (19 days at 5,300 m) show no loss. But months at extreme altitude reduce mitochondrial density substantially, with the machinery of mitochondrial biogenesis itself down-regulated by about a third.
+
+> [!WARNING]
+> The comfortable old story that altitude "builds capillaries and mitochondria" is simply wrong, and the direction of the mitochondrial effect is the opposite of what most climbers assume. Chronic severe hypoxia produces **no new capillaries and no new mitochondria**. The apparent increase in capillary *density* sometimes reported is an artefact of shrinking fibres — the same capillaries packed around smaller muscle cells look denser.
+>
+> The timing is the practical headline: **a normal two-to-three week trek does not do this. A two-month expedition above 6,400 m does.**
 
 **"Altitude eats your muscle" is an over-claim.** Chamber and field studies disagree about the composition of the loss — one sedentary chamber study found mostly fat-free mass, while an active field study at 6,542 m found **74% of the loss was fat**. Operation Everest III showed **63% of the loss regained within four days** of descent, which tells you much of the acute scale reading was fluid and glycogen.
+
+Maximal strength and power are largely preserved *as long as muscle mass is maintained* — the contractile machinery itself is intact. Over a long expedition, mass is not maintained, so power falls roughly in proportion to the lost cross-sectional area.
 
 The honest version: altitude suppresses appetite and drives a persistent energy deficit; some of the immediate weight loss is water; genuine muscle and mitochondrial loss is well documented but needs weeks to months of high exposure.
 
@@ -198,23 +232,26 @@ Because it dominates the popular altitude literature, it is worth explaining why
 > [!CAUTION]
 > Altitude training has **never been tested in a double-blind, placebo-controlled, crossover design** — a point made bluntly by five leading researchers in the field. Any claim about LHTL benefits should carry that caveat. There is also an awkward internal problem in the best dose-response study: red cell volume rose significantly in *all four* altitude groups and did not differ between them, yet performance improved only in two. That is hard to explain by red cell mass alone.
 
-**Why it doesn't help you.** A mountaineer wants ventilatory acclimatization, acid-base adjustment, and reduced altitude illness risk. A 5% gain in sea-level {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} is almost irrelevant when you are about to lose 40% of it to hypoxia. And **training in hypoxia is actively counterproductive** — it lowers the absolute workload you can perform, so you get fitter more slowly, for no demonstrated altitude benefit. See the [pre-acclimatization](../pre-acclimatization/) article for what does work.
+**Why it doesn't help you.** Three reasons. First, wrong objective: LHTL is engineered for athletes to whom 0.5% matters, and delivers about +5% {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} — a rounding error against the 25–70% you are about to lose to hypoxia. Second, and decisively, **the mechanism does not transfer.** Extra red cells do not buy aerobic capacity at altitude, because oxygen content is not the limitation — Calbet's subjects had arterial oxygen content fully normalised after ten weeks at 5,260 m and still recovered only a tenth of their {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} deficit. Third, **training in hypoxia is actively counterproductive** — it lowers the absolute workload you can perform, so you get fitter more slowly, for no demonstrated altitude benefit.
+
+What a mountaineer actually needs is *staging* and *ventilatory* acclimatization — a different intervention, with a different mechanism and a better-matched evidence base. Six days at 2,200 m improved a time trial at 4,300 m by 44%, and the gain tracked oxygen saturation, not haemoglobin. See the [pre-acclimatization](../pre-acclimatization/) article for what does work.
 
 ## The Bottom Line
 
 - **{{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} starts falling around 1,000–1,500 m** and drops roughly 6–7% per 1,000 m at moderate altitude — but the curve steepens badly above 4,000 m, and the rule of thumb comes from a single small study of trained men.
-- **On the Everest summit you have about 20–25% of your sea-level aerobic capacity**, most of it committed to basal metabolism.
-- **The limitation is central, not peripheral.** Your muscles aren't tired; oxygen isn't arriving. Pushing harder achieves little.
-- **Acclimatization does not restore {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}}.** It buys safety and function, not speed. Plan around the reduced engine.
+- **On the Everest summit you have about 29% of your sea-level aerobic capacity**, a large part of it committed to basal metabolism.
+- **Performance falls about 2.3× further than {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} does.** Think in time multipliers: ~1.5× at 4,000 m, ~2.4× at 6,000 m, ~7× at 8,000 m.
+- **The limitation is central, not peripheral.** Leg oxygen extraction stays at sea-level values; the constraint is cardiac output and its redistribution. Pushing harder achieves little.
+- **Acclimatization does not restore {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}}** — even with arterial oxygen content fully normalised, it recovers only about a tenth of the deficit. It buys safety and function, not speed.
 - **Fitness is capacity, not immunity.** It determines what you can do at altitude and has no protective effect against altitude illness — and highly trained athletes may actually desaturate more.
-- **Heart rate zones are useless up there.** Pace by breathing and sustainability.
-- **Weeks at extreme altitude degrade you** — muscle mass, mitochondrial density, and a persistent energy deficit. Above 6,000 m you are spending capital, not building it.
+- **Your usable heart rate range is squeezed from both ends.** Pace by breathing and sustainability.
+- **Weeks at extreme altitude degrade you** — muscle mass, mitochondrial density, and a persistent energy deficit. There are no new capillaries and no new mitochondria. Above 6,000 m you are spending capital, not building it.
 
 ## Frequently Asked Questions
 
 ### How much slower should I expect to be at 4,000 m?
 
-As a planning figure, expect to retain roughly 75–80% of your sea-level aerobic capacity at 4,000 m — so a rough starting point is being about 20–25% slower on sustained uphill work, and worse if you are not yet acclimatized. Above 4,000 m the penalty grows faster than linearly, so extrapolating the same percentage upward will make you badly over-optimistic.
+Roughly **half as fast again** — plan on a time multiplier of about 1.5×, not on the 25% figure your aerobic capacity loss suggests. This is the trap: performance decrements run about 2.3 times larger than {{< katex >}}\dot{V}O_{2}\text{max}{{< /katex >}} decrements, so an 800 m ascent that takes you two hours at home takes about three at 4,000 m. Higher up it gets worse fast — roughly 2.4× at 6,000 m and around 7× at 8,000 m.
 
 Two adjustments make the estimate more useful. First, add time for the first few days at any new altitude, because incomplete acclimatization compounds the hypoxic penalty. Second, remember that guidebook times generally assume an acclimatized party moving well, so on day three of a trip they are aspirational rather than descriptive. If you plan on your sea-level pace and hope acclimatization will close the gap, you will be making decisions late in the day — which the [death zone](../death-zone/) article shows is exactly the failure mode that kills people.
 
