@@ -8,6 +8,9 @@ longitude: 80.1250
 lists: ["/docs/lists/snow-leopard-peaks/"]
 ---
 
+> [!NOTE]
+> Jengish Chokusu is the highest mountain in Kyrgyzstan.
+
 ## Description
 
 Jengish Chokusu, or Pobeda Peak, is the highest summit of the Tian Shan and a formidable frontier mountain between Kyrgyzstan and China. It is widely regarded as the most demanding Snow Leopard objective.

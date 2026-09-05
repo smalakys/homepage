@@ -8,6 +8,9 @@ latitude: 61.6364
 longitude: 8.3125
 ---
 
+> [!NOTE]
+> Galdhøpiggen is the highest mountain in Norway.
+
 ## Description
 
 Galdhøpiggen is Norway's highest mountain, in Jotunheimen. It is normally approached as a high glacial hike rather than a technical summit climb.

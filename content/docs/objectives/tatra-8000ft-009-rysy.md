@@ -9,6 +9,9 @@ longitude: 20.0881
 lists: ["/docs/lists/tatra-8000fters/"]
 ---
 
+> [!NOTE]
+> Rysy is the highest mountain in Poland.
+
 ## Description
 
 Rysy is the highest mountain in Poland and a frontier summit shared with Slovakia, above Morskie Oko and the Mengusovská valley. Its three tops make it a major hiking objective on both sides of the range.

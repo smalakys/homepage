@@ -10,6 +10,9 @@ access_huts: "Monte Rosa Hut, Rifugio Gnifetti, Capanna Margherita"
 lists: ["/docs/lists/alps-4000ers/"]
 ---
 
+> [!NOTE]
+> Dufourspitze is the highest mountain in Switzerland.
+
 ## Description
 
 Dufourspitze is the highest summit of the Monte Rosa massif and of Switzerland, rising above the Grenzgletscher on the Swiss–Italian frontier. It is the focal point of the massif's high summit ridge.
