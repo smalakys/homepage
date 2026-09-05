@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  {{ .Content }}
+
+  <table>
+    <thead>
+      <tr>
+        <th>Activity</th>
+        <th>Objective</th>
+        <th>Summit?</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range .Pages.ByDate.Reverse }}
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>
+          {{ range .Params.objectives }}
+            {{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+          {{ end }}
+        </td>
+        <td>{{ if .Params.summit }}✅{{ else }}❌{{ end }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</article>
+{{ end }}

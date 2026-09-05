@@ -1,0 +1,138 @@
+@mixin theme-dark {
+  --body-background: #0d1117;
+  --body-background-tint: none;
+
+  --body-font-color: #f0f6fc;
+
+  --color-link: #58a6ff;
+  --color-visited-link: #a371f7;
+
+  --icon-filter: brightness(0) invert(1);
+
+  --gray-100: #161b22;
+  --gray-200: #30363d;
+  --gray-500: #8b949e;
+
+  @include accent("default", #8b949e);
+  @include accent("note", #58a6ff);
+  @include accent("tip", #3fb950);
+  @include accent("important", #a371f7);
+  @include accent("warning", #d29922);
+  @include accent("caution", #f85149);
+
+  // Fallback for {{< hint >}} shortcodes
+  @include accent("info", #58a6ff);
+  @include accent("success", #3fb950);
+  @include accent("danger", #f85149);
+}
+
+@mixin theme-auto {
+  @include theme-light;
+
+  @media (prefers-color-scheme: dark) {
+    @include theme-dark;
+  }
+}
+
+$breakpoint-mobile: 30rem;
+
+// GitHub Docs-style alert banners, rendered from "> [!NOTE]" blockquotes
+.markdown blockquote.book-hint {
+  .alert-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: 600;
+
+    svg {
+      fill: currentColor;
+    }
+  }
+
+  @each $name in (note, tip, important, warning, caution, info, success, danger) {
+    &.#{$name} .alert-title {
+      color: var(--color-accent-#{$name});
+    }
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+// GitHub-style buttons, replacing the theme's plain outline links
+.markdown a.book-btn[href] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  font-size: var(--font-size-smaller);
+  font-weight: 500;
+  color: var(--body-font-color);
+  background-color: var(--gray-100);
+  line-height: 20px;
+  padding: 5px $padding-16;
+  margin: 0 $padding-8 $padding-8 0;
+  border: $padding-1 solid var(--gray-200);
+  border-radius: 6px;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--gray-200);
+    border-color: var(--gray-500);
+    text-decoration: none;
+  }
+
+  &:active {
+    background-color: var(--gray-200);
+  }
+}
+
+// Lightly restyle the whole site to resemble a GitHub profile / README page
+.book-article {
+  max-width: 60rem;
+
+  > h1:first-child {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: $padding-8;
+  }
+
+  > h1:first-child + p {
+    font-size: 1rem;
+    color: var(--gray-500);
+    max-width: 36rem;
+    margin-bottom: $padding-16 * 1.5;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: $padding-1 solid var(--gray-200);
+    padding-bottom: $padding-8;
+    margin-top: $padding-16 * 2;
+    margin-bottom: $padding-16;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: $padding-16 * 1.5;
+    margin-bottom: $padding-8;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  .book-article {
+    .book-btn {
+      display: flex;
+      width: 100%;
+      margin-right: 0;
+    }
+
+    table {
+      font-size: var(--font-size-smaller);
+    }
+  }
+}

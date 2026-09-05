@@ -4,8 +4,8 @@ title = 'Linas Smalakys'
 theme = 'hugo-book'
 
 [params]
-  BookFavicon = 'adventures.svg'
-  BookTheme = 'auto'
+  BookFavicon = 'objectives.svg'
+  BookTheme = 'dark'
 
 [caches]
   [caches.images]
