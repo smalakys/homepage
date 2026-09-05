@@ -8,6 +8,9 @@ longitude: 72.0161
 lists: ["/docs/lists/snow-leopard-peaks/"]
 ---
 
+> [!NOTE]
+> Ismoil Somoni Peak is the highest mountain in Tajikistan.
+
 ## Description
 
 Ismoil Somoni Peak is the highest summit in Tajikistan and the Pamirs, and the highest of the five traditional Snow Leopard peaks. It rises above the Moskvina Meadow base-camp area.

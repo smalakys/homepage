@@ -8,6 +8,9 @@ latitude: 56.7969
 longitude: -5.0035
 ---
 
+> [!NOTE]
+> Ben Nevis is the highest mountain in Scotland and the United Kingdom.
+
 ## Description
 
 Ben Nevis is the highest mountain in Scotland and the United Kingdom, rising above Glen Nevis near Fort William. Its north face contains the country's most important concentration of winter gullies and ridges.
