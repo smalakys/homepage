@@ -5,7 +5,9 @@ weight: 2
 
 # Publications
 
-This page lists scientific publications from my ten years of laser-induced damage research with the High-Intensity Laser Physics Group at the Laser Research Center of Vilnius University. For the most up-to-date list, see [Google Scholar](https://scholar.google.com/citations?user=jx5Uyb0AAAAJ&hl=en&oi=ao) and [ORCID](https://orcid.org/0000-0003-3734-757X).
+This page lists scientific publications from my ten years of laser-induced damage research with the High-Intensity Laser Physics Group at the Laser Research Center of Vilnius University.
+
+For the most up-to-date list, see [Google Scholar](https://scholar.google.com/citations?user=jx5Uyb0AAAAJ&hl=en&oi=ao) and [ORCID](https://orcid.org/0000-0003-3734-757X).
 
 ## Peer-reviewed
 
