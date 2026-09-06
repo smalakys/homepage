@@ -89,6 +89,23 @@ body {
   }
 }
 
+// Highlight the main portfolio and mountaineering destinations
+.markdown a.book-btn[href="/docs/work/resume/"],
+.markdown a.book-btn[href="/docs/lists/alps-4000ers/"] {
+  color: #ffffff;
+  background-color: #238636;
+  border-color: rgba(240, 246, 252, 0.1);
+
+  &:hover {
+    background-color: #2ea043;
+    border-color: rgba(240, 246, 252, 0.1);
+  }
+
+  &:active {
+    background-color: #238636;
+  }
+}
+
 // Lightly restyle the whole site to resemble a GitHub profile / README page
 .book-article {
   max-width: 60rem;
