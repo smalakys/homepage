@@ -123,6 +123,11 @@ body {
     margin-bottom: $padding-16 * 1.5;
   }
 
+  body.book-kind-home & > h1:first-child + p {
+    color: var(--body-font-color);
+    max-width: none;
+  }
+
   h2 {
     font-size: 1.5rem;
     font-weight: 600;
