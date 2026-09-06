@@ -6,5 +6,5 @@ date: 2026-01-01
 
 This page tracks progress toward climbing all 14 summits in the High Tatras that reach or exceed an elevation of 8000 feet (2438 meters).
 
-The High Tatras, the highest range of the Carpathian Mountains along the Slovakia-Poland border, contain exactly 14 peaks above 8000 feet—mirroring the world's 14 famous eight-thousand-meter mountains. This coincidence defines the natural threshold isolating the range's most prestigious summits. These granite peaks feature dramatic vertical relief and challenging weather, demanding serious mountaineering proficiency. Key summits include Gerlachovský štít, Lomnický štít, Rysy, and Kriváň.
+The High Tatras, the highest range of the Carpathian Mountains along the Slovakia-Poland border, contain exactly 14 peaks above 8000 feet—mirroring the world's 14 famous eight-thousand-meter mountains. This coincidence defines the natural threshold isolating the range's most prestigious summits. These granite peaks feature dramatic vertical relief and challenging weather, demanding serious mountaineering proficiency. The table below lists which peaks I have climbed in this specific list.
 
