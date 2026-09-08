@@ -5,7 +5,7 @@ weight: 2
 
 # Stove Fuel
 
-How much gas to carry? This works it out from first principles rather than a rule of thumb: it computes the energy needed to melt and boil the water you plan to use, then divides that by how efficiently your stove turns fuel into heat in the pot.
+How much gas to carry? This starts with the energy needed to melt and heat the water you plan to use, then adjusts for stove efficiency, altitude and a safety reserve.
 
 <div class="calculator" id="fuel-calculator">
   <div class="calculator-inputs calculator-grid">
@@ -80,7 +80,7 @@ How much gas to carry? This works it out from first principles rather than a rul
   </p>
   <p class="calculator-detail">
     <strong id="fuel-canisters">&ndash;</strong> &mdash; so carry <strong id="fuel-carry">&ndash;</strong><br />
-    <span id="fuel-water-total">&ndash;</span> of water &middot; <span id="fuel-energy">&ndash;</span> &middot; <span id="fuel-per-day">&ndash;</span><br />
+    <span id="fuel-water-total">&ndash;</span> of water &middot; <span id="fuel-energy">&ndash;</span> &middot; <span id="fuel-altitude-factor">&ndash;</span> &middot; <span id="fuel-per-day">&ndash;</span><br />
     Water boils at <span id="fuel-boil">&ndash;</span> at this altitude
   </p>
 </div>
@@ -94,12 +94,12 @@ Everything follows from the energy needed to get water to a boil, and how much o
 Liquid water only needs heating. Snow additionally has to be melted first, which is where most winter fuel goes:
 
 {{< katex display=true >}}
-Q_\text{liquid} = m \, c_w \, (T_b - T_0) \qquad Q_\text{snow} = m \, (L_f + c_w \, (T_b - T_0))
+Q_\text{liquid} = m \, c_w \, (T_\text{ref} - T_0) \qquad Q_\text{snow} = m \, (L_f + c_w \, (T_\text{ref} - T_0))
 {{< /katex >}}
 
-where *m* is the mass of water in kg (1 L ≈ 1 kg), *c<sub>w</sub>* = 4.186 kJ/(kg·K) is the specific heat of liquid water, *L<sub>f</sub>* = 334 kJ/kg is the latent heat of fusion of ice, *T*<sub>0</sub> is the starting temperature and *T<sub>b</sub>* is the boiling point.
+where *m* is the mass of water in kg (1 L ≈ 1 kg), *c<sub>w</sub>* = 4.186 kJ/(kg·K) is the specific heat of liquid water, *L<sub>f</sub>* = 334 kJ/kg is the latent heat of fusion of ice, *T*<sub>0</sub> is the starting temperature and *T*<sub>ref</sub> = 100 °C. The calculator deliberately uses the same 0→100 °C reference rise at every altitude so it never recommends less fuel merely because water boils sooner on a high mountain.
 
-That single latent-heat term is the whole story of winter fuel planning. Melting a kilogram of snow and boiling it takes about **1.8 times** the energy of boiling a kilogram of water that was already liquid at 0 °C, and over twice that of 15 °C stream water. Mountaineers have noticed this for a long time — it is sometimes called the [Shipton rule](https://doi.org/10.1016/j.wem.2017.08.003), the observation that melting the ice takes about as long again as heating the resulting water.
+That latent-heat term explains much of the extra fuel needed in winter. Melting a kilogram of snow and heating it to the reference temperature takes about **1.8 times** the energy of heating a kilogram of water that was already liquid at 0 °C, and over twice that of 15 °C stream water. Mountaineers have noticed this for a long time — it is sometimes called the [Shipton rule](https://doi.org/10.1016/j.wem.2017.08.003), the observation that melting the ice takes about as long again as heating the resulting water.
 
 ### Boiling point at altitude
 
@@ -111,17 +111,33 @@ Air pressure falls with altitude, and water boils when its vapour pressure match
 
 with *P* in mmHg, *T<sub>b</sub>* in °C, and Stull's coefficients for water *A* = 8.07131, *B* = 1730.63, *C* = 233.426. That gives 100 °C at sea level, 90 °C at 3,000 m and 80 °C at 6,000 m.
 
-This is worth dwelling on, because it runs the opposite way to intuition: **altitude makes a boil cheaper, not dearer.** At 5,000 m you need roughly 17% less energy to bring water to the boil than at sea level. The widely repeated advice to add 15–25% fuel at altitude has no basis in stove physics — it is a proxy for the cold, wind and snow melting that happen to come with altitude, and those belong in the model separately, not smuggled into the elevation figure.
+The boiling point is shown as useful context, but it does **not** reduce the fuel estimate. In strict thermodynamic terms a lower boiling point makes a boil cheaper. In expedition practice that saving is overwhelmed by colder equipment and surroundings, poorer canister output, greater heat loss, wind exposure, and less oxygen per litre of air available to the burner. A pot reaching 80 °C at 6,000 m is also not equivalent to a 100 °C sea-level boil for cooking.
+
+### High-altitude allowance
+
+There is no published universal efficiency curve for backpacking stoves at altitude, so the calculator uses a deliberately simple planning heuristic:
+
+| Altitude | Added fuel |
+|---:|---:|
+| 0–2,000 m | 0% |
+| 3,000 m | 5% |
+| 5,000 m | 15% |
+| 7,000 m | 25% |
+| 9,000 m | 35% |
+
+Above 2,000 m the allowance rises by **5% per 1,000 m**, capped at 35%. This is not presented as a combustion-efficiency measurement. It is a combined operating allowance for the conditions that predictably accompany altitude: falling air and oxygen density, colder stove and pot hardware, reduced canister output as the fuel gets colder, and greater heat loss. The progression is intentionally modest at trekking altitudes and conservative on 6,000–8,000 m expeditions.
+
+This treatment follows the practical approach recommended by [REI's fuel-planning guidance](https://www.rei.com/learn/expert-advice/how-much-stove-fuel-should-i-take-on-my-backpacking-trip.html): start from measured stove consumption, then allow for elevation and cold rather than assuming bench-test performance. MSR's explanation of [canister fuels in cold and at altitude](https://cascadedesigns.com/blogs/msr-gear-guides/ins-outs-canister-fuels) describes why canister pressure and fuel composition make the real result system- and temperature-dependent.
 
 ### Fuel required
 
-The energy has to come out of the fuel, and only a fraction of it reaches the water:
+The reference energy is divided by the useful fraction of the fuel's heat, then multiplied by the altitude allowance and the chosen safety reserve:
 
 {{< katex display=true >}}
-m_\text{fuel} = \frac{Q_\text{total}}{\eta \cdot \text{LHV}} \times (1 + r)
+m_\text{fuel} = \frac{Q_\text{reference}}{\eta \cdot \text{LHV}} \times f_h \times (1 + r)
 {{< /katex >}}
 
-where *η* is the thermal efficiency of the stove system, *r* is the safety margin, and LHV = 45.8 MJ/kg is the lower heating value of an 80/20 isobutane/propane blend — [the composition MSR publishes for IsoPro](https://cascadedesigns.com/en-ca/products/msr-isopro-fuel). Lower heating value is the right choice here because a camping stove vents its exhaust to the air and never recovers the heat of condensation from the water vapour it produces.
+where *η* is the thermal efficiency of the stove system, *f<sub>h</sub>* is the high-altitude allowance, *r* is the safety margin, and LHV = 45.8 MJ/kg is the lower heating value of an 80/20 isobutane/propane blend — [the composition MSR publishes for IsoPro](https://cascadedesigns.com/en-ca/products/msr-isopro-fuel). Lower heating value is the right choice here because a camping stove vents its exhaust to the air and never recovers the heat of condensation from the water vapour it produces.
 
 **References:** water and ice properties from the [NIST/IAPWS steam tables](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5078.pdf); fuel heating values from the [US DOE Alternative Fuels Data Center](https://afdc.energy.gov/fuels/properties) and the [IPCC default net calorific values](https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf); atmospheric model from the [U.S. Standard Atmosphere, 1976](https://ntrs.nasa.gov/citations/19770009539).
 
@@ -163,7 +179,7 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
 
 - **Water is assumed to start at 0 °C.** There is no temperature input. That is the right assumption for meltwater, glacial streams and anything you dug out of the snow, but if you are filling from a warm summer stream at 15 °C the estimate is high by about 20%.
 - **Snow is also assumed to be at 0 °C.** Snow at −20 °C needs roughly 40 kJ/kg more to reach freezing point, about 5% on top of the melt-and-boil total. Small next to the latent heat, but it is a real omission.
-- **Altitude only lowers the boiling point.** Thin air also means the burner entrains less oxygen by mass, which can leave the mixture rich and the burn incomplete. That effect is genuine, but no manufacturer specification, standard or published study quantifies it for backpacking stoves, so inventing a coefficient would be worse than admitting the gap. Above about 5,000 m, read the result as optimistic.
+- **The altitude allowance is a heuristic, not a measured efficiency curve.** Its +5% per 1,000 m above 2,000 m combines several effects that cannot be separated reliably in the field: thinner air, cold equipment, weaker fuel delivery from a cold canister, and heat loss. A warm, sheltered Reactor may beat it; an exposed upright stove in a storm may use far more. Do not add another generic altitude percentage on top of it.
 - **Wind is only modelled through the windscreen presets** — and in the field it may well be the largest single factor. An exposed burner in moderate wind can use 1.3–2.5 times the fuel, and in strong wind may never reach a boil at all, at which point no multiplier means anything.
 - **Cold attacks the canister, not just the water.** Isobutane boils at −12 °C and n-butane at around −0.5 °C, so vapour pressure collapses as things get cold, and running the stove chills the canister further still. Propane boils off preferentially, so a half-used canister performs worse in the cold than a fresh one. This "canister fade" is a failure mode, not a quantity problem — carrying more fuel does not fix it. Keep canisters in your sleeping bag, and consider a stove with a pressure regulator or an invertible remote canister.
 - **Efficiency belongs to the system, not the burner.** Pot diameter, lid, heat-exchanger geometry and how hard you run the flame can matter more than the badge on the stove. Running at full throttle is usually less efficient than a moderate setting.
@@ -182,7 +198,7 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
   ids.forEach(function (id) { el[id] = document.getElementById("fuel-" + id); });
 
   var out = {};
-  ["grams", "canisters", "carry", "water-total", "energy", "per-day", "boil", "snow-value"].forEach(function (id) {
+  ["grams", "canisters", "carry", "water-total", "energy", "altitude-factor", "per-day", "boil", "snow-value"].forEach(function (id) {
     out[id] = document.getElementById("fuel-" + id);
   });
 
@@ -192,6 +208,12 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
   var L_FUSION = 334;   // kJ/kg
   var LHV = 45.8;       // kJ/g, 80/20 isobutane/propane
   var MAX_ALTITUDE = 9000; // m
+  var REFERENCE_BOIL = 100; // °C; altitude is handled by the allowance
+
+  function altitudeFactor(metres) {
+    var added = Math.max(0, metres - 2000) / 1000 * 0.05;
+    return 1 + Math.min(added, 0.35);
+  }
 
   function blank() {
     Object.keys(out).forEach(function (k) {
@@ -229,13 +251,14 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
     }
 
     var boil = Atmosphere.boilingPointAt(metres);
+    var highAltitudeFactor = altitudeFactor(metres);
     var litres = people * days * perDay;
     var fromSnow = litres * snow / 100;
     var fromLiquid = litres - fromSnow;
 
-    var heating = C_WATER * boil; // kJ per kg, from 0 °C to boiling
+    var heating = C_WATER * REFERENCE_BOIL; // kJ/kg, 0→100 °C reference
     var energy = fromLiquid * heating + fromSnow * (L_FUSION + heating);
-    var grams = energy / (efficiency * LHV) * (1 + margin);
+    var grams = energy / (efficiency * LHV) * highAltitudeFactor * (1 + margin);
 
     out.grams.textContent = Math.round(grams) + " g";
     var count = grams / canister;
@@ -243,6 +266,9 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
     out.carry.textContent = Math.ceil(count - 0.001) + " canisters";
     out["water-total"].textContent = (Math.round(litres * 10) / 10) + " L";
     out.energy.textContent = Math.round(energy).toLocaleString("en-US") + " kJ";
+    out["altitude-factor"].textContent = highAltitudeFactor === 1
+      ? "no altitude allowance"
+      : "+" + Math.round((highAltitudeFactor - 1) * 100) + "% for altitude";
     out["per-day"].textContent = Math.round(grams / (people * days)) + " g per person per day";
     out.boil.textContent = boil.toFixed(1) + " °C";
   }
