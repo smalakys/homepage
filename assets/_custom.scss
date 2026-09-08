@@ -143,15 +143,15 @@ body {
   }
 }
 
-// Altitude & oxygen calculator
-.oxygen-calculator {
+// Interactive calculators (altitude & oxygen, stove fuel)
+.calculator {
   background-color: var(--gray-100);
   border: $padding-1 solid var(--gray-200);
   border-radius: 6px;
   padding: $padding-16;
   margin: $padding-16 0;
 
-  .oxygen-calculator-inputs {
+  .calculator-inputs {
     display: flex;
     gap: $padding-8;
     flex-wrap: wrap;
@@ -176,7 +176,7 @@ body {
     }
   }
 
-  .oxygen-calculator-result {
+  .calculator-result {
     margin-top: $padding-16;
     margin-bottom: 0;
 
@@ -186,14 +186,64 @@ body {
     }
   }
 
-  .oxygen-calculator-note,
-  .oxygen-calculator-detail {
+  .calculator-note,
+  .calculator-detail {
     color: var(--gray-500);
   }
 
-  .oxygen-calculator-detail {
+  .calculator-detail {
     font-size: var(--font-size-smaller);
     margin-bottom: 0;
+  }
+
+  // The fuel calculator has enough inputs to need a labelled grid rather than
+  // the single flex row the oxygen calculator uses.
+  .calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: $padding-8 $padding-16;
+  }
+
+  .calculator-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    label {
+      font-size: var(--font-size-smaller);
+      color: var(--gray-500);
+    }
+
+    input,
+    select {
+      width: 100%;
+    }
+
+    .calculator-pair {
+      display: flex;
+      gap: $padding-8;
+
+      input {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      select {
+        flex: 0 0 auto;
+        width: auto;
+      }
+    }
+
+    input[type="range"] {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      accent-color: var(--color-link);
+    }
+  }
+
+  .calculator-hidden {
+    display: none;
   }
 }
 
