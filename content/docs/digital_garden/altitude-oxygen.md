@@ -7,19 +7,19 @@ weight: 1
 
 A quick calculator for alpinists: enter the altitude you're heading to and see the atmospheric pressure there relative to sea level. Since oxygen makes up a constant ~20.9% of dry air, that pressure ratio is also the relative amount of oxygen available per breath compared to sea level.
 
-<div class="oxygen-calculator" id="oxygen-calculator">
-  <div class="oxygen-calculator-inputs">
+<div class="calculator" id="oxygen-calculator">
+  <div class="calculator-inputs">
     <input type="number" id="oxygen-altitude" min="0" max="44000" step="1" value="7500" inputmode="decimal" aria-label="Altitude" />
     <select id="oxygen-units" aria-label="Units">
       <option value="m" selected>metres</option>
       <option value="ft">feet</option>
     </select>
   </div>
-  <p class="oxygen-calculator-result" aria-live="polite">
+  <p class="calculator-result" aria-live="polite">
     <strong id="oxygen-percent">&ndash;</strong>
-    <span class="oxygen-calculator-note">of sea-level oxygen</span>
+    <span class="calculator-note">of sea-level oxygen</span>
   </p>
-  <p class="oxygen-calculator-detail">
+  <p class="calculator-detail">
     Equivalent to <strong id="oxygen-fraction">&ndash;</strong> O&#8322; at sea level<br />
     Pressure <strong id="oxygen-pressure">&ndash;</strong> hPa
   </p>
@@ -44,6 +44,8 @@ where *h* is the altitude in metres, *p*<sub>0</sub> = 1013.25 hPa is the sea-le
 - The physiological effect of altitude (acclimatization, fitness, rate of ascent) matters far more than the raw number for how you'll actually feel.
 - Not medical advice — don't use it to make safety decisions on the mountain.
 
+{{< atmosphere >}}
+
 <script>
 (function () {
   var altitude = document.getElementById("oxygen-altitude");
@@ -52,22 +54,7 @@ where *h* is the altitude in metres, *p*<sub>0</sub> = 1013.25 hPa is the sea-le
   var fraction = document.getElementById("oxygen-fraction");
   var pressure = document.getElementById("oxygen-pressure");
 
-  // ISA constants
-  var P0 = 1013.25;   // sea-level pressure, hPa
-  var T0 = 288.15;    // sea-level temperature, K
-  var L = 0.0065;     // tropospheric lapse rate, K/m
-  var EXP = 5.2559;   // g0*M/(R*L)
-  var TROPOPAUSE = 11000; // m
-  var P11 = P0 * Math.pow(1 - L * TROPOPAUSE / T0, EXP);
-  var T11 = T0 - L * TROPOPAUSE;
-  var STRAT = 0.00015769; // g0*M/(R*T11), 1/m
-
-  function pressureAt(m) {
-    if (m <= TROPOPAUSE) {
-      return P0 * Math.pow(1 - L * m / T0, EXP);
-    }
-    return P11 * Math.exp(-STRAT * (m - TROPOPAUSE));
-  }
+  var P0 = Atmosphere.SEA_LEVEL_PRESSURE;
 
   function update() {
     var value = parseFloat(altitude.value);
@@ -84,7 +71,7 @@ where *h* is the altitude in metres, *p*<sub>0</sub> = 1013.25 hPa is the sea-le
       pressure.textContent = "–";
       return;
     }
-    var p = pressureAt(metres);
+    var p = Atmosphere.pressureAt(metres);
     percent.textContent = Math.round(p / P0 * 100) + "%";
     fraction.textContent = (20.95 * p / P0).toFixed(1) + "%";
     pressure.textContent = Math.round(p);
