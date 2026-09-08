@@ -145,6 +145,60 @@ body {
   }
 }
 
+// Altitude & oxygen calculator
+.oxygen-calculator {
+  background-color: var(--gray-100);
+  border: $padding-1 solid var(--gray-200);
+  border-radius: 6px;
+  padding: $padding-16;
+  margin: $padding-16 0;
+
+  .oxygen-calculator-inputs {
+    display: flex;
+    gap: $padding-8;
+    flex-wrap: wrap;
+
+    input,
+    select {
+      font: inherit;
+      color: var(--body-font-color);
+      background-color: var(--body-background);
+      border: $padding-1 solid var(--gray-200);
+      border-radius: 6px;
+      padding: 5px $padding-8;
+
+      &:focus {
+        border-color: var(--color-link);
+        outline: none;
+      }
+    }
+
+    input {
+      width: 8rem;
+    }
+  }
+
+  .oxygen-calculator-result {
+    margin-top: $padding-16;
+    margin-bottom: 0;
+
+    strong {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+
+  .oxygen-calculator-note,
+  .oxygen-calculator-detail {
+    color: var(--gray-500);
+  }
+
+  .oxygen-calculator-detail {
+    font-size: var(--font-size-smaller);
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (max-width: $breakpoint-mobile) {
   .book-article {
     .book-btn {

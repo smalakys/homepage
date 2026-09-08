@@ -7,6 +7,11 @@ theme = 'hugo-book'
   BookFavicon = 'objectives.svg'
   BookTheme = 'dark'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
