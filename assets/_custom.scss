@@ -119,13 +119,11 @@ body {
   > h1:first-child + p {
     font-size: 1rem;
     color: var(--gray-500);
-    max-width: 36rem;
     margin-bottom: $padding-16 * 1.5;
   }
 
   body.book-kind-home & > h1:first-child + p {
     color: var(--body-font-color);
-    max-width: none;
   }
 
   h2 {
