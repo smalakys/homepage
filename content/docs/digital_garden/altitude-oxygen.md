@@ -20,18 +20,18 @@ A quick calculator for alpinists: enter the altitude you're heading to and see t
     <span class="oxygen-calculator-note">of sea-level oxygen</span>
   </p>
   <p class="oxygen-calculator-detail">
-    Equivalent to breathing air with <strong id="oxygen-fraction">&ndash;</strong> O&#8322; at sea level
-    &middot; pressure <strong id="oxygen-pressure">&ndash;</strong> hPa
+    Equivalent to <strong id="oxygen-fraction">&ndash;</strong> O&#8322; at sea level<br />
+    Pressure <strong id="oxygen-pressure">&ndash;</strong> hPa
   </p>
 </div>
-
-For example, 7.5 km — roughly the South Col of Everest — comes out at about 38%, while Everest's summit (8850 m) is near 31%.
 
 ## How it works
 
 The calculator uses the International Standard Atmosphere (ISA) barometric formula. Up to the tropopause at 11 km, temperature decreases linearly with altitude and pressure follows:
 
-$$p = p_0 \left(1 - \frac{L h}{T_0}\right)^{\frac{g_0 M}{R L}} \approx p_0 \left(1 - 2.2558 \times 10^{-5} \, h\right)^{5.2559}$$
+{{< katex display=true >}}
+p = p_0 \left(1 - \frac{L h}{T_0}\right)^{\frac{g_0 M}{R L}} \approx p_0 \left(1 - 2.2558 \times 10^{-5} \, h\right)^{5.2559}
+{{< /katex >}}
 
 where *h* is the altitude in metres, *p*<sub>0</sub> = 1013.25 hPa is the sea-level pressure, *L* = 0.0065 K/m is the standard temperature lapse rate, *T*<sub>0</sub> = 288.15 K is the sea-level standard temperature, *g*<sub>0</sub> = 9.807 m/s², *M* = 0.02897 kg/mol is the molar mass of air, and *R* = 8.3145 J/(mol·K). Above 11 km the formula switches to the isothermal stratosphere layer. Because the oxygen fraction of air stays essentially constant, the pressure ratio *p*/*p*<sub>0</sub> directly gives the relative availability of oxygen.
 
