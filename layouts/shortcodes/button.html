@@ -1,0 +1,6 @@
+{{- $href := .Get "href" -}}
+{{- if $href -}}
+  <a class="book-btn" href="{{ $href | safeURL }}">{{ .Inner | markdownify }}</a>
+{{- else -}}
+  {{- errorf "button shortcode requires 'href': %s" .Position -}}
+{{- end -}}
