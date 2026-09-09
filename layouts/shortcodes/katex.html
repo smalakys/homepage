@@ -1,0 +1,6 @@
+{{- $display := .Get "display" -}}
+{{- if or (eq $display true) (eq $display "true") -}}
+  <div class="katex-display">{{ .Inner }}</div>
+{{- else -}}
+  <span class="katex-inline">{{ .Inner }}</span>
+{{- end -}}
