@@ -22,6 +22,10 @@ How much gas to carry? This starts with the energy needed to melt and heat the w
       <input type="number" id="fuel-water" min="0" max="20" step="0.5" value="3" inputmode="decimal" />
     </div>
     <div class="calculator-field">
+      <label for="fuel-water-temp">Starting water temperature (°C)</label>
+      <input type="number" id="fuel-water-temp" min="0" max="30" step="1" value="10" inputmode="decimal" />
+    </div>
+    <div class="calculator-field">
       <label for="fuel-snow">Melted from snow: <span id="fuel-snow-value">0%</span></label>
       <input type="range" id="fuel-snow" min="0" max="100" step="5" value="0" />
     </div>
@@ -97,7 +101,7 @@ Liquid water only needs heating. Snow additionally has to be melted first, which
 Q_\text{liquid} = m \, c_w \, (T_\text{ref} - T_0) \qquad Q_\text{snow} = m \, (L_f + c_w \, (T_\text{ref} - T_0))
 {{< /katex >}}
 
-where *m* is the mass of water in kg (1 L ≈ 1 kg), *c<sub>w</sub>* = 4.186 kJ/(kg·K) is the specific heat of liquid water, *L<sub>f</sub>* = 334 kJ/kg is the latent heat of fusion of ice, *T*<sub>0</sub> is the starting temperature and *T*<sub>ref</sub> = 100 °C. The calculator deliberately uses the same 0→100 °C reference rise at every altitude so it never recommends less fuel merely because water boils sooner on a high mountain.
+where *m* is the mass of water in kg (1 L ≈ 1 kg), *c<sub>w</sub>* = 4.186 kJ/(kg·K) is the specific heat of liquid water, *L<sub>f</sub>* = 334 kJ/kg is the latent heat of fusion of ice, *T*<sub>0</sub> is the starting temperature and *T*<sub>ref</sub> = 100 °C. Liquid-water heating uses the input starting temperature; snow is still treated as 0→100 °C. The endpoint remains 100 °C at every altitude so the calculator never recommends less fuel merely because water boils sooner on a high mountain.
 
 That latent-heat term explains much of the extra fuel needed in winter. Melting a kilogram of snow and heating it to the reference temperature takes about **1.8 times** the energy of heating a kilogram of water that was already liquid at 0 °C, and over twice that of 15 °C stream water. Mountaineers have noticed this for a long time — it is sometimes called the [Shipton rule](https://doi.org/10.1016/j.wem.2017.08.003), the observation that melting the ice takes about as long again as heating the resulting water.
 
@@ -177,8 +181,7 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
 
 ## Limitations
 
-- **Water is assumed to start at 0 °C.** There is no temperature input. That is the right assumption for meltwater, glacial streams and anything you dug out of the snow, but if you are filling from a warm summer stream at 15 °C the estimate is high by about 20%.
-- **Snow is also assumed to be at 0 °C.** Snow at −20 °C needs roughly 40 kJ/kg more to reach freezing point, about 5% on top of the melt-and-boil total. Small next to the latent heat, but it is a real omission.
+- **Snow is assumed to start at 0 °C.** Liquid-water start temperature is now configurable, but snow temperature below freezing is still not modelled. Snow at −20 °C needs roughly 40 kJ/kg more to reach freezing point, about 5% on top of the melt-and-boil total.
 - **The altitude allowance is a heuristic, not a measured efficiency curve.** Its +5% per 1,000 m above 2,000 m combines several effects that cannot be separated reliably in the field: thinner air, cold equipment, weaker fuel delivery from a cold canister, and heat loss. A warm, sheltered Reactor may beat it; an exposed upright stove in a storm may use far more. Do not add another generic altitude percentage on top of it.
 - **Wind is only modelled through the windscreen presets** — and in the field it may well be the largest single factor. An exposed burner in moderate wind can use 1.3–2.5 times the fuel, and in strong wind may never reach a boil at all, at which point no multiplier means anything.
 - **Cold attacks the canister, not just the water.** Isobutane boils at −12 °C and n-butane at around −0.5 °C, so vapour pressure collapses as things get cold, and running the stove chills the canister further still. Propane boils off preferentially, so a half-used canister performs worse in the cold than a fresh one. This "canister fade" is a failure mode, not a quantity problem — carrying more fuel does not fix it. Keep canisters in your sleeping bag, and consider a stove with a pressure regulator or an invertible remote canister.
@@ -193,7 +196,7 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
 
 <script>
 (function () {
-  var ids = ["people", "days", "water", "snow", "stove", "efficiency", "altitude", "altitude-units", "canister", "margin"];
+  var ids = ["people", "days", "water", "water-temp", "snow", "stove", "efficiency", "altitude", "altitude-units", "canister", "margin"];
   var el = {};
   ids.forEach(function (id) { el[id] = document.getElementById("fuel-" + id); });
 
@@ -232,13 +235,15 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
     var people = parseFloat(el.people.value);
     var days = parseFloat(el.days.value);
     var perDay = parseFloat(el.water.value);
+    var waterTemp = parseFloat(el["water-temp"].value);
     var efficiency = (isCustom ? parseFloat(el.efficiency.value) : parseFloat(preset)) / 100;
     var altitude = parseFloat(el.altitude.value);
     var canister = parseFloat(el.canister.value);
     var margin = parseFloat(el.margin.value) / 100;
 
-    if ([people, days, perDay, efficiency, altitude].some(isNaN) ||
+    if ([people, days, perDay, waterTemp, efficiency, altitude].some(isNaN) ||
         people <= 0 || days <= 0 || perDay < 0 || altitude < 0 ||
+        waterTemp < 0 || waterTemp > 30 ||
         efficiency <= 0 || efficiency > 1) {
       blank();
       return;
@@ -256,8 +261,9 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
     var fromSnow = litres * snow / 100;
     var fromLiquid = litres - fromSnow;
 
-    var heating = C_WATER * REFERENCE_BOIL; // kJ/kg, 0→100 °C reference
-    var energy = fromLiquid * heating + fromSnow * (L_FUSION + heating);
+    var liquidHeating = C_WATER * (REFERENCE_BOIL - waterTemp); // kJ/kg
+    var snowHeating = C_WATER * REFERENCE_BOIL; // kJ/kg, 0→100 °C reference
+    var energy = fromLiquid * liquidHeating + fromSnow * (L_FUSION + snowHeating);
     var grams = energy / (efficiency * LHV) * highAltitudeFactor * (1 + margin);
 
     out.grams.textContent = Math.round(grams) + " g";
