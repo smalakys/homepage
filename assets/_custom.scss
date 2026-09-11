@@ -91,7 +91,8 @@ body {
 
 // Highlight the main portfolio and mountaineering destinations
 .markdown a.book-btn[href="/docs/work/resume/"],
-.markdown a.book-btn[href="/docs/lists/alps-4000ers/"] {
+.markdown a.book-btn[href="/docs/lists/alps-4000ers/"],
+.markdown a.book-btn[href="/docs/digital_garden/altitude-oxygen/"] {
   color: #ffffff;
   background-color: #238636;
   border-color: rgba(240, 246, 252, 0.1);
@@ -223,7 +224,8 @@ body {
       display: flex;
       gap: $padding-8;
 
-      input {
+      input,
+      select:first-child {
         flex: 1 1 auto;
         min-width: 0;
       }

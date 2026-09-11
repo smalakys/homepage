@@ -23,3 +23,10 @@ Follow my progress across mountain ranges, long-distance trails, and other endur
 {{<button href="/docs/lists/tatra-8000fters/">}}Tatra 8000fters{{</button>}}
 {{<button href="/docs/lists/snow-leopard-peaks/">}}Snow Leopard Peaks{{</button>}}
 {{<button href="/docs/lists/ultramarathons/">}}Ultramarathons{{</button>}}
+
+## Calculators
+
+Useful tools for alpinists and mountaineers.
+
+{{<button href="/docs/digital_garden/altitude-oxygen/">}}Altitude & Oxygen{{</button>}}
+{{<button href="/docs/digital_garden/stove-fuel/">}}Stove Fuel{{</button>}}
