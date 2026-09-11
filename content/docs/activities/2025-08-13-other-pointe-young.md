@@ -7,4 +7,4 @@ partners: ["Juozapas Žygas"]
 summit: true
 ---
 
-Summited during the five-day Arête du Diable - Dent du Géant - Grandes Jorasses traverse.
+Summited during the five-day Arête du Diable – Dent du Géant – Grandes Jorasses traverse.

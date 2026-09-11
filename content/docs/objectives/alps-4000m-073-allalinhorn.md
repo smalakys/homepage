@@ -2,7 +2,7 @@
 title: "Allalinhorn"
 elevation: 4027
 rank: 73
-range: "Pennine Alps - Mischabel Group"
+range: "Pennine Alps – Mischabel Group"
 country: "Switzerland"
 latitude: 46.0460
 longitude: 7.8950

@@ -2,7 +2,7 @@
 title: "Strahlhorn"
 elevation: 4190
 rank: 35
-range: "Pennine Alps - Mischabel Group"
+range: "Pennine Alps – Mischabel Group"
 country: "Switzerland"
 latitude: 46.0134
 longitude: 7.9018
