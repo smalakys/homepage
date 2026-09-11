@@ -5,11 +5,11 @@ weight: 1
 
 # Altitude & Oxygen
 
-A quick calculator for alpinists: enter the altitude you're heading to and see the atmospheric pressure there relative to sea level. Since oxygen makes up a constant ~20.9% of dry air, that pressure ratio is also the relative amount of oxygen available per breath compared to sea level.
+Enter the altitude you're heading to and this calculator shows the atmospheric pressure there relative to sea level. Since oxygen makes up a constant ~20.9% of dry air, that pressure ratio is also the relative amount of oxygen available per breath compared to sea level.
 
 <div class="calculator" id="oxygen-calculator">
   <div class="calculator-inputs">
-    <input type="number" id="oxygen-altitude" min="0" max="44000" step="1" value="7500" inputmode="decimal" aria-label="Altitude" />
+    <input type="number" id="oxygen-altitude" min="0" max="44000" step="1" value="8849" inputmode="decimal" aria-label="Altitude" />
     <select id="oxygen-units" aria-label="Units">
       <option value="m" selected>metres</option>
       <option value="ft">feet</option>
@@ -39,10 +39,10 @@ where *h* is the altitude in metres, *p*<sub>0</sub> = 1013.25 hPa is the sea-le
 
 ## Limitations
 
-- This is a standard-atmosphere model: it assumes average conditions and ignores weather. Actual pressure at a given altitude varies by a few percent with weather systems and temperature.
-- Real pressure at very high altitudes is also affected by latitude and season — Everest summit pressure, for instance, fluctuates roughly between 325 and 343 hPa over the year.
-- The physiological effect of altitude (acclimatization, fitness, rate of ascent) matters far more than the raw number for how you'll actually feel.
-- Not medical advice — don't use it to make safety decisions on the mountain.
+- **This is a standard-atmosphere model.** It assumes average conditions and ignores weather. Actual pressure at a given altitude varies by a few percent with weather systems and temperature.
+- **Very high-altitude pressure also varies by latitude and season.** Everest summit pressure, for instance, fluctuates roughly between 325 and 343 hPa over the year.
+- **Physiology matters more than the raw number.** Acclimatization, fitness and rate of ascent matter far more than pressure ratio alone for how you'll actually feel.
+- **This is not medical advice.** Don't use it to make safety decisions on the mountain.
 
 {{< atmosphere >}}
 
