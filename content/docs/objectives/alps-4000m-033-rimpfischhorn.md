@@ -2,7 +2,7 @@
 title: "Rimpfischhorn"
 elevation: 4199
 rank: 33
-range: "Pennine Alps - Mischabel Group"
+range: "Pennine Alps – Mischabel Group"
 country: "Switzerland"
 latitude: 46.0231
 longitude: 7.8839

@@ -2,7 +2,7 @@
 title: "Barre des Écrins"
 elevation: 4102
 rank: 53
-range: "Dauphiné Alps - Massif des Écrins"
+range: "Dauphiné Alps – Massif des Écrins"
 country: "France"
 latitude: 44.9222
 longitude: 6.3595

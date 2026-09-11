@@ -2,7 +2,7 @@
 title: "Grand Combin (de la Tsessette)"
 elevation: 4135
 rank: 44
-range: "Pennine Alps - Grand Combin Massif"
+range: "Pennine Alps – Grand Combin Massif"
 country: "Switzerland"
 latitude: 45.9429
 longitude: 7.3111

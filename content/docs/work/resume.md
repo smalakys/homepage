@@ -7,7 +7,7 @@ weight: 1
 
 ## Summary
 
-Physicist turned data scientist and risk leader, with over a decade of experience spanning scientific research, R&D, and quantitative modelling. After growing from engineering to executive leadership at Lidaris, I moved into technical lead positions at Danske Bank before stepping into risk leadership as Head of Credit Risk Model Validation. My physics background gives me a first-principles approach to complex problems - whether designing models, validating them, or translating technical findings into decisions that matter at the organizational level.
+Physicist turned data scientist and risk leader, with over a decade of experience spanning scientific research, R&D, and quantitative modelling. After growing from engineering to executive leadership at Lidaris, I moved into technical lead positions at Danske Bank before stepping into risk leadership as Head of Credit Risk Model Validation. My physics background gives me a first-principles approach to complex problems – whether designing models, validating them, or translating technical findings into decisions that matter at the organizational level.
 
 ## Work Experience
 
@@ -50,12 +50,12 @@ Physicist turned data scientist and risk leader, with over a decade of experienc
 ## Education
 
 ### Vilnius University
-- **Doctor of Philosophy - PhD, Physics**  
+- **Doctor of Philosophy – PhD, Physics**\
 *2016 – 2021*
     - Thesis: Optical fatigue of dielectric coatings in the femtosecond regime: physical mechanisms and metrology
-- **Master of Science - MS, Laser Physics and Optical Technologies** (Magna Cum Laude)  
+- **Master of Science – MS, Laser Physics and Optical Technologies** (Magna Cum Laude)\
 *2014 – 2016*
-- **Bachelor of Science - BS, Nuclear Energy Physics**  
+- **Bachelor of Science – BS, Nuclear Energy Physics**\
 *2010 – 2014*
 
 ## Scholarships and Awards

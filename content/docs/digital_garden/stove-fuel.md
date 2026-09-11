@@ -314,7 +314,7 @@ where *η* is the thermal efficiency of the stove system, *f<sub>h</sub>* is the
       ? "no altitude allowance"
       : "+" + Math.round((highAltitudeFactor - 1) * 100) + "% for altitude";
     out["per-day"].textContent = Math.round(grams / (people * days)) + " g per person per day";
-    out.boil.textContent = boil.toFixed(1) + " °C";
+    out.boil.textContent = "~" + Math.round(boil) + " °C";
   }
 
   updateAltitudeOptions();

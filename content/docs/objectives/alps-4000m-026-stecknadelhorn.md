@@ -2,7 +2,7 @@
 title: "Stecknadelhorn"
 elevation: 4241
 rank: 26
-range: "Pennine Alps - Mischabel Group"
+range: "Pennine Alps – Mischabel Group"
 country: "Switzerland"
 latitude: 46.1115
 longitude: 7.8595

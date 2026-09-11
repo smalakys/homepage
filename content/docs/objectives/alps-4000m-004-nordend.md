@@ -2,7 +2,7 @@
 title: "Nordend"
 elevation: 4609
 rank: 4
-range: "Pennine Alps - Monte Rosa Massif"
+range: "Pennine Alps – Monte Rosa Massif"
 country: "Switzerland / Italy"
 latitude: 45.9420
 longitude: 7.8699
