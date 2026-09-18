@@ -1,0 +1,44 @@
+# Trip reports submitted to the Lithuanian Mountaineering Association
+# (Lietuvos alpinizmo asociacija). PDFs live in static/reports/.
+#
+# award (optional): medal, title, category (extra note shown under the badge)
+
+- title: Monte Rosa traverse
+  detail: 8 summits over 4000 m
+  date: 2023-07-26
+  category: Technical Alpinism
+  file: 2023-monte-rosa-traverse.pdf
+  award:
+    medal: 🏆
+    title: Trip of the Year
+    category: Novelty award
+
+- title: Bernese Alps 4000ers trek
+  detail: 6 summits over 4000 m
+  date: 2024-07-22
+  category: High-Altitude Trekking
+  file: 2024-bernese-alps-4000ers-trek.pdf
+  award:
+    medal: 🥉
+    title: 3rd place
+
+- title: Trosen SW
+  detail: 80 m, WI5
+  date: 2025-03-06
+  category: Ice Climbing
+  file: 2025-trosen-sw.pdf
+
+- title: Søylefossen
+  detail: 180 m, WI5
+  date: 2025-03-07
+  category: Ice Climbing
+  file: 2025-soylefossen.pdf
+
+- title: Arête du Diable – Dent du Géant – Grandes Jorasses traverse
+  detail: 14 summits over 4000 m
+  date: 2025-08-10
+  category: Technical Alpinism
+  file: 2025-arete-du-diable-dent-du-geant-grandes-jorasses.pdf
+  award:
+    medal: 🥇
+    title: 1st place
