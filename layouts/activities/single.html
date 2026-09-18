@@ -10,6 +10,17 @@
         <td>{{ range . }}{{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}</td>
       </tr>
       {{ end }}
+      {{ with .Params.report }}
+      {{ $file := . }}
+      {{ $matches := where (index hugo.Data "trip-reports") "file" $file }}
+      {{ if not $matches }}{{ errorf "activity %s: no trip report with file %q in data/trip-reports.yaml" $.File.Path $file }}{{ end }}
+      {{ range first 1 $matches }}
+      <tr>
+        <th scope="row">Trip report</th>
+        <td><a href="{{ printf "reports/%s" .file | relURL }}">{{ .title }}</a></td>
+      </tr>
+      {{ end }}
+      {{ end }}
       {{ with .Params.conditions }}<tr><th scope="row">Conditions</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.route }}<tr><th scope="row">Route</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.category }}<tr><th scope="row">Category</th><td>{{ . }}</td></tr>{{ end }}

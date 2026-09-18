@@ -5,6 +5,7 @@ objectives: ["/docs/objectives/alps-4000m-078-dent-du-geant-dente-del-gigante/"]
 route: "Dent du Géant – Géant Branché"
 partners: ["Juozapas Žygas"]
 summit: true
+report: "2025-arete-du-diable-dent-du-geant-grandes-jorasses.pdf"
 ---
 
 Summited during the five-day Arête du Diable – Dent du Géant – Grandes Jorasses traverse.
