@@ -5,6 +5,7 @@ objectives: ["/docs/objectives/alps-4000m-060-grandes-jorasses-pointe-marguerite
 route: "Grandes Jorasses traverse"
 partners: ["Juozapas Žygas"]
 summit: true
+report: "2025-arete-du-diable-dent-du-geant-grandes-jorasses.pdf"
 ---
 
 Summited during the five-day Arête du Diable – Dent du Géant – Grandes Jorasses traverse.
