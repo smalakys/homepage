@@ -56,6 +56,25 @@ $breakpoint-mobile: 30rem;
   }
 }
 
+// Trip reports list: highlight awarded reports
+.markdown table.trip-reports {
+  .report-meta {
+    display: block;
+    color: var(--gray-500);
+  }
+
+  .award-badge {
+    display: inline-block;
+    margin-top: $padding-8;
+    font-weight: 600;
+    white-space: nowrap;
+    color: var(--color-accent-warning);
+    border: $padding-1 solid var(--color-accent-warning);
+    border-radius: 2em;
+    padding: 0 0.6em;
+  }
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";

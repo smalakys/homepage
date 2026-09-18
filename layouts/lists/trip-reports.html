@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $reports := sort (index hugo.Data "trip-reports") "date" "desc" }}
+  {{ $awarded := 0 }}
+  {{ range $reports }}{{ if .award }}{{ $awarded = add $awarded 1 }}{{ end }}{{ end }}
+
+  <p><strong>{{ len $reports }}</strong> reports, <strong>{{ $awarded }}</strong> awarded</p>
+
+  <table class="trip-reports">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Category</th>
+        <th>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $reports }}
+      <tr>
+        <td>{{ time.Format "2006" .date }}</td>
+        <td>{{ .category }}</td>
+        <td>
+          <a href="{{ printf "reports/%s" .file | relURL }}">{{ .title }}</a>
+          {{ with .detail }}<small class="report-meta">{{ . }}</small>{{ end }}
+          {{ with .award }}
+          <span class="award-badge"><span aria-hidden="true">{{ .medal }}</span> {{ .title }}</span>
+          {{ with .category }}<small class="report-meta">{{ . }}</small>{{ end }}
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</article>
+{{ end }}
