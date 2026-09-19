@@ -3,6 +3,7 @@ title: "Matterhorn (Monte Cervino / Le Cervin)"
 elevation: 4478
 rank: 12
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9764
 longitude: 7.6592

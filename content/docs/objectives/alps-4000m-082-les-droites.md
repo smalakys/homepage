@@ -3,6 +3,7 @@ title: "Les Droites"
 elevation: 4000
 rank: 82
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France"
 latitude: 45.9307
 longitude: 6.9890

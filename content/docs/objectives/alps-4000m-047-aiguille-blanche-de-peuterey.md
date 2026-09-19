@@ -3,6 +3,7 @@ title: "Aiguille Blanche de Peuterey"
 elevation: 4112
 rank: 47
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.8234
 longitude: 6.8817

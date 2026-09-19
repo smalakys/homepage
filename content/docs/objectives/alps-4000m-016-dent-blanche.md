@@ -3,6 +3,7 @@ title: "Dent Blanche"
 elevation: 4357
 rank: 16
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.0342
 longitude: 7.6119

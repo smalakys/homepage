@@ -3,6 +3,7 @@ title: "Dent du Géant (Dente del Gigante)"
 elevation: 4013
 rank: 78
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8619
 longitude: 6.9517

@@ -3,6 +3,7 @@ title: "Schwarzhorn (Corno Nero)"
 elevation: 4322
 rank: 19
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.9150
 longitude: 7.8620

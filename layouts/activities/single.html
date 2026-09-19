@@ -23,13 +23,11 @@
       {{ end }}
       {{ with .Params.conditions }}<tr><th scope="row">Conditions</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.route }}<tr><th scope="row">Route</th><td>{{ . }}</td></tr>{{ end }}
-      {{ with .Params.category }}<tr><th scope="row">Category</th><td>{{ . }}</td></tr>{{ end }}
-      {{ with .Params.country }}<tr><th scope="row">Country</th><td>{{ . }}</td></tr>{{ end }}
       {{ if .Params.distance_km }}<tr><th scope="row">Distance/M+</th><td>{{ .Params.distance_km }} km / {{ .Params.elevation_gain_m }} m+</td></tr>{{ end }}
       {{ with .Params.endurance_points }}<tr><th scope="row">Endurance points</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.gender_ranking }}<tr><th scope="row">Gender ranking</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.race_time }}<tr><th scope="row">Race time</th><td>{{ . }}</td></tr>{{ end }}
-      <tr><th scope="row">Summit reached</th><td>{{ if .Params.summit }}Yes{{ else }}No{{ end }}</td></tr>
+      <tr><th scope="row">Success</th><td>{{ if .Params.success }}Yes{{ else }}No{{ end }}</td></tr>
     </tbody>
   </table>
   {{ .Content }}

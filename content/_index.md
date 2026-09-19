@@ -1,5 +1,5 @@
 ---
-title: "Linas Smalakys"
+title: "Linas Smalakys - Digital Garden"
 description: "Personal website of Linas Smalakys, covering everything from his work and research to mountain ascents and endurance challenges."
 ---
 
@@ -25,9 +25,9 @@ Follow my progress across mountain ranges, long-distance trails, and other endur
 {{<button href="/docs/lists/trip-reports/">}}Alpinism Trip Reports{{</button>}}
 {{<button href="/docs/lists/ultramarathons/">}}Ultramarathons{{</button>}}
 
-## Calculators
+## Tools
 
 Useful tools for alpinists and mountaineers.
 
-{{<button href="/docs/digital_garden/altitude-oxygen/">}}Altitude & Oxygen{{</button>}}
-{{<button href="/docs/digital_garden/stove-fuel/">}}Stove Fuel{{</button>}}
+{{<button href="/docs/tools/altitude-oxygen/">}}Altitude & Oxygen{{</button>}}
+{{<button href="/docs/tools/stove-fuel/">}}Stove Fuel{{</button>}}

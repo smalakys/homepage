@@ -2,6 +2,7 @@
 title: "Končistá"
 elevation: 2538
 range: "High Tatras"
+objective_type: "Peak"
 rank: 7
 country: "Slovakia"
 latitude: 49.1573

@@ -3,6 +3,7 @@ title: "Pollux"
 elevation: 4092
 rank: 55
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9278
 longitude: 7.7853

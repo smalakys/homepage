@@ -2,6 +2,7 @@
 title: "Vysoká"
 elevation: 2547
 range: "High Tatras"
+objective_type: "Peak"
 rank: 6
 country: "Slovakia"
 latitude: 49.1727

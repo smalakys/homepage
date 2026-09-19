@@ -4,7 +4,7 @@ date: 2025-08-13
 objectives: ["/docs/objectives/alps-4000m-076-dome-de-rochefort/"]
 route: "Grandes Jorasses traverse"
 partners: ["Juozapas Žygas"]
-summit: true
+success: true
 report: "2025-arete-du-diable-dent-du-geant-grandes-jorasses.pdf"
 ---
 

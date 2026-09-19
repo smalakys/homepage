@@ -3,6 +3,7 @@ title: "Bishorn"
 elevation: 4153
 rank: 42
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.1179
 longitude: 7.7148

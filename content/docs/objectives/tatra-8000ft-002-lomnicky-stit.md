@@ -2,6 +2,7 @@
 title: "Lomnický Štít"
 elevation: 2632
 range: "High Tatras"
+objective_type: "Peak"
 rank: 2
 country: "Slovakia"
 latitude: 49.1951

@@ -12,7 +12,7 @@
   {{ range $objectives }}
     {{ $obj := . }}
     {{ $objAscents := where $ascents "Params.objectives" "intersect" (slice $obj.RelPermalink) }}
-    {{ $objAscents = where $objAscents "Params.summit" "eq" true }}
+    {{ $objAscents = where $objAscents "Params.success" "eq" true }}
     {{ if gt (len $objAscents) 0 }}{{ $climbed = add $climbed 1 }}{{ end }}
   {{ end }}
 
@@ -30,7 +30,7 @@
     {{ range ($objectives.ByParam "elevation").Reverse }}
       {{ $obj := . }}
       {{ $objAscents := where $ascents "Params.objectives" "intersect" (slice $obj.RelPermalink) }}
-      {{ $summited := where $objAscents "Params.summit" "eq" true }}
+      {{ $summited := where $objAscents "Params.success" "eq" true }}
       <tr>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
         <td>{{ .Params.elevation }} m</td>

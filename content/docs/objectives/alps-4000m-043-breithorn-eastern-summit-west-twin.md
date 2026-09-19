@@ -3,6 +3,7 @@ title: "Breithorn (Eastern Summit / West Twin)"
 elevation: 4139
 rank: 43
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9375
 longitude: 7.7670

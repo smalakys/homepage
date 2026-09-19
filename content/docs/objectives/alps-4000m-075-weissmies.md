@@ -3,6 +3,7 @@ title: "Weissmies"
 elevation: 4017
 rank: 75
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.1278
 longitude: 8.0119

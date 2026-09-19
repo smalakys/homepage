@@ -2,6 +2,7 @@
 title: "Khan Tengri"
 elevation: 7010
 range: "Tian Shan"
+objective_type: "Peak"
 country: "Kyrgyzstan / Kazakhstan"
 latitude: 42.2108
 longitude: 80.1750

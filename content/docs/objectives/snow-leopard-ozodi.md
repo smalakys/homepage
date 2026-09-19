@@ -2,6 +2,7 @@
 title: "Ozodi Peak (Korzhenevskaya Peak)"
 elevation: 7105
 range: "Pamir Mountains"
+objective_type: "Peak"
 country: "Tajikistan"
 latitude: 39.0556
 longitude: 72.0239

@@ -3,6 +3,7 @@ title: "Castor"
 elevation: 4223
 rank: 27
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9208
 longitude: 7.7933

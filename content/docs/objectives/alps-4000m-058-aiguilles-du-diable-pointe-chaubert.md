@@ -3,6 +3,7 @@ title: "Aiguilles du Diable (Pointe Chaubert)"
 elevation: 4074
 rank: 58
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France"
 latitude: 45.8544
 longitude: 6.8929

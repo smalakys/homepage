@@ -3,7 +3,7 @@ title: "2023-07-26 Balmenhorn"
 date: 2023-07-26
 objectives: ["/docs/objectives/other-balmenhorn/"]
 route: "Monte Rosa traverse, AD- (II)"
-summit: true
+success: true
 report: "2023-monte-rosa-traverse.pdf"
 ---
 

@@ -3,6 +3,7 @@ title: "Dôme de Neige des Écrins"
 elevation: 4015
 rank: 77
 range: "Dauphiné Alps – Massif des Écrins"
+objective_type: "Peak"
 country: "France"
 latitude: 44.9243
 longitude: 6.3535

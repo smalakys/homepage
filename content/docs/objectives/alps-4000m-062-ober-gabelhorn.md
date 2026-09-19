@@ -3,6 +3,7 @@ title: "Ober Gabelhorn"
 elevation: 4063
 rank: 62
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.0384
 longitude: 7.6677

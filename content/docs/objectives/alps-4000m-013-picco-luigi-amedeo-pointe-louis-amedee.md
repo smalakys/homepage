@@ -3,6 +3,7 @@ title: "Picco Luigi Amedeo (Pointe Louis-Amédée)"
 elevation: 4469
 rank: 13
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.8219
 longitude: 6.8652

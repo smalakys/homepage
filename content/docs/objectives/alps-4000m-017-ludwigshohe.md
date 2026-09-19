@@ -3,6 +3,7 @@ title: "Ludwigshöhe"
 elevation: 4341
 rank: 17
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9167
 longitude: 7.8635

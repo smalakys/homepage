@@ -3,6 +3,7 @@ title: "Grandes Jorasses (Pointe Walker)"
 elevation: 4208
 rank: 31
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8683
 longitude: 6.9888

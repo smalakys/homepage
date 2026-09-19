@@ -3,7 +3,7 @@ title: "2025-07-27 Dôme de Neige des Écrins"
 date: 2025-07-27
 objectives: ["/docs/objectives/alps-4000m-077-dome-de-neige-des-ecrins/"]
 partners: ["Jurgita Krukonytė"]
-summit: true
+success: true
 ---
 
 Completed after an earlier attempt was cut short in the couloir.

@@ -3,6 +3,7 @@ title: "Grandes Jorasses (Pointe Marguerite)"
 elevation: 4065
 rank: 60
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8686
 longitude: 6.9773

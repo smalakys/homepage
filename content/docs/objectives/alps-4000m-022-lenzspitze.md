@@ -3,6 +3,7 @@ title: "Lenzspitze"
 elevation: 4294
 rank: 22
 range: "Pennine Alps – Mischabel Group"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.1046
 longitude: 7.8687

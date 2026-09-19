@@ -3,6 +3,7 @@ title: "Aiguille de Bionnassay"
 elevation: 4052
 rank: 64
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8360
 longitude: 6.8184

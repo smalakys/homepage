@@ -3,6 +3,7 @@ title: "Alphubel"
 elevation: 4206
 rank: 32
 range: "Pennine Alps – Mischabel Group"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.0615
 longitude: 7.8652

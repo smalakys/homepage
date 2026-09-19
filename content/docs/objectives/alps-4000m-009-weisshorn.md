@@ -3,6 +3,7 @@ title: "Weisshorn"
 elevation: 4505
 rank: 9
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.1013
 longitude: 7.7161

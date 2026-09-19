@@ -3,6 +3,7 @@ title: "Punta Giordani (Giordanispétz)"
 elevation: 4046
 rank: 67
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.9058
 longitude: 7.8678

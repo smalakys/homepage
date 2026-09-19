@@ -3,6 +3,7 @@ title: "Finsteraarhorn"
 elevation: 4274
 rank: 23
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5374
 longitude: 8.1260

@@ -3,6 +3,7 @@ title: "Lagginhorn"
 elevation: 4010
 rank: 80
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.1572
 longitude: 8.0031

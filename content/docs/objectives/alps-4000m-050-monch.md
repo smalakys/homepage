@@ -3,6 +3,7 @@ title: "Mönch"
 elevation: 4107
 rank: 50
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5583
 longitude: 7.9972

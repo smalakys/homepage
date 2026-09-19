@@ -1,6 +1,6 @@
 baseURL = 'https://smalakys.com/'
 locale = 'en-us'
-title = 'Personal Website'
+title = 'Linas Smalakys'
 theme = 'hugo-book'
 
 [params]

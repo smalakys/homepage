@@ -3,6 +3,7 @@ title: "Nadelhorn"
 elevation: 4327
 rank: 18
 range: "Pennine Alps – Mischabel Group"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.1089
 longitude: 7.8640

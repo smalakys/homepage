@@ -3,6 +3,7 @@ title: "Zinalrothorn"
 elevation: 4221
 rank: 28
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.0639
 longitude: 7.6890

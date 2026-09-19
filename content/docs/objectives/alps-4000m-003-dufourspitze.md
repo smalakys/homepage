@@ -3,6 +3,7 @@ title: "Dufourspitze"
 elevation: 4634
 rank: 3
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9369
 longitude: 7.8668

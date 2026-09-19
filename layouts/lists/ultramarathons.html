@@ -4,8 +4,10 @@
   {{ .Content }}
 
   {{ $listPath := .RelPermalink }}
-  {{ $races := where .Site.RegularPages "Type" "activities" }}
-  {{ $races = where $races "Params.lists" "intersect" (slice $listPath) }}
+  {{ $objectives := where (where .Site.RegularPages "Type" "objectives") "Params.lists" "intersect" (slice $listPath) }}
+  {{ $paths := slice }}
+  {{ range $objectives }}{{ $paths = $paths | append .RelPermalink }}{{ end }}
+  {{ $races := where (where .Site.RegularPages "Type" "activities") "Params.objectives" "intersect" $paths }}
 
   <table>
     <thead>
@@ -18,7 +20,7 @@
       {{ range $races.ByDate.Reverse }}
       <tr>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-        <td>{{ .Params.distance_km }} km / {{ .Params.elevation_gain_m }} m+</td>
+        <td>{{ with .Params.distance_km }}{{ . }} km{{ end }}{{ with .Params.elevation_gain_m }} / {{ . }} m+{{ end }}</td>
       </tr>
       {{ end }}
     </tbody>

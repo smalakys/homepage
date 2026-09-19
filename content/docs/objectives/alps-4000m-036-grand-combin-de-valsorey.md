@@ -3,6 +3,7 @@ title: "Grand Combin (de Valsorey)"
 elevation: 4184
 rank: 36
 range: "Pennine Alps – Grand Combin Massif"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 45.9380
 longitude: 7.2903

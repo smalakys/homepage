@@ -2,6 +2,7 @@
 title: "Gerlachovský Štít"
 elevation: 2655
 range: "High Tatras"
+objective_type: "Peak"
 rank: 1
 country: "Slovakia"
 latitude: 49.1640

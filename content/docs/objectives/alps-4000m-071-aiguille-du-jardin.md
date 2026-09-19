@@ -3,6 +3,7 @@ title: "Aiguille du Jardin"
 elevation: 4035
 rank: 71
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France"
 latitude: 45.9340
 longitude: 6.9758

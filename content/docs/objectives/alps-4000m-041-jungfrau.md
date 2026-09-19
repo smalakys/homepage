@@ -3,6 +3,7 @@ title: "Jungfrau"
 elevation: 4158
 rank: 41
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5368
 longitude: 7.9626

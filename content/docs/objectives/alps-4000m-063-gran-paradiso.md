@@ -3,6 +3,7 @@ title: "Gran Paradiso"
 elevation: 4061
 rank: 63
 range: "Graian Alps"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.5172
 longitude: 7.2681

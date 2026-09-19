@@ -3,6 +3,7 @@ title: "Piz Bernina"
 elevation: 4049
 rank: 65
 range: "Bernina Group"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.3822
 longitude: 9.9081
