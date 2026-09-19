@@ -2,6 +2,7 @@
 title: "Pyšný Štít"
 elevation: 2621
 range: "High Tatras"
+objective_type: "Peak"
 rank: 4
 country: "Slovakia"
 latitude: 49.1976

@@ -2,6 +2,7 @@
 title: "Ľadový Štít"
 elevation: 2627
 range: "High Tatras"
+objective_type: "Peak"
 rank: 3
 country: "Slovakia"
 latitude: 49.1985

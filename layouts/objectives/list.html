@@ -1,18 +1,42 @@
 {{ define "main" }}
 <article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
   {{ .Content }}
 
+  {{ $labels := dict "Peak" "Peaks" "Pass" "Passes" "Run" "Runs" }}
+  {{ $shown := 0 }}
+  {{ range slice "Peak" "Pass" "Run" }}
+  {{ $type := . }}
+  {{ $objectives := where $.Pages "Params.objective_type" $type }}
+  {{ $shown = add $shown (len $objectives) }}
+  {{ with $objectives }}
+  <h2>{{ index $labels $type }}</h2>
   <table>
     <thead>
       <tr>
         <th>Objective</th>
+        {{ if eq $type "Run" }}
+        <th>Distance</th>
+        <th>Elevation gain</th>
+        {{ else }}
         <th>Elevation</th>
         <th>Range</th>
+        {{ end }}
         <th>Country</th>
       </tr>
     </thead>
     <tbody>
-      {{ range .Pages.ByParam "elevation" }}
+      {{ if eq $type "Run" }}
+      {{ range (.ByParam "distance_km").Reverse }}
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ .Params.distance_km }} km</td>
+        <td>{{ .Params.elevation_gain_m }} m</td>
+        <td>{{ .Params.country }}</td>
+      </tr>
+      {{ end }}
+      {{ else }}
+      {{ range (.ByParam "elevation").Reverse }}
       <tr>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
         <td>{{ .Params.elevation }} m</td>
@@ -20,7 +44,12 @@
         <td>{{ .Params.country }}</td>
       </tr>
       {{ end }}
+      {{ end }}
     </tbody>
   </table>
+  {{ end }}
+  {{ end }}
+
+  {{ if ne $shown (len .Pages) }}{{ errorf "objectives: %d objective(s) have a missing or unknown objective_type (expected Peak, Pass or Run)" (sub (len .Pages) $shown) }}{{ end }}
 </article>
 {{ end }}

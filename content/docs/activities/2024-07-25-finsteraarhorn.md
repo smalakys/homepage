@@ -4,7 +4,7 @@ date: 2024-07-25
 objectives: ["/docs/objectives/alps-4000m-023-finsteraarhorn/"]
 route: "Southwest Face / Northwest Ridge, PD+"
 partners: ["Juozapas Žygas"]
-summit: true
+success: true
 report: "2024-bernese-alps-4000ers-trek.pdf"
 ---
 

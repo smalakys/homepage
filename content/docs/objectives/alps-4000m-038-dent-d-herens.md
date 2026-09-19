@@ -3,6 +3,7 @@ title: "Dent d'Hérens"
 elevation: 4171
 rank: 38
 range: "Pennine Alps"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9700
 longitude: 7.6051

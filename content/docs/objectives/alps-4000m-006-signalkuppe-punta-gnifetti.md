@@ -3,6 +3,7 @@ title: "Signalkuppe (Punta Gnifetti)"
 elevation: 4554
 rank: 6
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9270
 longitude: 7.8769

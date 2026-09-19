@@ -3,6 +3,7 @@ title: "Aiguille de Rochefort"
 elevation: 4001
 rank: 81
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8618
 longitude: 6.9601

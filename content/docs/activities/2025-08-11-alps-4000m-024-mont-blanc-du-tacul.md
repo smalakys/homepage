@@ -4,7 +4,7 @@ date: 2025-08-11
 objectives: ["/docs/objectives/alps-4000m-024-mont-blanc-du-tacul/"]
 route: "Arête du Diable traverse"
 partners: ["Juozapas Žygas"]
-summit: true
+success: true
 report: "2025-arete-du-diable-dent-du-geant-grandes-jorasses.pdf"
 ---
 

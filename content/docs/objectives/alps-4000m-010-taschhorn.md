@@ -3,6 +3,7 @@ title: "Täschhorn"
 elevation: 4491
 rank: 10
 range: "Pennine Alps – Mischabel Group"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.0836
 longitude: 7.8572

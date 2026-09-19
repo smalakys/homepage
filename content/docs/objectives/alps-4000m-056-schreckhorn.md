@@ -3,6 +3,7 @@ title: "Schreckhorn"
 elevation: 4078
 rank: 56
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5899
 longitude: 8.1182

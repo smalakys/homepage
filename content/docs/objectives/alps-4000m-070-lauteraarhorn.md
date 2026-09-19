@@ -3,6 +3,7 @@ title: "Lauteraarhorn"
 elevation: 4042
 rank: 70
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5832
 longitude: 8.1284

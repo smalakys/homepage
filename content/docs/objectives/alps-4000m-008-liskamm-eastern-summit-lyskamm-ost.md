@@ -3,6 +3,7 @@ title: "Liskamm, Eastern Summit (Lyskamm Ost)"
 elevation: 4527
 rank: 8
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9225
 longitude: 7.8356

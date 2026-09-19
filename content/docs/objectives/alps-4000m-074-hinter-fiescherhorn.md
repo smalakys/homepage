@@ -3,6 +3,7 @@ title: "Hinter Fiescherhorn"
 elevation: 4025
 rank: 74
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5464
 longitude: 8.0678

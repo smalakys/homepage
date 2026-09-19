@@ -2,6 +2,7 @@
 title: "Ismoil Somoni Peak (Communism Peak)"
 elevation: 7495
 range: "Pamir Mountains"
+objective_type: "Peak"
 country: "Tajikistan"
 latitude: 38.9433
 longitude: 72.0161

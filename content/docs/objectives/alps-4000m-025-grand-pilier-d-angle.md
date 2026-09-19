@@ -3,6 +3,7 @@ title: "Grand Pilier d'Angle"
 elevation: 4243
 rank: 25
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.8279
 longitude: 6.8781

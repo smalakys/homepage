@@ -2,6 +2,7 @@
 title: "Ibn Sina Peak (Lenin Peak)"
 elevation: 7134
 range: "Trans-Alay Range, Pamir Mountains"
+objective_type: "Peak"
 country: "Kyrgyzstan / Tajikistan"
 latitude: 39.3425
 longitude: 72.8775

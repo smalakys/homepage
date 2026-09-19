@@ -3,6 +3,7 @@ title: "Dôme de Rochefort"
 elevation: 4015
 rank: 76
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8649
 longitude: 6.9683

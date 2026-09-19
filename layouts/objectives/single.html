@@ -4,6 +4,9 @@
   <table class="facts-table">
     <tbody>
       {{ with .Params.elevation }}<tr><th scope="row">Elevation</th><td>{{ . }} m</td></tr>{{ end }}
+      {{ with .Params.distance_km }}<tr><th scope="row">Distance</th><td>{{ . }} km</td></tr>{{ end }}
+      {{ with .Params.elevation_gain_m }}<tr><th scope="row">Elevation gain</th><td>{{ . }} m</td></tr>{{ end }}
+      {{ with .Params.category }}<tr><th scope="row">Category</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.range }}<tr><th scope="row">Range</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.country }}<tr><th scope="row">Country</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.normal_route }}<tr><th scope="row">Normal route</th><td>{{ . }}</td></tr>{{ end }}
@@ -33,25 +36,25 @@
   {{ $objectivePath := .RelPermalink }}
   {{ $ascents := where (where .Site.RegularPages "Type" "activities") "Params.objectives" "intersect" (slice $objectivePath) }}
   {{ with $ascents }}
-  <h2>My ascents</h2>
+  <h2>{{ if eq $.Params.objective_type "Run" }}My runs{{ else }}My ascents{{ end }}</h2>
   <table>
     <thead>
       <tr>
-        <th>Ascent</th>
-        <th>Summit?</th>
+        <th>{{ if eq $.Params.objective_type "Run" }}Run{{ else }}Ascent{{ end }}</th>
+        <th>Success</th>
       </tr>
     </thead>
     <tbody>
       {{ range .ByDate.Reverse }}
       <tr>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-        <td>{{ if .Params.summit }}✅{{ else }}❌{{ end }}</td>
+        <td>{{ if .Params.success }}✅{{ else }}❌{{ end }}</td>
       </tr>
       {{ end }}
     </tbody>
   </table>
   {{ else }}
-  <p><em>No ascents logged yet.</em></p>
+  <p><em>No {{ if eq $.Params.objective_type "Run" }}runs{{ else }}ascents{{ end }} logged yet.</em></p>
   {{ end }}
 </article>
 {{ end }}

@@ -3,6 +3,7 @@ title: "Grandes Jorasses (Pointe Whymper)"
 elevation: 4184
 rank: 37
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8688
 longitude: 6.9854

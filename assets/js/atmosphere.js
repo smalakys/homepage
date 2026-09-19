@@ -1,5 +1,5 @@
 /*
- * Shared atmosphere helpers for the digital garden calculators.
+ * Shared atmosphere helpers for the calculators.
  *
  * Pressure follows the International Standard Atmosphere (ISA) barometric
  * formula; the boiling point of water follows the Antoine equation using

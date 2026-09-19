@@ -2,6 +2,7 @@
 title: "Kriváň"
 elevation: 2495
 range: "High Tatras"
+objective_type: "Peak"
 rank: 10
 country: "Slovakia"
 latitude: 49.1628

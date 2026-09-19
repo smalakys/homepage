@@ -3,6 +3,7 @@ title: "Punta Baretti"
 elevation: 4013
 rank: 79
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.8144
 longitude: 6.8635

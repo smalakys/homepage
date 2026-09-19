@@ -3,6 +3,7 @@ title: "Mont Blanc (Monte Bianco)"
 elevation: 4809
 rank: 1
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8326
 longitude: 6.8643

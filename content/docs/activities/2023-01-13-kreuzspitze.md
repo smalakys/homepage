@@ -2,7 +2,7 @@
 title: "2023-01-13 Kreuzspitze"
 date: 2023-01-13
 objectives: ["/docs/objectives/other-kreuzspitze/"]
-summit: true
+success: true
 ---
 
 Su Kalnais ir Miškais

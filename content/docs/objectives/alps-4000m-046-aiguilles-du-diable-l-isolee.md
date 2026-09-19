@@ -3,6 +3,7 @@ title: "Aiguilles du Diable (L'Isolée)"
 elevation: 4114
 rank: 46
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France"
 latitude: 45.8547
 longitude: 6.8909

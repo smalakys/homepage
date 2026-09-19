@@ -3,6 +3,7 @@ title: "Grand Combin (de Grafeneire)"
 elevation: 4314
 rank: 20
 range: "Pennine Alps – Grand Combin Massif"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 45.9376
 longitude: 7.2992

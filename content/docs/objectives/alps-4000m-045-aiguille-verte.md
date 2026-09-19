@@ -3,6 +3,7 @@ title: "Aiguille Verte"
 elevation: 4122
 rank: 45
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France"
 latitude: 45.9346
 longitude: 6.9700

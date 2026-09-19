@@ -2,6 +2,7 @@
 title: "Jengish Chokusu (Pobeda Peak)"
 elevation: 7439
 range: "Tian Shan"
+objective_type: "Peak"
 country: "Kyrgyzstan / China"
 latitude: 42.0375
 longitude: 80.1250

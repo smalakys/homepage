@@ -3,6 +3,7 @@ title: "Grünhorn (Gross Grünhorn)"
 elevation: 4044
 rank: 69
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5319
 longitude: 8.0777

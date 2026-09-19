@@ -3,6 +3,7 @@ title: "Grandes Jorasses (Pointe Hélène)"
 elevation: 4045
 rank: 68
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8688
 longitude: 6.9792

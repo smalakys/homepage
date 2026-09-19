@@ -3,6 +3,7 @@ title: "Dôme du Goûter"
 elevation: 4304
 rank: 21
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8428
 longitude: 6.8433

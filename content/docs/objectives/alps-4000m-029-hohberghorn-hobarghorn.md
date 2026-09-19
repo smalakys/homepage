@@ -3,6 +3,7 @@ title: "Hohberghorn (Hobärghorn)"
 elevation: 4219
 rank: 29
 range: "Pennine Alps – Mischabel Group"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.1126
 longitude: 7.8538

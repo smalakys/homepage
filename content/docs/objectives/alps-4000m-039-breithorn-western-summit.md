@@ -3,6 +3,7 @@ title: "Breithorn (Western Summit)"
 elevation: 4164
 rank: 39
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9412
 longitude: 7.7464

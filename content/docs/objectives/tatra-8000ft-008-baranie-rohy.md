@@ -2,6 +2,7 @@
 title: "Baranie rohy"
 elevation: 2526
 range: "High Tatras"
+objective_type: "Peak"
 rank: 8
 country: "Slovakia"
 latitude: 49.2016

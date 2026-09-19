@@ -3,7 +3,7 @@ title: "2023-07-26 Punta Giordani"
 date: 2023-07-26
 objectives: ["/docs/objectives/alps-4000m-067-punta-giordani-giordanispetz/"]
 route: "Monte Rosa traverse, AD- (II)"
-summit: true
+success: true
 report: "2023-monte-rosa-traverse.pdf"
 ---
 

@@ -2,6 +2,7 @@
 title: "Bradavica"
 elevation: 2476
 range: "High Tatras"
+objective_type: "Peak"
 rank: 11
 country: "Slovakia"
 latitude: 49.1713

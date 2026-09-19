@@ -3,6 +3,7 @@ title: "Mont Brouillard"
 elevation: 4069
 rank: 59
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "Italy"
 latitude: 45.8176
 longitude: 6.8651

@@ -3,6 +3,7 @@ title: "Gross Fiescherhorn"
 elevation: 4049
 rank: 66
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.5514
 longitude: 8.0613

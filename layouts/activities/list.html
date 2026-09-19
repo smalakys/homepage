@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
   {{ .Content }}
 
   <table>
@@ -7,7 +8,7 @@
       <tr>
         <th>Activity</th>
         <th>Objective</th>
-        <th>Summit?</th>
+        <th>Success</th>
       </tr>
     </thead>
     <tbody>
@@ -19,7 +20,7 @@
             {{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
           {{ end }}
         </td>
-        <td>{{ if .Params.summit }}✅{{ else }}❌{{ end }}</td>
+        <td>{{ if .Params.success }}✅{{ else }}❌{{ end }}</td>
       </tr>
       {{ end }}
     </tbody>

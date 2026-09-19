@@ -2,6 +2,7 @@
 title: "Ganek"
 elevation: 2462
 range: "High Tatras"
+objective_type: "Peak"
 rank: 12
 country: "Slovakia"
 latitude: 49.1743

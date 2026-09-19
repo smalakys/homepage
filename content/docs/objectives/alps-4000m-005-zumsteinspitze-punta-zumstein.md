@@ -3,6 +3,7 @@ title: "Zumsteinspitze (Punta Zumstein)"
 elevation: 4563
 rank: 5
 range: "Pennine Alps – Monte Rosa Massif"
+objective_type: "Peak"
 country: "Switzerland / Italy"
 latitude: 45.9321
 longitude: 7.8715

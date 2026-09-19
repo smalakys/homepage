@@ -3,6 +3,7 @@ title: "Grandes Jorasses (Pointe Croz)"
 elevation: 4110
 rank: 48
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8692
 longitude: 6.9821

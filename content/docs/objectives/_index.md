@@ -3,11 +3,12 @@ title: "Objectives"
 weight: 40
 bookFlatSection: true
 bookIcon: "objectives"
-bookCollapseSection: true
+bookHidden: false
 type: objectives
 cascade:
   - type: objectives
+    bookHidden: true
 ---
 
-A catalogue of mountains and routes I'm pursuing. Each objective page includes
-its source-list details and will list every ascent once they are logged.
+Peaks, passes and runs I've done or plan to do, grouped by type. Each page has
+the key facts and my logged activities.

@@ -3,7 +3,7 @@ title: "2023-07-26 Corno Nero"
 date: 2023-07-26
 objectives: ["/docs/objectives/alps-4000m-019-schwarzhorn-corno-nero/"]
 route: "Monte Rosa traverse, AD- (II)"
-summit: true
+success: true
 report: "2023-monte-rosa-traverse.pdf"
 ---
 

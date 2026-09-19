@@ -2,6 +2,7 @@
 title: "Slavkovský Štít"
 elevation: 2452
 range: "High Tatras"
+objective_type: "Peak"
 rank: 13
 country: "Slovakia"
 latitude: 49.1661

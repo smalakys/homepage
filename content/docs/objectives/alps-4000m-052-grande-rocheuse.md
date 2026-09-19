@@ -3,6 +3,7 @@ title: "Grande Rocheuse"
 elevation: 4102
 rank: 52
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France"
 latitude: 45.9345
 longitude: 6.9728

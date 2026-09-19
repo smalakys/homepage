@@ -2,6 +2,7 @@
 title: "Rysy"
 elevation: 2503
 range: "High Tatras"
+objective_type: "Peak"
 rank: 9
 country: "Slovakia/Poland"
 latitude: 49.1796

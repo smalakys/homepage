@@ -2,6 +2,7 @@
 title: "Kežmarský Štít"
 elevation: 2556
 range: "High Tatras"
+objective_type: "Peak"
 rank: 5
 country: "Slovakia"
 latitude: 49.1992

@@ -3,6 +3,7 @@ title: "Mont Blanc de Courmayeur"
 elevation: 4748
 rank: 2
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France / Italy"
 latitude: 45.8285
 longitude: 6.8698

@@ -3,6 +3,7 @@ title: "Aiguilles du Diable (Corne du Diable)"
 elevation: 4064
 rank: 61
 range: "Mont Blanc Group"
+objective_type: "Peak"
 country: "France"
 latitude: 45.8542
 longitude: 6.8932

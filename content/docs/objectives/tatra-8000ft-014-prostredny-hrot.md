@@ -2,6 +2,7 @@
 title: "Prostredný Hrot"
 elevation: 2441
 range: "High Tatras"
+objective_type: "Peak"
 rank: 14
 country: "Slovakia"
 latitude: 49.1850

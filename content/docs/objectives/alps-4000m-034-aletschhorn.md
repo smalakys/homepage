@@ -3,6 +3,7 @@ title: "Aletschhorn"
 elevation: 4193
 rank: 34
 range: "Bernese Alps"
+objective_type: "Peak"
 country: "Switzerland"
 latitude: 46.4651
 longitude: 7.9935
