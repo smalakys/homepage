@@ -4,7 +4,8 @@
 
   --body-font-color: #f0f6fc;
 
-  --color-link: #58a6ff;
+  // GitHub Docs' link blue, softer than github.com's #58a6ff
+  --color-link: #a2daff;
   --color-visited-link: #a371f7;
 
   --icon-filter: brightness(0) invert(1);
@@ -14,7 +15,7 @@
   --gray-500: #8b949e;
 
   @include accent("default", #8b949e);
-  @include accent("note", #58a6ff);
+  @include accent("note", #4493f8);
   @include accent("tip", #3fb950);
   @include accent("important", #a371f7);
   @include accent("warning", #d29922);
@@ -36,24 +37,51 @@
 
 $breakpoint-mobile: 30rem;
 
-// GitHub Docs-style alert banners, rendered from "> [!NOTE]" blockquotes
+// Alert banners rendered from "> [!NOTE]" blockquotes. These follow github.com
+// (no fill, square corners, 4px border darker than the title), not the rounded
+// docs.github.com variant. Border colours are Primer's emphasis borders.
+$hint-borders: (
+  note: #1f6feb,
+  tip: #238636,
+  important: #8957e5,
+  warning: #9e6a03,
+  caution: #da3633,
+  info: #1f6feb,
+  success: #238636,
+  danger: #da3633,
+);
+
 .markdown blockquote.book-hint {
+  padding: $padding-8 $padding-16;
+  border-radius: 0;
+
   .alert-title {
     display: flex;
     align-items: center;
     gap: 0.5em;
-    font-weight: 600;
+    font-weight: 500;
 
     svg {
       fill: currentColor;
     }
   }
 
-  @each $name in (note, tip, important, warning, caution, info, success, danger) {
-    &.#{$name} .alert-title {
-      color: var(--color-accent-#{$name});
+  @each $name, $border in $hint-borders {
+    &.#{$name} {
+      background-color: transparent;
+      border-color: $border;
+
+      .alert-title {
+        color: var(--color-accent-#{$name});
+      }
     }
   }
+}
+
+// Body links are underlined, as on GitHub Docs, so they do not rely on colour alone
+.markdown a[href]:not(.book-btn):not(.anchor) {
+  text-decoration: underline;
+  text-underline-offset: 25%;
 }
 
 // Trip reports list: highlight awarded reports
@@ -126,13 +154,17 @@ body {
   }
 }
 
-// Lightly restyle the whole site to resemble a GitHub profile / README page
+// Lightly restyle the whole site to resemble GitHub Docs. The heading scale
+// below matches docs.github.com article pages (measured from computed styles):
+// h1 40px, h2 24px, h3 20px, h4 16px, h5 14px, h6 13.6px; weight 600;
+// line-height 1.2 for h1 and 1.3 for the rest. Body text is 16px.
 .book-article {
   max-width: 60rem;
 
   > h1:first-child {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     font-weight: 600;
+    line-height: 1.2;
     margin-bottom: $padding-8;
   }
 
@@ -149,6 +181,7 @@ body {
   h2 {
     font-size: 1.5rem;
     font-weight: 600;
+    line-height: 1.3;
     border-bottom: $padding-1 solid var(--gray-200);
     padding-bottom: $padding-8;
     margin-top: $padding-16 * 2;
@@ -158,8 +191,31 @@ body {
   h3 {
     font-size: 1.25rem;
     font-weight: 600;
+    line-height: 1.3;
     margin-top: $padding-16 * 1.5;
     margin-bottom: $padding-8;
+  }
+
+  // The theme makes h4-h6 larger than GitHub Docs and leaves them unbolded
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: $padding-16 * 1.5;
+    margin-bottom: $padding-8;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+  }
+
+  h6 {
+    font-size: 0.85rem;
   }
 }
 
@@ -270,6 +326,12 @@ body {
 
 @media screen and (max-width: $breakpoint-mobile) {
   .book-article {
+    // Long activity titles wrap to four lines at 40px on a phone; Primer also
+    // steps its h1 down on mobile.
+    > h1:first-child {
+      font-size: 2rem;
+    }
+
     .book-btn {
       display: flex;
       width: 100%;
