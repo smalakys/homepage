@@ -115,7 +115,7 @@ Optional body: only real facts the user gave you.
 
 - `title` is the date, a space, then the objective's short common name ("Mont Blanc", "Pointe Walker"). For most objectives the objective's title is fine. Check neighbouring files for the style.
 - `objectives` is a list of full paths, `"/docs/objectives/<slug>/"`, with a leading and trailing slash. A typo does **not** fail the build: the objective just silently disappears from the page. Always run the check in section 5.
-- `success` means the summit was reached or the race was finished. `success: false` shows ❌ on the Activities table and the objective page. On a peak list the attempt is counted in the bracketed number but the peak is not ticked.
+- `success` means the summit was reached or the race was finished. `success: false` adds "(attempt)" after the title on the Activities page and shows ❌ on the objective page. On a peak list the attempt is counted in the bracketed number but the peak is not ticked.
 - **Body:** leave it empty if there is nothing to say. Never write placeholders such as "Ascent details to be added". Keep the user's own wording for notes, and do not translate them.
 
 ### Repeat visits
