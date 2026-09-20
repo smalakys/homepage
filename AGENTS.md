@@ -15,9 +15,36 @@ Minimalism, clean design and speed come before anything fancy. When in doubt, do
 - Plain content and plain tables. Prefer text and a table over a widget, chart or card layout.
 - No new JavaScript frameworks, dependencies, web fonts, animations, tracking, or decorative images. The site ships almost no JavaScript; keep it that way. A small inline script is fine when a page genuinely needs it (the calculators).
 - Keep pages light. Do not add markup or data that every page has to carry, such as long lists in the sidebar, which is deliberately limited to top-level sections.
-- Reuse the theme's variables and the existing styles in `assets/_custom.scss`. Do not add new colours, fonts or one-off styles.
+- Reuse the theme's variables and the existing styles in `assets/_custom.scss`. Do not add new colours, fonts or one-off styles. For anything visual, follow the **Design reference** below.
 - Pages must read well on a phone, and content pages must be readable without JavaScript (only search and the calculators need it).
 - Do not add a feature, page or section that was not asked for. Avoid changing URLs; if a page must move, add an `aliases` entry so old links keep working.
+
+## Design reference
+
+The design is modelled on [GitHub Docs](https://docs.github.com) (built on GitHub's [Primer](https://primer.style) design system), in its dark theme. When a styling question comes up (sizes, spacing, callouts, buttons, tables, code), look at how GitHub Docs does it and match it, rather than inventing something. A good page to compare against is [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), which has headings, callouts, tables and code.
+
+Do not guess from memory or from the theme's defaults: hugo-book's sizes differ from GitHub's. Open a docs.github.com article, inspect the element, and read the computed values (`font-size`, `line-height`, `margin`), then put them in `assets/_custom.scss`.
+
+Values already matched, measured from docs.github.com article pages:
+
+| Element | Size | Weight | Line height |
+|---|---|---|---|
+| Body text, page intro | 16px | 400 | 1.6 |
+| Page title (`h1`) | 40px | 600 | 1.2 |
+| `h2` | 24px | 600 | 1.3 |
+| `h3` | 20px | 600 | 1.3 |
+| `h4` | 16px | 600 | 1.3 |
+| `h5` | 14px | 600 | 1.3 |
+| `h6` | 13.6px | 600 | 1.3 |
+
+Deliberate differences from GitHub Docs; keep them:
+
+- The font is the system stack, not Mona Sans, because of the no-web-fonts rule. That is also why the `h1` is weight 600; GitHub's 460 only works with a variable font.
+- On phones (below `$breakpoint-mobile`) the `h1` drops to 32px, because long activity titles wrap to four lines at 40px. Primer also steps its `h1` down on mobile.
+- `h2` keeps the thin rule underneath, as in Primer's README-style `markdown-body`; docs.github.com article pages omit it.
+- The colours are Primer's dark palette (`#0d1117` background and so on), and callouts (`> [!NOTE]`) and buttons copy GitHub's own. Take new colours from Primer, never from elsewhere.
+
+The theme resets every heading to `line-height: 1` and leaves `h4`-`h6` unbolded and larger than GitHub's. `assets/_custom.scss` overrides both, so put heading changes there, under `.book-article`.
 
 ## Layout of the repo
 

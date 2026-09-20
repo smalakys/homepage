@@ -126,13 +126,17 @@ body {
   }
 }
 
-// Lightly restyle the whole site to resemble a GitHub profile / README page
+// Lightly restyle the whole site to resemble GitHub Docs. The heading scale
+// below matches docs.github.com article pages (measured from computed styles):
+// h1 40px, h2 24px, h3 20px, h4 16px, h5 14px, h6 13.6px; weight 600;
+// line-height 1.2 for h1 and 1.3 for the rest. Body text is 16px.
 .book-article {
   max-width: 60rem;
 
   > h1:first-child {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     font-weight: 600;
+    line-height: 1.2;
     margin-bottom: $padding-8;
   }
 
@@ -149,6 +153,7 @@ body {
   h2 {
     font-size: 1.5rem;
     font-weight: 600;
+    line-height: 1.3;
     border-bottom: $padding-1 solid var(--gray-200);
     padding-bottom: $padding-8;
     margin-top: $padding-16 * 2;
@@ -158,8 +163,31 @@ body {
   h3 {
     font-size: 1.25rem;
     font-weight: 600;
+    line-height: 1.3;
     margin-top: $padding-16 * 1.5;
     margin-bottom: $padding-8;
+  }
+
+  // The theme makes h4-h6 larger than GitHub Docs and leaves them unbolded
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: $padding-16 * 1.5;
+    margin-bottom: $padding-8;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+  }
+
+  h6 {
+    font-size: 0.85rem;
   }
 }
 
@@ -270,6 +298,12 @@ body {
 
 @media screen and (max-width: $breakpoint-mobile) {
   .book-article {
+    // Long activity titles wrap to four lines at 40px on a phone; Primer also
+    // steps its h1 down on mobile.
+    > h1:first-child {
+      font-size: 2rem;
+    }
+
     .book-btn {
       display: flex;
       width: 100%;
