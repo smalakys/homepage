@@ -6,7 +6,10 @@ description: "Personal website of Linas Smalakys, covering everything from his w
 
 # Hi there, I’m Linas
 
-I’m a physics-trained researcher, tech-minded risk leader, and alpine adventurer. These identities rarely fit into one neat box. This website is my [digital garden](https://en.wiktionary.org/wiki/digital_garden): a space built to bring together those intersecting worlds, from professional milestones to high-altitude explorations.
+I’m a physics-trained researcher, tech-minded risk leader, and alpine adventurer. These identities rarely fit into one neat box. This website is my digital garden: a space built to bring together those intersecting worlds, from professional milestones to high-altitude explorations.
+
+> [!NOTE] What is a digital garden?
+> A personal website that is tended and revised over time, not a blog of dated posts. Pages are kept current as things change, and are organised by topic rather than by date.
 
 ## Work
 
