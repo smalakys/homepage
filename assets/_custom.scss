@@ -4,7 +4,8 @@
 
   --body-font-color: #f0f6fc;
 
-  --color-link: #58a6ff;
+  // GitHub Docs' link blue, softer than github.com's #58a6ff
+  --color-link: #a2daff;
   --color-visited-link: #a371f7;
 
   --icon-filter: brightness(0) invert(1);
@@ -14,7 +15,7 @@
   --gray-500: #8b949e;
 
   @include accent("default", #8b949e);
-  @include accent("note", #58a6ff);
+  @include accent("note", #4493f8);
   @include accent("tip", #3fb950);
   @include accent("important", #a371f7);
   @include accent("warning", #d29922);
@@ -36,24 +37,51 @@
 
 $breakpoint-mobile: 30rem;
 
-// GitHub Docs-style alert banners, rendered from "> [!NOTE]" blockquotes
+// Alert banners rendered from "> [!NOTE]" blockquotes. These follow github.com
+// (no fill, square corners, 4px border darker than the title), not the rounded
+// docs.github.com variant. Border colours are Primer's emphasis borders.
+$hint-borders: (
+  note: #1f6feb,
+  tip: #238636,
+  important: #8957e5,
+  warning: #9e6a03,
+  caution: #da3633,
+  info: #1f6feb,
+  success: #238636,
+  danger: #da3633,
+);
+
 .markdown blockquote.book-hint {
+  padding: $padding-8 $padding-16;
+  border-radius: 0;
+
   .alert-title {
     display: flex;
     align-items: center;
     gap: 0.5em;
-    font-weight: 600;
+    font-weight: 500;
 
     svg {
       fill: currentColor;
     }
   }
 
-  @each $name in (note, tip, important, warning, caution, info, success, danger) {
-    &.#{$name} .alert-title {
-      color: var(--color-accent-#{$name});
+  @each $name, $border in $hint-borders {
+    &.#{$name} {
+      background-color: transparent;
+      border-color: $border;
+
+      .alert-title {
+        color: var(--color-accent-#{$name});
+      }
     }
   }
+}
+
+// Body links are underlined, as on GitHub Docs, so they do not rely on colour alone
+.markdown a[href]:not(.book-btn):not(.anchor) {
+  text-decoration: underline;
+  text-underline-offset: 25%;
 }
 
 // Trip reports list: highlight awarded reports

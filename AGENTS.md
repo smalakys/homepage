@@ -21,9 +21,11 @@ Minimalism, clean design and speed come before anything fancy. When in doubt, do
 
 ## Design reference
 
-The design is modelled on [GitHub Docs](https://docs.github.com) (built on GitHub's [Primer](https://primer.style) design system), in its dark theme. When a styling question comes up (sizes, spacing, callouts, buttons, tables, code), look at how GitHub Docs does it and match it, rather than inventing something. A good page to compare against is [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), which has headings, callouts, tables and code.
+The design is modelled on [GitHub Docs](https://docs.github.com) and on github.com itself (both built on GitHub's [Primer](https://primer.style) design system), in dark mode. When a styling question comes up (sizes, spacing, callouts, buttons, tables, code), look at how GitHub does it and match it, rather than inventing something. A good page to compare against is [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), which has headings, callouts, tables and code. Its [source file on github.com](https://github.com/github/docs/blob/main/content/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.md) shows the same content rendered the github.com way.
 
-Do not guess from memory or from the theme's defaults: hugo-book's sizes differ from GitHub's. Open a docs.github.com article, inspect the element, and read the computed values (`font-size`, `line-height`, `margin`), then put them in `assets/_custom.scss`.
+**Where docs.github.com and github.com differ, follow github.com**, which has the softer `#0d1117` dark theme the site wants (docs.github.com is pure black). The exceptions the owner has chosen are the heading sizes (docs) and the link colour (docs), listed below.
+
+Do not guess from memory or from the theme's defaults: hugo-book's sizes differ from GitHub's. Open the GitHub page, inspect the element, and read the computed values (`font-size`, `line-height`, `margin`, and `box-shadow` for rules drawn as shadows), then put them in `assets/_custom.scss`. Emulate dark mode in the browser first, since the light values differ.
 
 Values already matched, measured from docs.github.com article pages:
 
@@ -42,7 +44,10 @@ Deliberate differences from GitHub Docs; keep them:
 - The font is the system stack, not Mona Sans, because of the no-web-fonts rule. That is also why the `h1` is weight 600; GitHub's 460 only works with a variable font.
 - On phones (below `$breakpoint-mobile`) the `h1` drops to 32px, because long activity titles wrap to four lines at 40px. Primer also steps its `h1` down on mobile.
 - `h2` keeps the thin rule underneath, as in Primer's README-style `markdown-body`; docs.github.com article pages omit it.
-- The colours are Primer's dark palette (`#0d1117` background and so on), and callouts (`> [!NOTE]`) and buttons copy GitHub's own. Take new colours from Primer, never from elsewhere.
+- Colours are github.com's dark palette (`#0d1117` background and so on). The one exception is links, which use docs.github.com's softer blue `#a2daff` instead of `#58a6ff`. Take new colours from Primer, never from elsewhere.
+- Links in body text are underlined, as on docs.github.com, so they do not rely on colour alone. Buttons and heading anchors are not.
+- Tables keep hugo-book's own look: 16px, a full grid and striped rows, with header cells in bold. The owner tried docs.github.com's borderless 14px tables and rejected them, so do not restyle tables to match Docs.
+- Callouts (`> [!NOTE]`) are github.com's: no fill, square corners, a 4px left border in Primer's darker emphasis colour, and a title in weight 500. docs.github.com rounds them to 8px.
 
 The theme resets every heading to `line-height: 1` and leaves `h4`-`h6` unbolded and larger than GitHub's. `assets/_custom.scss` overrides both, so put heading changes there, under `.book-article`.
 
