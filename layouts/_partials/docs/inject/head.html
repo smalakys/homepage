@@ -1,3 +1,64 @@
+{{- /*
+  Structured data (schema.org JSON-LD).
+  Home: Person and WebSite. Other pages: BreadcrumbList. Tool pages: WebApplication too.
+  The Person's sameAs links are read from the pages in content/docs/links.
+*/ -}}
+{{- $home := .Site.Home.Permalink }}
+{{- $personID := printf "%s#person" $home }}
+{{- $websiteID := printf "%s#website" $home }}
+{{- $graph := slice }}
+
 {{- if .IsHome }}
-<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "url" .Site.Home.Permalink | jsonify | safeJS }}</script>
+  {{- $sameAs := slice }}
+  {{- with .Site.GetPage "/docs/links" }}
+    {{- range .Pages.ByWeight }}
+      {{- with .Params.BookHref }}{{ $sameAs = $sameAs | append . }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{- $graph = $graph | append (dict
+    "@type" "Person"
+    "@id" $personID
+    "name" .Site.Title
+    "url" $home
+    "jobTitle" "Head of Credit Risk Model Validation"
+    "worksFor" (dict "@type" "Organization" "name" "Danske Bank")
+    "alumniOf" (dict "@type" "CollegeOrUniversity" "name" "Vilnius University")
+    "sameAs" $sameAs
+  ) }}
+  {{- $graph = $graph | append (dict
+    "@type" "WebSite"
+    "@id" $websiteID
+    "name" .Site.Title
+    "url" $home
+    "publisher" (dict "@id" $personID)
+  ) }}
+{{- else }}
+  {{- $items := slice }}
+  {{- $pages := slice }}
+  {{- range .Ancestors.Reverse }}
+    {{- /* Skip untitled or unrendered sections, such as /docs/ and Lists. */ -}}
+    {{- if or .IsHome (and .Title .Permalink) }}{{ $pages = $pages | append . }}{{ end }}
+  {{- end }}
+  {{- $pages = $pages | append . }}
+  {{- range $i, $p := $pages }}
+    {{- $name := cond $p.IsHome "Home" (partial "docs/title" $p) }}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $name "item" $p.Permalink) }}
+  {{- end }}
+  {{- $graph = $graph | append (dict "@type" "BreadcrumbList" "itemListElement" $items) }}
+
+  {{- if and .IsPage (hasPrefix .RelPermalink "/docs/tools/") }}
+    {{- $graph = $graph | append (dict
+      "@type" "WebApplication"
+      "name" .Title
+      "url" .Permalink
+      "description" .Description
+      "applicationCategory" "UtilitiesApplication"
+      "operatingSystem" "Any"
+      "browserRequirements" "Requires JavaScript"
+      "isAccessibleForFree" true
+      "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "EUR")
+      "author" (dict "@id" $personID)
+    ) }}
+  {{- end }}
 {{- end }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

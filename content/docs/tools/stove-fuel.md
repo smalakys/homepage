@@ -1,5 +1,6 @@
 ---
 title: "Stove Fuel"
+description: "Estimate how much canister gas to carry from the water you need, how much comes from snow, your stove system, altitude range and reserve."
 weight: 2
 ---
 
