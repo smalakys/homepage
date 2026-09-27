@@ -93,12 +93,15 @@ Everything follows from the energy needed to get water to a boil, and how much o
 Liquid water only needs heating. Snow additionally has to be melted first, which is where most winter fuel goes:
 
 {{< katex display=true >}}
-Q_\text{liquid} = m \, c_w \, (T_\text{ref} - T_0) \qquad Q_\text{snow} = m \, (L_f + c_w \, T_\text{ref})
+\begin{aligned}
+Q_\text{liquid} &= m \, c_w \, (T_\text{ref} - T_0) \\
+Q_\text{snow} &= m \, (L_f + c_w \, T_\text{ref})
+\end{aligned}
 {{< /katex >}}
 
 where *m* is the mass of water in kg (1 L ≈ 1 kg), *c<sub>w</sub>* = 4.186 kJ/(kg·K) is the specific heat of liquid water, *L<sub>f</sub>* = 334 kJ/kg is the latent heat of fusion of ice, *T*<sub>0</sub> = 5 °C is the assumed liquid-water starting temperature, and *T*<sub>ref</sub> = 100 °C. Snow is still treated as 0→100 °C. The endpoint remains 100 °C at every altitude so the calculator never recommends less fuel merely because water boils sooner on a high mountain.
 
-That latent-heat term explains much of the extra fuel needed in winter. Melting a kilogram of snow and heating it to the reference temperature takes about **1.8 times** the energy of heating a kilogram of water that was already liquid at 0 °C, and over twice that of 15 °C stream water. Mountaineers have noticed this for a long time — it is sometimes called the [Shipton rule](https://doi.org/10.1016/j.wem.2017.08.003), the observation that melting the ice takes about as long again as heating the resulting water.
+That latent-heat term explains much of the extra fuel needed in winter. Melting a kilogram of snow and heating it to the reference temperature takes about **1.8 times** the energy of heating a kilogram of water that was already liquid at 0 °C, and over twice that of 15 °C stream water.
 
 ### Stove efficiency presets
 
@@ -139,7 +142,10 @@ An **integrated system** like the Reactor, WindBurner or a Jetboil encloses the 
 Air pressure falls with altitude, and water boils when its vapour pressure matches the ambient pressure — so it boils cooler the higher you go. Pressure comes from the International Standard Atmosphere barometric formula (the same one behind the [Altitude & Oxygen](../altitude-oxygen/) calculator), and the boiling point from the Antoine equation:
 
 {{< katex display=true >}}
-\log_{10} P = A - \frac{B}{T_b + C} \quad \Longrightarrow \quad T_b = \frac{B}{A - \log_{10} P} - C
+\begin{aligned}
+\log_{10} P &= A - \frac{B}{T_b + C} \\
+\Longrightarrow \; T_b &= \frac{B}{A - \log_{10} P} - C
+\end{aligned}
 {{< /katex >}}
 
 with *P* in mmHg, *T<sub>b</sub>* in °C, and Stull's coefficients for water *A* = 8.07131, *B* = 1730.63, *C* = 233.426. That gives 100 °C at sea level, 90 °C at 3000 m and 80 °C at 6000 m.
