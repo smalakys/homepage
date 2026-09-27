@@ -1,2 +1,2 @@
-{{- $js := resources.Get "js/atmosphere.js" | minify | fingerprint -}}
+{{- $js := resources.Get "js/atmosphere.js" | resources.ExecuteAsTemplate "js/atmosphere.js" . | minify | fingerprint -}}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>

@@ -63,6 +63,7 @@ The theme resets every heading to `line-height: 1` and leaves `h4`-`h6` unbolded
 | `layouts/` | Template overrides for the theme, including the activity, objective and list pages |
 | `assets/_custom.scss` | All custom styling |
 | `data/trip-reports.yaml`, `static/reports/` | Trip-report metadata and PDFs |
+| `data/atmosphere.yaml` | Standard-atmosphere constants shared by the calculators (`assets/js/atmosphere.js`) and the oxygen row on objective pages (`layouts/_partials/atmosphere/pressure.html`) |
 | `hugo.toml` | Site configuration |
 
 Do not edit `themes/hugo-book`; it is a git submodule. Override with files in `layouts/` or `assets/` instead. `public/` and `resources/` are build output and are gitignored.
