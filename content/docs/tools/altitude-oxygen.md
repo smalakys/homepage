@@ -1,5 +1,6 @@
 ---
 title: "Altitude & Oxygen"
+description: "Enter the altitude you're heading to and this calculator shows the atmospheric pressure there relative to sea level."
 weight: 1
 ---
 
