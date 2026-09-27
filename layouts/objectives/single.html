@@ -8,7 +8,7 @@
       {{ $ratio := div (partial "atmosphere/pressure.html" .) hugo.Data.atmosphere.sea_level_pressure }}
       <tr>
         <th scope="row">Oxygen</th>
-        <td>{{ math.Round (mul $ratio 100) }}% of sea level{{ with site.GetPage "/docs/tools/altitude-oxygen" }} <small>(<a href="{{ .RelPermalink }}">calculator</a>)</small>{{ end }}</td>
+        <td>{{ math.Round (mul $ratio 100) }}% of sea level{{ with site.GetPage "/docs/tools/altitude-oxygen" }} (see <a href="{{ .RelPermalink }}">calculator</a>){{ end }}</td>
       </tr>
       {{ end }}
       {{ with .Params.distance_km }}<tr><th scope="row">Distance</th><td>{{ . }} km</td></tr>{{ end }}
