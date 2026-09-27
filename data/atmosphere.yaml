@@ -1,0 +1,9 @@
+# International Standard Atmosphere constants, shared by the calculators
+# (assets/js/atmosphere.js) and the oxygen shown on objective pages
+# (layouts/_partials/atmosphere/pressure.html). Change them here only.
+sea_level_pressure: 1013.25     # hPa
+sea_level_temperature: 288.15   # K
+lapse_rate: 0.0065              # tropospheric lapse rate, K/m
+exponent: 5.2559                # g0*M/(R*L)
+tropopause: 11000               # m
+stratosphere_rate: 0.00015769   # g0*M/(R*T11), 1/m

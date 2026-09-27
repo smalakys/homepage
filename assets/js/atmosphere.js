@@ -5,17 +5,22 @@
  * formula; the boiling point of water follows the Antoine equation using
  * Stull's coefficients, which cover the whole range of pressures encountered
  * on Earth's surface.
+ *
+ * This file is a Hugo template: the ISA constants come from
+ * data/atmosphere.yaml, which layouts/_partials/atmosphere/pressure.html also
+ * reads to show oxygen on objective pages. If you change the formula in
+ * pressureAt(), change it there too.
  */
 (function (global) {
   "use strict";
 
-  var P0 = 1013.25; // sea-level pressure, hPa
-  var T0 = 288.15; // sea-level temperature, K
-  var L = 0.0065; // tropospheric lapse rate, K/m
-  var EXP = 5.2559; // g0*M/(R*L)
-  var TROPOPAUSE = 11000; // m
+  var P0 = {{ hugo.Data.atmosphere.sea_level_pressure }}; // sea-level pressure, hPa
+  var T0 = {{ hugo.Data.atmosphere.sea_level_temperature }}; // sea-level temperature, K
+  var L = {{ hugo.Data.atmosphere.lapse_rate }}; // tropospheric lapse rate, K/m
+  var EXP = {{ hugo.Data.atmosphere.exponent }}; // g0*M/(R*L)
+  var TROPOPAUSE = {{ hugo.Data.atmosphere.tropopause }}; // m
   var P11 = P0 * Math.pow(1 - (L * TROPOPAUSE) / T0, EXP);
-  var STRAT = 0.00015769; // g0*M/(R*T11), 1/m
+  var STRAT = {{ hugo.Data.atmosphere.stratosphere_rate }}; // g0*M/(R*T11), 1/m
 
   // Antoine coefficients for water, pressure in mmHg, temperature in °C.
   var ANTOINE_A = 8.07131;

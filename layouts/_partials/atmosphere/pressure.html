@@ -1,0 +1,16 @@
+{{- /*
+  Atmospheric pressure in hPa at an altitude in metres, using the same ISA
+  barometric formula as pressureAt() in assets/js/atmosphere.js. Constants
+  come from data/atmosphere.yaml; if you change the formula, change both.
+*/ -}}
+{{- $a := hugo.Data.atmosphere -}}
+{{- $h := float . -}}
+{{- $top := float $a.tropopause -}}
+{{- $p := 0.0 -}}
+{{- if le $h $top -}}
+  {{- $p = mul $a.sea_level_pressure (math.Pow (sub 1 (div (mul $a.lapse_rate $h) $a.sea_level_temperature)) $a.exponent) -}}
+{{- else -}}
+  {{- $p11 := mul $a.sea_level_pressure (math.Pow (sub 1 (div (mul $a.lapse_rate $top) $a.sea_level_temperature)) $a.exponent) -}}
+  {{- $p = mul $p11 (math.Pow 2.718281828459045 (mul -1 $a.stratosphere_rate (sub $h $top))) -}}
+{{- end -}}
+{{- return $p -}}
