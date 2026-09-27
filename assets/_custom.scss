@@ -217,6 +217,12 @@ body {
   h6 {
     font-size: 0.85rem;
   }
+
+  // Contain overflow inside the formula rather than the whole page, same as
+  // the theme already does for pre and table.
+  div.book-katex {
+    overflow-x: auto;
+  }
 }
 
 // Interactive calculators (altitude & oxygen, stove fuel)
