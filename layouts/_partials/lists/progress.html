@@ -1,0 +1,13 @@
+{{- /* Returns (dict "climbed" n "total" n) for the list at the given RelPermalink. */ -}}
+{{- $listPath := . -}}
+{{- $objectives := where site.RegularPages "Type" "objectives" -}}
+{{- $objectives = where $objectives "Params.lists" "intersect" (slice $listPath) -}}
+{{- $ascents := where site.RegularPages "Type" "activities" -}}
+{{- $ascents = where $ascents "Params.success" "eq" true -}}
+{{- $climbed := 0 -}}
+{{- range $objectives -}}
+  {{- if where $ascents "Params.objectives" "intersect" (slice .RelPermalink) -}}
+    {{- $climbed = add $climbed 1 -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "climbed" $climbed "total" (len $objectives)) -}}

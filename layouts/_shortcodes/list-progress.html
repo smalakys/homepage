@@ -1,0 +1,5 @@
+{{- $list := site.GetPage (.Get "list") -}}
+{{- if not $list -}}{{- errorf "list-progress: no list page %q: %s" (.Get "list") .Position -}}{{- end -}}
+{{- $p := partial "lists/progress.html" $list.RelPermalink -}}
+<a href="{{ $list.RelPermalink }}">{{ $list.Title }}</a>: {{ $p.climbed }} of {{ $p.total }}
+{{- /**/ -}}
