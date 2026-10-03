@@ -3,15 +3,15 @@ title: "Linas Smalakys"
 description: "Personal website of Linas Smalakys: physicist turned credit risk leader at Danske Bank, and alpinist from Lithuania. Ascent log, trip reports and calculators for alpinists."
 ---
 
-# Hi, I'm Linas
+# Linas Smalakys
 
 <img class="home-portrait" src="/images/portrait.jpg" alt="Linas Smalakys" width="160" height="160">
 
 I'm a physicist turned risk leader, and an alpinist from Lithuania.
 
-I did my PhD in physics at Vilnius University, on how femtosecond laser pulses slowly wear down optical coatings. I spent eight years at Lidaris, a laser metrology company, going from data analyst to Chief Scientific Officer, and then moved into banking. I now head Credit Risk Model Validation at Danske Bank.
+I did my [PhD in physics](https://epublications.vu.lt/object/elaba:105083939/) at Vilnius University, on how femtosecond laser pulses slowly wear down optical coatings. I spent eight years at Lidaris, a laser metrology company, going from data analyst to Chief Scientific Officer, and then moved into banking. I now head Credit Risk Model Validation at Danske Bank.
 
-In the mountains I've climbed Alpine classics such as Mont Blanc and the Matterhorn, and more technical routes such as the Arête du Diable and the Grandes Jorasses traverse. I've also tried high altitude, on Ismoil Somoni Peak (7,495 m). Some of my ascents have been [recognised by the Lithuanian Mountaineering Association](/docs/lists/trip-reports/).
+In the mountains I've climbed Alpine classics such as Mont Blanc and the Matterhorn, and more technical routes such as the [Arête du Diable](/reports/2025-arete-du-diable-dent-du-geant-grandes-jorasses.pdf) and the [Grandes Jorasses](/reports/2025-arete-du-diable-dent-du-geant-grandes-jorasses.pdf) traverse. I've also tried high altitude, on Ismoil Somoni Peak (7,495 m). Some of my ascents have been [recognised by the Lithuanian Mountaineering Association](/docs/lists/trip-reports/).
 
 ## Now
 
@@ -21,7 +21,7 @@ Alongside that, I was selected for a small group that spearheads AI adoption acr
 
 ## Mountains
 
-I climb mostly in the Alps and the Tatras, and run the occasional ultramarathon. Every ascent is logged here, and some of them count towards lists:
+I climb mostly in the Alps and the Tatras, and run the occasional ultramarathon. Every ascent is logged here, and some of them count towards well-known mountaineering lists:
 
 - {{< list-progress list="/docs/lists/alps-4000ers" >}}
 - {{< list-progress list="/docs/lists/tatra-8000fters" >}}
@@ -35,8 +35,8 @@ I climb mostly in the Alps and the Tatras, and run the occasional ultramarathon.
 
 Physics-based calculators for alpinists:
 
-- **Altitude & Oxygen**: how much oxygen each breath holds at the altitude you are heading to, compared to sea level.
-- **Stove Fuel**: how much canister gas to carry, from the water you need, how much comes from snow, your stove and the altitude.
+- **[Altitude & Oxygen](/docs/tools/altitude-oxygen/)**: how much oxygen each breath holds at the altitude you are heading to, compared to sea level.
+- **[Stove Fuel](/docs/tools/stove-fuel/)**: how much canister gas to carry, from the water you need, how much comes from snow, your stove and the altitude.
 
 {{<button href="/docs/tools/altitude-oxygen/">}}Altitude & Oxygen{{</button>}}
 {{<button href="/docs/tools/stove-fuel/">}}Stove Fuel{{</button>}}
