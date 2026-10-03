@@ -1,5 +1,5 @@
 ---
-title: "Lists"
+title: "Outdoors"
 weight: 20
 bookFlatSection: true
 bookIcon: "lists"

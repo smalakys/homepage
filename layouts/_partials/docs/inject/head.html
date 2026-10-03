@@ -36,7 +36,7 @@
   {{- $items := slice }}
   {{- $pages := slice }}
   {{- range .Ancestors.Reverse }}
-    {{- /* Skip untitled or unrendered sections, such as /docs/ and Lists. */ -}}
+    {{- /* Skip untitled or unrendered sections, such as /docs/ and Outdoors (the lists section). */ -}}
     {{- if or .IsHome (and .Title .Permalink) }}{{ $pages = $pages | append . }}{{ end }}
   {{- end }}
   {{- $pages = $pages | append . }}
