@@ -5,7 +5,7 @@ description: "Personal website of Linas Smalakys: physicist turned credit risk l
 
 # Hi, I'm Linas
 
-<img class="home-portrait" src="/images/portrait-placeholder.svg" alt="Linas Smalakys" width="160" height="160">
+<img class="home-portrait" src="/images/portrait.jpg" alt="Linas Smalakys" width="160" height="160">
 
 I'm a physicist turned risk leader, and an alpinist from Lithuania.
 
