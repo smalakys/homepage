@@ -17,15 +17,12 @@ This site is a digital garden rather than a blog: pages are tended and revised o
 
 ## Now
 
-I work on two tracks at Danske Bank.
+At Danske Bank I'm building what I want to be the most advanced credit risk model validation function in the Nordics: automated analysis, modern data pipelines and a modern tech stack. That work now includes validating AI models, among them agentic AI and LLM-based systems that may be used in credit: how to validate and monitor them, and keep people accountable for the decisions they support.
 
-**Model validation.** I'm building what I want to be the most advanced credit risk model validation function in the Nordics: automated validation, modern data pipelines and a modern tech stack.
+Alongside that, I was selected for a small group that spearheads AI adoption across the bank. The questions I keep coming back to there:
 
-**AI in banking.** I was selected for a small group that spearheads AI adoption across the bank. My focus:
-
-- **Validating agentic AI.** Model risk management for AI agents and LLM-based systems in credit: how to validate and monitor them, and keep people accountable for the decisions they support.
-- **AI adoption.** AI literacy and enablement for analysts, from AI coding assistants such as GitHub Copilot to automating everyday analytical work.
-- **The risk function in the AI age.** Helping managers lead AI-augmented teams, understand AI risk and governance, and set ambitions that keep meaningful work for people in risk.
+- **AI adoption.** How do we get analysts to actually use AI coding assistants and the other tools they already have, and automate everyday analytical work?
+- **The risk function in the AI age.** How should managers lead AI-augmented teams, understand AI risk and governance, and set ambitions that keep meaningful work for people in risk?
 
 ## Recently in the mountains
 
