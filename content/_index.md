@@ -11,7 +11,7 @@ I'm a physicist turned risk leader, and an alpinist from Lithuania.
 
 I did my PhD in physics at Vilnius University, on how femtosecond laser pulses slowly wear down optical coatings. I spent eight years at Lidaris, a laser metrology company, going from data analyst to Chief Scientific Officer, and then moved into banking. I now head Credit Risk Model Validation at Danske Bank.
 
-In the mountains I've climbed Mont Blanc, the Matterhorn and Ismoil Somoni Peak (7,495 m), and some of my ascents have been recognised by the Lithuanian Mountaineering Association.
+In the mountains I've climbed Alpine classics such as Mont Blanc and the Matterhorn, and more technical routes such as the Arête du Diable and the Grandes Jorasses traverse. I've also tried high altitude, on Ismoil Somoni Peak (7,495 m). Some of my ascents have been recognised by the Lithuanian Mountaineering Association.
 
 This site is a digital garden rather than a blog: pages are tended and revised over time, not posted and left behind.
 
