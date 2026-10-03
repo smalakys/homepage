@@ -13,8 +13,6 @@ I did my PhD in physics at Vilnius University, on how femtosecond laser pulses s
 
 In the mountains I've climbed Alpine classics such as Mont Blanc and the Matterhorn, and more technical routes such as the Arête du Diable and the Grandes Jorasses traverse. I've also tried high altitude, on Ismoil Somoni Peak (7,495 m). Some of my ascents have been [recognised by the Lithuanian Mountaineering Association](/docs/lists/trip-reports/).
 
-This site is a digital garden rather than a blog: pages are tended and revised over time, not posted and left behind.
-
 ## Now
 
 At Danske Bank I'm building what I want to be the most advanced credit risk model validation function in the Nordics: automated analysis, modern data pipelines and a modern tech stack. That work now includes validating AI models, among them agentic AI and LLM-based systems that may be used in credit: how to validate and monitor them, and keep people accountable for the decisions they support.
