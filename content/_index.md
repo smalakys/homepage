@@ -19,10 +19,6 @@ At Danske Bank I'm building what I want to be the most advanced credit risk mode
 
 Alongside that, I was selected for a small group that spearheads AI adoption across the bank. On the specialist side, that means helping people find the right AI tools for their work and give them a real try, even if only to critique them. On the leadership side, it means helping leaders manage AI-augmented teams, understand the benefits, risks and governance of AI, and set ambitions that are big enough.
 
-## Recently in the mountains
-
-{{< latest-activities count="3" >}}
-
 ## Mountains
 
 I climb mostly in the Alps and the Tatras, and run the occasional ultramarathon. Every ascent is logged here, and some of them count towards lists:
