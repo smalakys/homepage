@@ -350,7 +350,7 @@ body {
   }
 }
 
-// Home page: portrait beside the intro, and muted dates in the activity list
+// Home page: portrait beside the intro
 .markdown .home-portrait {
   float: right;
   width: 160px;
@@ -363,8 +363,4 @@ body {
     width: 96px;
     height: 96px;
   }
-}
-
-.markdown .home-date {
-  color: var(--gray-500);
 }

@@ -31,10 +31,6 @@ I climb mostly in the Alps and the Tatras, and run the occasional ultramarathon.
 {{<button href="/docs/activities/">}}All activities{{</button>}}
 {{<button href="/docs/lists/trip-reports/">}}Trip reports{{</button>}}
 
-### Most recent activities
-
-{{< latest-activities count="3" >}}
-
 ## Tools
 
 Physics-based calculators for alpinists:
