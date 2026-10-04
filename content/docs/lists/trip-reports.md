@@ -7,7 +7,7 @@ layout: "trip-reports"
 
 Trip reports I've submitted to the
 [Lithuanian Mountaineering Association](https://alpinist.lt) (Lietuvos
-alpinizmo asociacija) for the Lithuanian Alpinism Championship. The reports are
+alpinizmo asociacija) for the Lithuanian Mountaineering Championship. The reports are
 written in Lithuanian; awarded ones are highlighted.
 
 The association also keeps the submitted reports in a
