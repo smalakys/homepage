@@ -1,6 +1,6 @@
 ---
 title: "Linas Smalakys"
-description: "Personal website of Linas Smalakys: physicist turned technical credit risk leader at Danske Bank, and alpinist from Lithuania. Ascent log, trip reports and calculators for alpinists."
+description: "Personal website of Linas Smalakys: physicist turned technical risk leader at Danske Bank, and alpinist from Lithuania. Ascent log, trip reports and calculators for alpinists."
 ---
 
 # Linas Smalakys
