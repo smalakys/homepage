@@ -16,7 +16,7 @@
 - title: Bernese Alps 4000ers trek
   detail: 6 summits over 4000 m
   date: 2024-07-22
-  category: High-Altitude Trekking
+  category: Mountain Trekking
   file: 2024-bernese-alps-4000ers-trek.pdf
   award:
     medal: 🥉
@@ -42,3 +42,27 @@
   award:
     medal: 🥇
     title: 1st place
+
+- title: Saas-Fee ski tour
+  detail: 4 summits over 4000 m, on skis
+  date: 2026-04-04
+  category: Mountain Trekking
+  file: 2026-saas-fee-ski-tour.pdf
+
+- title: Aiguille Verte traverse
+  detail: 4 summits over 4000 m
+  date: 2026-06-06
+  category: Technical Alpinism
+  file: 2026-aiguille-verte-traverse.pdf
+
+- title: The Royal Traverse of Mont Blanc
+  detail: 6 summits, 4 over 4000 m
+  date: 2026-06-11
+  category: Technical Alpinism
+  file: 2026-royal-traverse-of-mont-blanc.pdf
+
+- title: Ozodi and Ismoil Somoni peaks
+  detail: 2 summits over 7000 m
+  date: 2026-07-10
+  category: High-Altitude Alpinism
+  file: 2026-ozodi-and-ismoil-somoni.pdf
