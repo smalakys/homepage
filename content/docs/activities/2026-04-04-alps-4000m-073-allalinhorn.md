@@ -5,6 +5,7 @@ objectives: ["/docs/objectives/alps-4000m-073-allalinhorn/"]
 route: "Saas-Fee ski tour"
 partners: ["Tomas Skirka"]
 success: true
+report: "2026-saas-fee-ski-tour.pdf"
 ---
 
 Summited on the first day of a four-day Saas-Fee ski tour.

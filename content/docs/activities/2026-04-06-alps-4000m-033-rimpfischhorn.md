@@ -5,6 +5,7 @@ objectives: ["/docs/objectives/alps-4000m-033-rimpfischhorn/"]
 route: "Saas-Fee ski tour"
 partners: ["Tomas Skirka"]
 success: true
+report: "2026-saas-fee-ski-tour.pdf"
 ---
 
 Summited on the third day of a four-day Saas-Fee ski tour.
